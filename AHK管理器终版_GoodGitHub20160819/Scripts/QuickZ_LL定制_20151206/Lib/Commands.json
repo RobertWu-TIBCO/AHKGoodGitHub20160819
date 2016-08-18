@@ -1,0 +1,1359 @@
+{
+  "InsertCmds": [
+      {
+        "name_cn":"重启QuickZ",
+        "Command":"<Reload>"
+      },
+      {
+        "name_cn":"退出QuickZ",
+        "Command":"<Exit>"
+      },
+      {
+        "name_cn":"打开QZ编辑器",
+        "Command":"<Editor>"
+      },
+      {
+        "name_cn":"QZA管理",
+        "Command":"<QZAMan>"
+      },
+      {
+        "name_cn":"保存选择内容为QZ变量",
+        "Command":"<SaveToEnv>"
+      },
+      {
+        "name_cn":"备份QZ配置文件",
+        "Command":"<Backup>",
+        "Param":"%A_ScriptDir%\\{Date}.json"
+      }
+  ],
+  "CtrlPanels": [
+    {
+      "Command": "hdwwiz.cpl",
+      "Name": "Add Hardware Wizard",
+      "name_cn": "\u8BBE\u5907\u7BA1\u7406\u5668"
+    },
+    {
+      "Command": "appwiz.cpl",
+      "Name": "Add\/Remove Programs",
+      "name_cn": "\u7A0B\u5E8F\u548C\u529F\u80FD"
+    },
+    {
+      "Command": "control admintools",
+      "Name": "Administrative Tools",
+      "name_cn": "[\u6587\u4EF6\u5939]\u7BA1\u7406\u5DE5\u5177"
+    },
+    {
+      "Command": "certmgr.msc",
+      "Name": "Certificate Manager",
+      "name_cn": "\u8BC1\u4E66 - \u5F53\u524D\u7528\u6237"
+    },
+    {
+      "Command": "charmap",
+      "Name": "Character Map",
+      "name_cn": "\u5B57\u7B26\u6620\u5C04\u8868"
+    },
+    {
+      "Command": "cmd \/k chkdsk",
+      "Name": "Check Disk Utility",
+      "name_cn": "[\u547D\u4EE4\u884C]\u78C1\u76D8\u68C0\u67E5"
+    },
+    {
+      "Command": "dcomcnfg",
+      "Name": "Component Services",
+      "name_cn": "\u7EC4\u4EF6\u670D\u52A1"
+    },
+    {
+      "Command": "compmgmt.msc",
+      "Name": "Computer Management",
+      "name_cn": "\u8BA1\u7B97\u673A\u7BA1\u7406"
+    },
+    {
+      "Command": "control",
+      "Name": "Control Panel",
+      "name_cn": "\u6240\u6709\u63A7\u5236\u9762\u677F\u9879"
+    },
+    {
+      "Command": "timedate.cpl",
+      "Name": "Date and Time Properties",
+      "name_cn": "\u65E5\u671F\u548C\u65F6\u95F4"
+    },
+    {
+      "Command": "dxdiag",
+      "Name": "Direct X Troubleshooter",
+      "name_cn": "DirectX \u8BCA\u65AD\u5DE5\u5177"
+    },
+    {
+      "Command": "cleanmgr",
+      "Name": "Disk Cleanup Utility",
+      "name_cn": "\u78C1\u76D8\u6E05\u7406: \u9A71\u52A8\u5668\u9009\u62E9"
+    },
+    {
+      "Command": "diskmgmt.msc",
+      "Name": "Disk Management",
+      "name_cn": "\u78C1\u76D8\u7BA1\u7406"
+    },
+    {
+      "Command": "desk.cpl",
+      "Name": "Display Properties",
+      "name_cn": "\u5C4F\u5E55\u5206\u8FA8\u7387"
+    },
+    {
+      "Command": "control fonts",
+      "Name": "Fonts",
+      "name_cn": "[\u63A7\u5236\u9762\u677F]\u5B57\u4F53"
+    },
+    {
+      "Command": "fonts",
+      "Name": "Fonts Folder",
+      "name_cn": "[\u6587\u4EF6\u5939]\u5B57\u4F53"
+    },
+    {
+      "Command": "joy.cpl",
+      "Name": "Game Controllers",
+      "name_cn": "\u6E38\u620F\u63A7\u5236\u5668"
+    },
+    {
+      "Command": "gpedit.msc",
+      "Name": "Group Policy Editor",
+      "name_cn": "\u672C\u5730\u7EC4\u7B56\u7565\u7F16\u8F91\u5668"
+    },
+    {
+      "Command": "inetcpl.cpl",
+      "Name": "Internet Properties",
+      "name_cn": "Internet \u5C5E\u6027"
+    },
+    {
+      "Command": "control keyboard",
+      "Name": "Keyboard Properties",
+      "name_cn": "\u952E\u76D8 \u5C5E\u6027"
+    },
+    {
+      "Command": "lusrmgr.msc",
+      "Name": "Local Users and Groups",
+      "name_cn": "\u672C\u5730\u7528\u6237\u548C\u7EC4"
+    },
+    {
+      "Command": "main.cpl",
+      "Name": "Mouse Properties",
+      "name_cn": "\u9F20\u6807 \u5C5E\u6027"
+    },
+    {
+      "Command": "perfmon.msc",
+      "Name": "Performance Monitor",
+      "name_cn": "\u6027\u80FD\u76D1\u89C6\u5668"
+    },
+    {
+      "Command": "powercfg.cpl",
+      "Name": "Power Configuration",
+      "name_cn": "\u7535\u6E90\u9009\u9879"
+    },
+    {
+      "Command": "control printers",
+      "Name": "Printers and Faxes",
+      "name_cn": "\u8BBE\u5907\u548C\u6253\u5370\u673A"
+    },
+    {
+      "Command": "eudcedit",
+      "Name": "Private Character Editor",
+      "name_cn": "\u4E13\u7528\u5B57\u7B26\u7F16\u8F91\u7A0B\u5E8F"
+    },
+    {
+      "Command": "intl.cpl",
+      "Name": "Regional Settings",
+      "name_cn": "\u533A\u57DF"
+    },
+    {
+      "Command": "wscui.cpl",
+      "Name": "Security Center",
+      "name_cn": "\u64CD\u4F5C\u4E2D\u5FC3"
+    },
+    {
+      "Command": "services.msc",
+      "Name": "Services",
+      "name_cn": "\u670D\u52A1"
+    },
+    {
+      "Command": "fsmgmt.msc",
+      "Name": "Shared Folders",
+      "name_cn": "\u5171\u4EAB\u6587\u4EF6\u5939"
+    },
+    {
+      "Command": "mmsys.cpl",
+      "Name": "Sounds and Audio",
+      "name_cn": "\u58F0\u97F3"
+    },
+    {
+      "Command": "cliconfg",
+      "Name": "SQL Client Configuration",
+      "name_cn": "SQL Server \u5BA2\u6237\u7AEF\u7F51\u7EDC\u5B9E\u7528\u5DE5\u5177"
+    },
+    {
+      "Command": "msinfo32",
+      "Name": "System Information",
+      "name_cn": "\u7CFB\u7EDF\u4FE1\u606F"
+    },
+    {
+      "Command": "sysdm.cpl",
+      "Name": "System Properties",
+      "name_cn": "\u7CFB\u7EDF\u5C5E\u6027"
+    },
+    {
+      "Command": "utilman",
+      "Name": "Utility Manager",
+      "name_cn": "\u8F7B\u677E\u4F7F\u7528\u8BBE\u7F6E\u4E2D\u5FC3"
+    },
+    {
+      "Command": "firewall.cpl",
+      "Name": "Windows Firewall",
+      "name_cn": "Windows\u9632\u706B\u5899"
+    },
+    {
+      "Command": "syskey",
+      "Name": "Windows System Security Tool",
+      "name_cn": "\u4FDD\u8BC1 Windows \u5E10\u6237\u6570\u636E\u5E93\u7684\u5B89\u5168"
+    },
+    {
+      "Command": "Rundll32 Shell32.dll,Control_RunDLL HotPlug.dll",
+      "Name": "Safely Remove Hardware Dialog Box",
+      "name_cn": "\u5B89\u5168\u5220\u9664\u786C\u4EF6"
+    },
+    {
+      "Command": "winver",
+      "Name": "Windows - About",
+      "name_cn": "\u5173\u4E8E\u201CWindows\u201D"
+    },
+    {
+      "Command": "colorcpl",
+      "Name": "Color Management",
+      "name_cn": "\u989C\u8272\u7BA1\u7406"
+    },
+    {
+      "Command": "systempropertiesperformance",
+      "Name": "Change Computer Performance Settings",
+      "name_cn": "\u6027\u80FD\u9009\u9879-\u89C6\u89C9\u6548\u679C"
+    },
+    {
+      "Command": "systempropertiesdataexecutionprevention",
+      "Name": "Change Data Execution Prevention Settings",
+      "name_cn": "\u6027\u80FD\u9009\u9879-\u6570\u636E\u6267\u884C\u4FDD\u62A4"
+    },
+    {
+      "Command": "printui",
+      "Name": "Change Printer Settings",
+      "name_cn": "\u6253\u5370\u673A\u7528\u6237\u754C\u9762"
+    },
+    {
+      "Command": "netplwiz",
+      "Name": "Advanced User Accounts",
+      "name_cn": "\u7528\u6237\u5E10\u6237"
+    },
+    {
+      "Command": "locationnotifications",
+      "Name": "Default Location",
+      "name_cn": "\u4F4D\u7F6E\u6D3B\u52A8"
+    },
+    {
+      "Command": "ncpa.cpl",
+      "Name": "Network Connections",
+      "name_cn": "\u7F51\u7EDC\u8FDE\u63A5"
+    },
+    {
+      "Command": "wfs",
+      "Name": "Windows Fax and Scan",
+      "name_cn": "Windows\u4F20\u771F\u548C\u626B\u63CF"
+    },
+    {
+      "Command": "optionalfeatures",
+      "Name": "Windows Features",
+      "name_cn": "Windows\u529F\u80FD"
+    },
+    {
+      "Command": "wf.msc",
+      "Name": "Windows Firewall with Advanced Security",
+      "name_cn": "Windows \u9632\u706B\u5899\u9AD8\u7EA7\u8BBE\u7F6E"
+    },
+    {
+      "Command": "journal",
+      "Name": "Windows Journal",
+      "name_cn": "Windows \u65E5\u8BB0\u672C"
+    }
+  ],
+  "ShellPaths": [
+    {
+      "Command": "explorer.exe",
+      "Name": "Add Network Location",
+      "name_cn": "\u6DFB\u52A0\u7F51\u7EDC\u4F4D\u7F6E\u5411\u5BFC",
+      "Param": "shell:::{D4480A50-BA28-11d1-8E75-00C04FA31A86}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "AutoPlay",
+      "name_cn": "\u81EA\u52A8\u64AD\u653E",
+      "Param": "shell:::{9C60DE1E-E5FC-40f4-A487-460851A8D915}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Biometric Devices",
+      "Param": "shell:::{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "BitLocker Drive Encryption",
+      "name_cn": "BitLocker \u9A71\u52A8\u5668\u52A0\u5BC6",
+      "Param": "shell:::{D9EF8727-CAC2-4e60-809E-86F80A666C91}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Bluetooth Devices",
+      "name_cn": "Bluetooth \u8BBE\u5907",
+      "Param": "shell:::{28803F59-3A75-4058-995F-4EE5503B023C}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Computer",
+      "name_cn": "[\u6587\u4EF6\u5939]\u6211\u7684\u7535\u8111",
+      "Param": "shell:::{20d04fe0-3aea-1069-a2d8-08002b30309d}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Control Panel (All Tasks)",
+      "name_cn": "\u6240\u6709\u4EFB\u52A1",
+      "Param": "shell:::{ED7BA470-8E54-465E-825C-99712043E01C}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Control Panel (Category view)",
+      "name_cn": "\u63A7\u5236\u9762\u677F",
+      "Param": "shell:::{26EE0668-A00A-44D7-9371-BEB064C98683}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Credential Manager",
+      "name_cn": "\u51ED\u636E\u7BA1\u7406\u5668",
+      "Param": "shell:::{1206F5F1-0569-412C-8FEC-3204630DFB70}"
+    },
+    {
+      "Command": "systempropertiesdataexecutionprevention",
+      "Name": "Data Execution Prevention",
+      "name_cn": "\u6027\u80FD\u9009\u9879-\u6570\u636E\u6267\u884C\u4FDD\u62A4"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Default Programs",
+      "name_cn": "\u9ED8\u8BA4\u7A0B\u5E8F",
+      "Param": "shell:::{E44E5D18-0652-4508-A4E2-8A090067BCB0}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Devices and Printers",
+      "name_cn": "\u8BBE\u5907\u548C\u6253\u5370\u673A",
+      "Param": "shell:::{A8A91A66-3A7D-4424-8D24-04E180695C7A}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "E-mail (default program)",
+      "name_cn": "\u90AE\u4EF6\u9ED8\u8BA4\u5BA2\u6237\u7AEF",
+      "Param": "shell:::{2559a1f5-21d7-11d4-bdaf-00c04f60b9f0}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Favorites",
+      "name_cn": "[\u6587\u4EF6\u5939] \u6536\u85CF\u5939",
+      "Param": "shell:::{323CA680-C24D-4099-B94D-446DD2D7249E}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Flip 3D",
+      "name_cn": "\u4EFB\u52A1\u5207\u6362",
+      "Param": "shell:::{3080F90E-D7AD-11D9-BD98-0000947B0257}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Folder Options",
+      "name_cn": "\u6587\u4EF6\u5939\u9009\u9879",
+      "Param": "shell:::{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Font Settings",
+      "name_cn": "\u5B57\u4F53\u8BBE\u7F6E",
+      "Param": "shell:::{93412589-74D4-4E4E-AD0E-E0CB621440FD}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Fonts",
+      "name_cn": "[\u6587\u4EF6\u5939] \u6211\u7684\u6587\u6863",
+      "Param": "shell:::{BD84B380-8CA2-1069-AB1D-08000948534}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Get Programs",
+      "name_cn": "\u83B7\u5F97\u7A0B\u5E8F",
+      "Param": "shell:::{15eae92e-f17a-4431-9f28-805e482dafd4}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Help and Support",
+      "name_cn": "Windows \u5E2E\u52A9\u548C\u652F\u6301",
+      "Param": "shell:::{2559a1f1-21d7-11d4-bdaf-00c04f60b9f0}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "HomeGroup",
+      "name_cn": "\u5BB6\u5EAD\u7EC4",
+      "Param": "shell:::{67CA7650-96E6-4FDD-BB43-A8E774F73A57}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Indexing Options",
+      "name_cn": "\u7D22\u5F15\u9009\u9879",
+      "Param": "shell:::{87D66A43-7B11-4A28-9811-C86EE395ACF7}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Installed Updates",
+      "name_cn": "\u5DF2\u5B89\u88C5\u66F4\u65B0",
+      "Param": "shell:::{d450a8a1-9568-45c7-9c0e-b4f9fb4537bd}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Internet Options",
+      "name_cn": "Internet \u5C5E\u6027",
+      "Param": "shell:::{A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Libraries",
+      "name_cn": "\u5E93",
+      "Param": "shell:::{031E4825-7B94-4dc3-B131-E946B44C8DD5}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Location and Other Sensors",
+      "name_cn": "\u5B9A\u4F4D\u8BBE\u7F6E",
+      "Param": "shell:::{E9950154-C418-419e-A90A-20C5287AE24B}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Manage Wireless Networks",
+      "name_cn": "\u7BA1\u7406\u65E0\u7EBF\u7F51\u7EDC",
+      "Param": "shell:::{1fa9085f-25a2-489b-85d4-86326eedcd87}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "My Documents",
+      "name_cn": "\u6211\u7684\u6587\u6863",
+      "Param": "shell:::{450d8fba-ad25-11d0-98a8-0800361b1103}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Network",
+      "name_cn": "\u7F51\u7EDC\u90BB\u5C45",
+      "Param": "shell:::{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Network and Sharing Center",
+      "name_cn": "\u7F51\u7EDC\u548C\u5171\u4EAB\u4E2D\u5FC3",
+      "Param": "shell:::{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Network Center Notification area pop-up",
+      "name_cn": "\u7F51\u7EDC-\u67E5\u770B\u8FDE\u63A5\u8BBE\u7F6E",
+      "Param": "shell:::{38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Network Neighborhood",
+      "name_cn": "[\u6587\u4EF6\u5939]\u6211\u7684\u6587\u6863",
+      "Param": "shell:::{208D2C60-3AEA-1069-A2D7-O8002B30309D}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Network (WorkGroup) Places",
+      "name_cn": "\u6587\u4EF6\u8D44\u6E90\u7BA1\u7406\u5668",
+      "Param": "shell:::{208D2C60-3AEA-1069-A2D7-08002B30309D}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Notification Area Icons",
+      "name_cn": "\u901A\u77E5\u533A\u57DF\u56FE\u6807",
+      "Param": "shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Offline Files Folder",
+      "name_cn": "\u8131\u673A\u6587\u4EF6\u6587\u4EF6\u5939",
+      "Param": "shell:::{AFDB1F70-2A4C-11d2-9039-00C04F8EEB3E}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Parental Controls",
+      "name_cn": "\u5BB6\u5EAD\u5B89\u5168",
+      "Param": "shell:::{96AE8D84-A250-4520-95A5-A47A7E3C548B}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Personalization",
+      "name_cn": "\u4E2A\u6027\u5316",
+      "Param": "shell:::{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Printers",
+      "name_cn": "\u6253\u5370\u673A",
+      "Param": "shell:::{2227A280-3AEA-1069-A2DE-08002B30309D}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Recent Places",
+      "name_cn": "\u6700\u8FD1\u8BBF\u95EE\u7684\u4F4D\u7F6E",
+      "Param": "shell:::{22877a6d-37a1-461a-91b0-dbda5aaebc99}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Recovery (System Restore)",
+      "name_cn": "\u6062\u590D",
+      "Param": "shell:::{9FE63AFD-59CF-4419-9775-ABCC3849F861}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Region and Language",
+      "name_cn": "\u533A\u57DF",
+      "Param": "shell:::{62d8ed13-c9d0-4ce8-a914-47dd628fb1b0}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "RemoteApp and Desktop Connections",
+      "name_cn": "RemoteApp \u548C\u684C\u9762\u8FDE\u63A5",
+      "Param": "shell:::{241D7C96-F8BF-4F85-B01F-E2B043341A4B}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Run",
+      "name_cn": "\u8FD0\u884C",
+      "Param": "shell:::{2559a1f3-21d7-11d4-bdaf-00c04f60b9f0}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Search",
+      "name_cn": "\u641C\u7D22\u7A97\u683C",
+      "Param": "shell:::{2559a1f0-21d7-11d4-bdaf-00c04f60b9f0}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Show Desktop",
+      "name_cn": "\u663E\u793A\u684C\u9762",
+      "Param": "shell:::{3080F90D-D7AD-11D9-BD98-0000947B0257}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Speech Recognition",
+      "name_cn": "\u8BED\u97F3\u8BC6\u522B",
+      "Param": "shell:::{58E3C745-D971-4081-9034-86E34B30836A}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "System",
+      "name_cn": "\u7CFB\u7EDF",
+      "Param": "shell:::{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Tablet PC Settings",
+      "name_cn": "\u5E73\u677F\u7535\u8111\u8BBE\u7F6E",
+      "Param": "shell:::{80F3F1D5-FECA-45F3-BC32-752C152E456E}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Taskbar and Start Menu",
+      "name_cn": "\u4EFB\u52A1\u680F\u548C\u5BFC\u822A\u5C5E\u6027",
+      "Param": "shell:::{0DF44EAA-FF21-4412-828E-260A8728E7F1}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Text to Speech",
+      "name_cn": "\u8BED\u97F3\u5C5E\u6027",
+      "Param": "shell:::{D17D1D6D-CC3F-4815-8FE3-607E7D5D10B3}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Troubleshooting",
+      "name_cn": "\u7591\u96BE\u89E3\u7B54",
+      "Param": "shell:::{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "User Pinned",
+      "name_cn": "User Pinned",
+      "Param": "shell:::{1f3427c8-5c10-4210-aa03-2ee45287d668}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Web Browser (default)",
+      "name_cn": "\u9ED8\u8BA4\u6D4F\u89C8\u5668",
+      "Param": "shell:::{871C5380-42A0-1069-A2EA-08002B30309D}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Windows Cardspace",
+      "Param": "shell:::{78CB147A-98EA-4AA6-B0DF-C8681F69341C}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Windows Defender",
+      "name_cn": "Windows Defender",
+      "Param": "shell:::{D8559EB9-20C0-410E-BEDA-7ED416AECC2A}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Windows Features",
+      "name_cn": "Windows \u529F\u80FD",
+      "Param": "shell:::{67718415-c450-4f3c-bf8a-b487642dc39b}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "WEI",
+      "Param": "shell:::{78F3955E-3B90-4184-BD14-5397C15F1EFC}"
+    },
+    {
+      "Command": "explorer.exe",
+      "Name": "Windows Mobility Center",
+      "name_cn": "Windows \u79FB\u52A8\u4E2D\u5FC3",
+      "Param": "shell:::{5ea4f148-308c-46d7-98a9-49041b1dd468}"
+    }
+  ],
+  "SystemCmds": [
+    {
+      "Command": "RunDll32.exe",
+      "Name": "Hibernate",
+      "name_cn": "[\u614E\u7528]\u9ED1\u5C4F",
+      "Param": "powrprof.dll,SetSuspendState"
+    },
+    {
+      "Command": "RunDll32.exe",
+      "Name": "Lock Screen",
+      "name_cn": "\u9501\u5C4F",
+      "Param": "user32.dll,LockWorkStation"
+    },
+    {
+      "Command": "Rundll32.exe",
+      "Name": "Map Network Drive Wizard",
+      "name_cn": "\u6620\u5C04\u7F51\u7EDC\u9A71\u52A8\u5668",
+      "Param": "Shell32.dll,SHHelpShortcuts_RunDLL Connect"
+    },
+    {
+      "Command": "logoff",
+      "Name": "Logs You Out Of Windows",
+      "name_cn": "\u9000\u51FAWindows\u767B\u9646"
+    },
+    {
+      "Command": "shutdown \/s \/d p:0:0 \/t 0",
+      "Name": "Shutdown Computer",
+      "name_cn": "[\u614E\u7528]\u5173\u95ED\u8BA1\u7B97\u673A"
+    },
+    {
+      "Command": "shutdown \/p \/d p:0:0",
+      "Name": "Shutdown (Force)",
+      "name_cn": "[\u614E\u7528]\u5F3A\u5236\u5173\u95ED\u8BA1\u7B97\u673A"
+    },
+    {
+      "Command": "shutdown \/r \/d p:0:0 \/t 0",
+      "Name": "Restart Computer",
+      "name_cn": "[\u614E\u7528]\u91CD\u542F\u8BA1\u7B97\u673A"
+    },
+    {
+      "Command": "shutdown \/r \/f \/d p:0:0 \/t 0",
+      "Name": "Restart (Force)",
+      "name_cn": "[\u614E\u7528]\u5F3A\u5236\u91CD\u542F\u8BA1\u7B97\u673A"
+    },
+    {
+      "Command": "cmd \/C \"echo off | clip\"",
+      "Name": "Clear The Clipboard (Vista\/7)",
+      "name_cn": "\u6E05\u9664\u526A\u5207\u677F"
+    },
+    {
+      "Command": "cmd \/C Date \/t | Clip",
+      "Name": "Date to the clipboard (Vista\/7)",
+      "name_cn": "\u6DFB\u52A0\u65E5\u671F\u5230\u526A\u5207\u677F"
+    },
+    {
+      "Command": "cmd \/C Time \/t | Clip",
+      "Name": "Time to the clipboard (Vista\/7)",
+      "name_cn": "\u6DFB\u52A0\u65F6\u95F4\u5230\u526A\u5207\u677F"
+    },
+    {
+      "Command": "cmd \/C cmd \/C \"date \/t & time \/ti\" | clip",
+      "Name": "Date and time to the clipboard (Vista\/7)",
+      "name_cn": "\u6DFB\u52A0\u5B8C\u6574\u65F6\u95F4\u5230\u526A\u5207\u677F"
+    },
+    {
+      "Command": "rundll32.exe",
+      "Name": "Turn Aero Transparency Off",
+      "name_cn": "\u5173\u95EDAero\u7279\u6548",
+      "Param": "dwmApi #104"
+    },
+    {
+      "Command": "rundll32.exe",
+      "Name": "Turn Aero Transparency On",
+      "name_cn": "\u6253\u5F00Aero\u7279\u6548",
+      "Param": "dwmApi #102"
+    },
+    {
+      "Command": "msdt.exe",
+      "Name": "Troubleshoot Using System Maintenance",
+      "name_cn": "\u7CFB\u7EDF\u7EF4\u62A4-\u89E3\u51B3\u5E76\u5E2E\u52A9\u9884\u9632\u8BA1\u7B97\u673A\u95EE\u9898",
+      "Param": "-id MaintenanceDiagnostic"
+    }
+  ],
+  "SystemDirs": [
+    {
+      "Command": "Shell:Cache",
+      "Name": "Cache",
+      "name_cn": "\u7CFB\u7EDF\u7F13\u5B58"
+    },
+    {
+      "Command": "Shell:CD Burning",
+      "Name": "CD Burning",
+      "name_cn": "\u4E34\u65F6\u523B\u5F55\u6587\u4EF6\u5939"
+    },
+    {
+      "Command": "shell:MyComputerFolder",
+      "Name": "My Computer",
+      "name_cn": "\u8FD9\u53F0\u7535\u8111"
+    },
+    {
+      "Command": "shell:RecycleBinFolder",
+      "Name": "Recycle Bin",
+      "name_cn": "\u56DE\u6536\u7AD9"
+    },
+    {
+      "Command": "shell:Administrative Tools",
+      "Name": "Administrative Tools Folder",
+      "name_cn": "\u7BA1\u7406\u5DE5\u5177"
+    },
+    {
+      "Command": "shell:NetworkPlacesFolder",
+      "Name": "Network",
+      "name_cn": "\u7F51\u7EDC"
+    },
+    {
+      "Command": "shell:UserProfiles",
+      "Name": "User Profiles",
+      "name_cn": "\u7528\u6237\u6587\u4EF6\u5939"
+    },
+    {
+      "Command": "shell:Profile",
+      "Name": "Profile Folder",
+      "name_cn": "\u5F53\u524D\u7528\u6237\u6587\u4EF6\u5939"
+    },
+    {
+      "Command": "shell:Public",
+      "Name": "Public Folder",
+      "name_cn": "\u516C\u7528"
+    },
+    {
+      "Command": "Shell:Common AppData",
+      "Name": "Common AppData",
+      "name_cn": "ProgramData"
+    },
+    {
+      "Command": "Shell:Common Desktop",
+      "Name": "Common Desktop",
+      "name_cn": "\u516C\u7528\u684C\u9762"
+    },
+    {
+      "Command": "Shell:Common Programs",
+      "Name": "Common Programs",
+      "name_cn": "\u7A0B\u5E8F"
+    },
+    {
+      "Command": "Shell:Common Start Menu",
+      "Name": "Common Start Menu",
+      "name_cn": "\u5F00\u59CB\u83DC\u5355"
+    },
+    {
+      "Command": "Shell:Common Startup",
+      "Name": "Common Startup",
+      "name_cn": "\u542F\u52A8"
+    },
+    {
+      "Command": "Shell:Common Templates",
+      "Name": "Common Templates",
+      "name_cn": "Templates"
+    },
+    {
+      "Command": "Shell:CommonDownloads",
+      "Name": "Common Downloads",
+      "name_cn": "\u516C\u7528\u4E0B\u8F7D"
+    },
+    {
+      "Command": "Shell:CommonMusic",
+      "Name": "Common Music",
+      "name_cn": "\u516C\u7528\u97F3\u4E50"
+    },
+    {
+      "Command": "Shell:CommonPictures",
+      "Name": "Common Pictures",
+      "name_cn": "\u516C\u7528\u56FE\u7247"
+    },
+    {
+      "Command": "Shell:CommonVideo",
+      "Name": "Common Video",
+      "name_cn": "\u516C\u7528\u89C6\u9891"
+    },
+    {
+      "Command": "Shell:ConnectionsFolder",
+      "Name": "Network Connections",
+      "name_cn": "\u7F51\u7EDC\u8FDE\u63A5"
+    },
+    {
+      "Command": "Shell:Contacts",
+      "Name": "Contacts",
+      "name_cn": "\u8054\u7CFB\u4EBA"
+    },
+    {
+      "Command": "Shell:Cookies",
+      "Name": "Cookies",
+      "name_cn": "INetCookies"
+    },
+    {
+      "Command": "Shell:CredentialManager",
+      "Name": "CredentialManager",
+      "name_cn": "Credentials"
+    },
+    {
+      "Command": "Shell:CryptoKeys",
+      "Name": "CryptoKeys",
+      "name_cn": "Crypto"
+    },
+    {
+      "Command": "Shell:Default Gadgets",
+      "Name": "Default Gadgets"
+    },
+    {
+      "Command": "Shell:Desktop",
+      "Name": "Desktop",
+      "name_cn": "\u684C\u9762"
+    },
+    {
+      "Command": "Shell:Downloads",
+      "Name": "Downloads",
+      "name_cn": "\u4E0B\u8F7D"
+    },
+    {
+      "Command": "Shell:DpapiKeys",
+      "Name": "DpapiKeys",
+      "name_cn": "Protect"
+    },
+    {
+      "Command": "Shell:Favorites",
+      "Name": "Favorites",
+      "name_cn": "\u6536\u85CF\u5939"
+    },
+    {
+      "Command": "Shell:Fonts",
+      "Name": "Fonts"
+    },
+    {
+      "Command": "Shell:Gadgets",
+      "Name": "Gadgets"
+    },
+    {
+      "Command": "Shell:Games",
+      "Name": "Games"
+    },
+    {
+      "Command": "Shell:History",
+      "Name": "History",
+      "name_cn": "History"
+    },
+    {
+      "Command": "Shell:Links",
+      "Name": "Links",
+      "name_cn": "\u94FE\u63A5"
+    },
+    {
+      "Command": "Shell:Local AppData",
+      "Name": "Local AppData",
+      "name_cn": "Local"
+    },
+    {
+      "Command": "Shell:LocalAppDataLow",
+      "Name": "Local AppDataLow",
+      "name_cn": "LocalLow"
+    },
+    {
+      "Command": "Shell:My Music",
+      "Name": "My Music",
+      "name_cn": "\u97F3\u4E50"
+    },
+    {
+      "Command": "Shell:My Pictures",
+      "Name": "My Pictures",
+      "name_cn": "\u56FE\u7247"
+    },
+    {
+      "Command": "Shell:My Video",
+      "Name": "My Video",
+      "name_cn": "\u89C6\u9891"
+    },
+    {
+      "Command": "shell:Quick Launch",
+      "Name": "Quick Launch",
+      "name_cn": "Quick Launch"
+    }
+  ],
+  "Utilities": [
+    {
+      "Command": "calc",
+      "Name": "Calculator",
+      "name_cn": "\u8BA1\u7B97\u5668"
+    },
+    {
+      "Command": "cmd",
+      "Name": "Command Prompt",
+      "name_cn": "\u7BA1\u7406\u5458: C:\\WINDOWS\\SYSTEM32\\cmd.exe"
+    },
+    {
+      "Command": "iexplore",
+      "Name": "Internet Explorer",
+      "name_cn": "Internet Explorer"
+    },
+    {
+      "Command": "notepad",
+      "Name": "Notepad",
+      "name_cn": "\u65E0\u6807\u9898 - \u8BB0\u4E8B\u672C"
+    },
+    {
+      "Command": "mstsc",
+      "Name": "Remote Desktop",
+      "name_cn": "\u8FDC\u7A0B\u684C\u9762\u8FDE\u63A5"
+    },
+    {
+      "Command": "taskmgr",
+      "Name": "Task Manager",
+      "name_cn": "\u4EFB\u52A1\u7BA1\u7406\u5668"
+    },
+    {
+      "Command": "magnify",
+      "Name": "Windows Magnifier"
+    },
+    {
+      "Command": "wmplayer",
+      "Name": "Windows Media Player",
+      "name_cn": "Windows Media Player"
+    },
+    {
+      "Command": "write",
+      "Name": "Wordpad",
+      "name_cn": "\u6587\u6863 - \u5199\u5B57\u677F"
+    },
+    {
+      "Command": "regedit",
+      "Name": "Registry Editor",
+      "name_cn": "\u6CE8\u518C\u8868\u7F16\u8F91\u5668"
+    },
+    {
+      "Command": "osk",
+      "Name": "On Screen Keyboard"
+    },
+    {
+      "Command": "mspaint",
+      "Name": "Paint",
+      "name_cn": "\u65E0\u6807\u9898 - \u753B\u56FE"
+    },
+    {
+      "Command": "soundrecorder",
+      "Name": "Sound Recorder (Vista\/7)",
+      "name_cn": "\u5F55\u97F3\u673A"
+    },
+    {
+      "Command": "SnippingTool",
+      "Name": "Snipping Tool",
+      "name_cn": "\u622A\u56FE\u5DE5\u5177"
+    },
+    {
+      "Command": "cttune",
+      "Name": "ClearType Tuner",
+      "name_cn": "ClearType \u6587\u672C\u8C03\u8C10\u5668"
+    },
+    {
+      "Command": "netproj",
+      "Name": "Connect to a Network Projector"
+    },
+    {
+      "Command": "displayswitch",
+      "Name": "Connect to a Projector",
+      "name_cn": "\u6295\u5F71\u8BBE\u7F6E"
+    },
+    {
+      "Command": "shrpubw",
+      "Name": "Create A Shared Folder Wizard",
+      "name_cn": "\u521B\u5EFA\u5171\u4EAB\u6587\u4EF6\u5939\u5411\u5BFC"
+    },
+    {
+      "Command": "recdisc",
+      "Name": "Create a System Repair Disc",
+      "name_cn": "\u521B\u5EFA\u7CFB\u7EDF\u4FEE\u590D\u76D8"
+    },
+    {
+      "Command": "credwiz",
+      "Name": "Credential Backup and Restore Wizard",
+      "name_cn": "\u5B58\u50A8\u7684\u7528\u6237\u540D\u548C\u5BC6\u7801"
+    },
+    {
+      "Command": "sdclt",
+      "Name": "Backup and Restore",
+      "name_cn": "\u5907\u4EFD\u4E0E\u6062\u590D"
+    },
+    {
+      "Command": "azman.msc",
+      "Name": "Authorization Manager",
+      "name_cn": "\u6388\u6743\u7BA1\u7406\u5668"
+    },
+    {
+      "Command": "devicepairingwizard",
+      "Name": "Add a Device",
+      "name_cn": "\u6DFB\u52A0\u8BBE\u5907"
+    },
+    {
+      "Command": "msdt",
+      "Name": "Diagnostics Troubleshooting Wizard",
+      "name_cn": "Microsoft \u652F\u6301\u8BCA\u65AD\u5DE5\u5177"
+    },
+    {
+      "Command": "tabcal",
+      "Name": "Digitizer Calibration Tool",
+      "name_cn": "\u6570\u5B57\u5316\u5668\u6821\u51C6\u5DE5\u5177"
+    },
+    {
+      "Command": "dfrgui",
+      "Name": "Disk Defragmenter",
+      "name_cn": "\u4F18\u5316\u9A71\u52A8\u5668"
+    },
+    {
+      "Command": "dpiscaling",
+      "Name": "Display",
+      "name_cn": "\u663E\u793A"
+    },
+    {
+      "Command": "dccw",
+      "Name": "Display Color Calibration",
+      "name_cn": "\u663E\u793A\u989C\u8272\u6821\u51C6"
+    },
+    {
+      "Command": "displayswitch",
+      "Name": "Display Switch",
+      "name_cn": "\u5C4F\u5E55\u5207\u6362"
+    },
+    {
+      "Command": "dpapimig",
+      "Name": "DPAPI Key Migration Wizard",
+      "name_cn": "\u53D7\u4FDD\u62A4\u7684\u5185\u5BB9\u8FC1\u79FB"
+    },
+    {
+      "Command": "verifier",
+      "Name": "Driver Verifier Manager",
+      "name_cn": "\u9A71\u52A8\u7A0B\u5E8F\u9A8C\u8BC1\u7A0B\u5E8F\u7BA1\u7406\u5668"
+    },
+    {
+      "Command": "rekeywiz",
+      "Name": "Encrypting File System Wizard",
+      "name_cn": "\u52A0\u5BC6\u6587\u4EF6\u7CFB\u7EDF"
+    },
+    {
+      "Command": "eventvwr.msc",
+      "Name": "Event Viewer",
+      "name_cn": "\u4E8B\u4EF6\u67E5\u770B\u5668"
+    },
+    {
+      "Command": "fxscover",
+      "Name": "Fax Cover Page Editor",
+      "name_cn": "\u4F20\u771F\u5C01\u9762\u7F16\u8F91\u5668"
+    },
+    {
+      "Command": "sigverif",
+      "Name": "File Signature Verification",
+      "name_cn": "\u6587\u4EF6\u7B7E\u540D\u9A8C\u8BC1"
+    },
+    {
+      "Command": "fontview",
+      "Name": "Font Viewer"
+    },
+    {
+      "Command": "gettingstarted",
+      "Name": "Getting Started"
+    },
+    {
+      "Command": "iexpress",
+      "Name": "IExpress Wizard",
+      "name_cn": "IExpress Wizard"
+    },
+    {
+      "Command": "irprops.cpl",
+      "Name": "Infrared"
+    },
+    {
+      "Command": "lusrmgr",
+      "Name": "Install or Uninstall Display Languages"
+    },
+    {
+      "Command": "iscsicpl",
+      "Name": "iSCSI Initiator Configuration Tool",
+      "name_cn": "iSCSI \u53D1\u8D77\u7A0B\u5E8F \u5C5E\u6027"
+    },
+    {
+      "Command": "lpksetup",
+      "Name": "Language Pack Installer",
+      "name_cn": "\u5B89\u88C5\u6216\u5378\u8F7D\u663E\u793A\u8BED\u8A00"
+    },
+    {
+      "Command": "secpol.msc",
+      "Name": "Local Security Policy",
+      "name_cn": "\u672C\u5730\u5B89\u5168\u7B56\u7565"
+    },
+    {
+      "Command": "mrt",
+      "Name": "Malicious Software Removal Tool",
+      "name_cn": "\u6076\u610F\u8F6F\u4EF6\u5220\u9664\u5DE5\u5177"
+    },
+    {
+      "Command": "mip1",
+      "Name": "Math Input Panel"
+    },
+    {
+      "Command": "mmc",
+      "Name": "Microsoft Management Console",
+      "name_cn": "\u63A7\u5236\u53F01 - [\u63A7\u5236\u53F0\u6839\u8282\u70B9]"
+    },
+    {
+      "Command": "napclcfg.msc",
+      "Name": "NAP Client Configuration",
+      "name_cn": "NAPCLCFG - [NAP \u5BA2\u6237\u7AEF\u914D\u7F6E (\u672C\u5730\u8BA1\u7B97\u673A)]"
+    },
+    {
+      "Command": "narrator",
+      "Name": "Narrator",
+      "name_cn": "\u201C\u8BB2\u8FF0\u4EBA\u201D\u8BBE\u7F6E"
+    },
+    {
+      "Command": "wiaacmgr",
+      "Name": "New Scan Wizard",
+      "name_cn": "\u626B\u63CF"
+    },
+    {
+      "Command": "odbcad32",
+      "Name": "ODBC Data Source Administrator",
+      "name_cn": "ODBC \u6570\u636E\u6E90\u7BA1\u7406\u7A0B\u5E8F(32 \u4F4D)"
+    },
+    {
+      "Command": "odbcconf",
+      "Name": "ODBC Driver Configuration"
+    },
+    {
+      "Command": "tabletpc.cpl",
+      "Name": "Pen and Touch",
+      "name_cn": "\u7B14\u548C\u89E6\u6478"
+    },
+    {
+      "Command": "collab.cpl",
+      "Name": "People Near Me",
+      "name_cn": ""
+    },
+    {
+      "Command": "telephon.cpl",
+      "Name": "Phone and Modem",
+      "name_cn": "\u4F4D\u7F6E\u4FE1\u606F"
+    },
+    {
+      "Command": "dialer",
+      "Name": "Phone Dialer",
+      "name_cn": "\u7535\u8BDD\u62E8\u53F7\u7A0B\u5E8F"
+    },
+    {
+      "Command": "presentationsettings",
+      "Name": "Presentation Settings",
+      "name_cn": "\u6F14\u793A\u8BBE\u7F6E"
+    },
+    {
+      "Command": "printmanagement.msc",
+      "Name": "Print Management",
+      "name_cn": "\u6253\u5370\u7BA1\u7406"
+    },
+    {
+      "Command": "printbrmui",
+      "Name": "Printer Migration",
+      "name_cn": "\u6253\u5370\u673A\u8FC1\u79FB"
+    },
+    {
+      "Command": "psr",
+      "Name": "Problem Steps Recorder",
+      "name_cn": "\u6B65\u9AA4\u8BB0\u5F55\u5668"
+    },
+    {
+      "Command": "rasphone",
+      "Name": "Remote Access Phonebook",
+      "name_cn": "\u6DFB\u52A0\u7F51\u7EDC\u8FDE\u63A5"
+    },
+    {
+      "Command": "resmon",
+      "Name": "Resource Monitor",
+      "name_cn": "\u8D44\u6E90\u76D1\u89C6\u5668"
+    },
+    {
+      "Command": "rsop.msc",
+      "Name": "Resultant Set of Policy",
+      "name_cn": "\u7B56\u7565\u7684\u7ED3\u679C\u96C6"
+    },
+    {
+      "Command": "computerdefaults",
+      "Name": "Set Program Access and Computer Defaults",
+      "name_cn": "\u8BBE\u7F6E\u7A0B\u5E8F\u8BBF\u95EE\u548C\u6B64\u8BA1\u7B97\u673A\u7684\u9ED8\u8BA4\u503C"
+    },
+    {
+      "Command": "stikynot",
+      "Name": "Sticky Notes",
+      "name_cn": "\u4FBF\u7B3A"
+    },
+    {
+      "Command": "mobsync",
+      "Name": "Sync Center",
+      "name_cn": "\u540C\u6B65\u4E2D\u5FC3"
+    },
+    {
+      "Command": "msconfig",
+      "Name": "System Configuration",
+      "name_cn": "\u7CFB\u7EDF\u914D\u7F6E"
+    },
+    {
+      "Command": "sysedit",
+      "Name": "System Configuration Editor"
+    },
+    {
+      "Command": "systempropertiesadvanced",
+      "Name": "System Properties (Advanced Tab)",
+      "name_cn": "\u7CFB\u7EDF\u5C5E\u6027-\u9AD8\u7EA7"
+    },
+    {
+      "Command": "systempropertieshardware",
+      "Name": "System Properties (Hardware Tab)",
+      "name_cn": "\u7CFB\u7EDF\u5C5E\u6027-\u8BA1\u7B97\u673A\u540D"
+    },
+    {
+      "Command": "systempropertiesremote",
+      "Name": "System Properties (Remote Tab)",
+      "name_cn": "\u7CFB\u7EDF\u5C5E\u6027-\u8FDC\u7A0B"
+    },
+    {
+      "Command": "rstrui",
+      "Name": "System Restore",
+      "name_cn": "\u7CFB\u7EDF\u8FD8\u539F"
+    },
+    {
+      "Command": "tabtip1",
+      "Name": "Tablet PC Input Panel"
+    },
+    {
+      "Command": "taskschd.msc",
+      "Name": "Task Scheduler",
+      "name_cn": "\u4EFB\u52A1\u8BA1\u5212\u7A0B\u5E8F"
+    },
+    {
+      "Command": "tpm.msc",
+      "Name": "Trusted Platform Module (TPM) Management",
+      "name_cn": "\u672C\u5730\u8BA1\u7B97\u673A\u4E0A\u53D7\u4FE1\u4EFB\u7684\u5E73\u53F0\u6A21\u5757(TPM)\u7BA1\u7406"
+    },
+    {
+      "Command": "useraccountcontrolsettings",
+      "Name": "User Account Control Settings",
+      "name_cn": "\u7528\u6237\u5E10\u6237\u63A7\u5236\u8BBE\u7F6E"
+    },
+    {
+      "Command": "sndvol",
+      "Name": "Volume Mixer",
+      "name_cn": "\u97F3\u91CF\u5408\u6210\u5668 - \u5587\u53ED\/\u8033\u673A "
+    },
+    {
+      "Command": "slui",
+      "Name": "Windows Activation Client",
+      "name_cn": "\u8F93\u5165\u4EA7\u54C1\u5BC6\u94A5"
+    },
+    {
+      "Command": "windowsanytimeupgraderesults",
+      "Name": "Windows Anytime Upgrade Results"
+    },
+    {
+      "Command": "infocardcpl.cpl",
+      "Name": "Windows CardSpace"
+    },
+    {
+      "Command": "isoburn",
+      "Name": "Windows Disc Image Burning Tool",
+      "name_cn": "Windows \u5149\u76D8\u6620\u50CF\u523B\u5F55\u673A\u7528\u6CD5"
+    },
+    {
+      "Command": "dvdmaker",
+      "Name": "Windows DVD Maker"
+    },
+    {
+      "Command": "migwiz",
+      "Name": "Windows Easy Transfer",
+      "name_cn": "Windows \u8F7B\u677E\u4F20\u9001"
+    },
+    {
+      "Command": "dvdplay",
+      "Name": "Windows Media Player",
+      "name_cn": "Windows Media Player"
+    },
+    {
+      "Command": "mdsched",
+      "Name": "Windows Memory Diagnostic Scheduler"
+    },
+    {
+      "Command": "mblctr",
+      "Name": "Windows Mobility Center"
+    },
+    {
+      "Command": "powershell",
+      "Name": "Windows PowerShell",
+      "name_cn": "\u7BA1\u7406\u5458: Windows PowerShell"
+    },
+    {
+      "Command": "powershell_ise",
+      "Name": "Windows PowerShell ISE",
+      "name_cn": "\u7BA1\u7406\u5458: Windows PowerShell ISE (x86)"
+    },
+    {
+      "Command": "msra",
+      "Name": "Windows Remote Assistance",
+      "name_cn": "Windows \u8FDC\u7A0B\u534F\u52A9"
+    },
+    {
+      "Command": "wscript",
+      "Name": "Windows Script Host",
+      "name_cn": "Windows \u811A\u672C\u5BBF\u4E3B\u8BBE\u7F6E"
+    },
+    {
+      "Command": "wuapp",
+      "Name": "Windows Update",
+      "name_cn": "Windows \u66F4\u65B0"
+    },
+    {
+      "Command": "wusa",
+      "Name": "Windows Update Standalone Installer",
+      "name_cn": "Windows \u66F4\u65B0\u72EC\u7ACB\u5B89\u88C5\u7A0B\u5E8F"
+    },
+    {
+      "Command": "wmimgmt.msc",
+      "Name": "WMI Management",
+      "name_cn": "WMI \u7BA1\u7406"
+    },
+    {
+      "Command": "xpsrchvw",
+      "Name": "XPS Viewer",
+      "name_cn": "XPS \u67E5\u770B\u5668"
+    }
+  ]
+}

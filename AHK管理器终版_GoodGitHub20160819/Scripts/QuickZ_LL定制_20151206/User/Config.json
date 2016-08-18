@@ -1,0 +1,4875 @@
+﻿{
+  "Filters": {
+    "0081D11E-0EED-47A2-BA96-D13410140499": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_isFile",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6",
+      "Special": 0,
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "14D2CB9B-3CAF-437F-85DC-EB88DDC70DD8": {
+      "FileDir": {},
+      "FileExt": {
+        "Match": "",
+        "Method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "Method": 0
+      },
+      "FileName": {},
+      "Function": "CustomFilter_FileType_IcoFX",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_IcoFX",
+      "Special": 0,
+      "TextRegex": {},
+      "WinClass": {},
+      "WinControl": {},
+      "WinExe": {},
+      "WinTitle": {}
+    },
+    "18E61BDF-C86F-4DD4-8F06-A44849AD97D7": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_FileType_BandiZip",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_BandiZip",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "1B52B4AD-79EF-49FF-948C-B63537B81938": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_OnlyWindow",
+      "Keyword": "",
+      "Name": "\u7A97\u53E3_\u4EC5\u9009\u4E2D\u7A97\u53E3",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "1BC48211-736A-4010-B1C0-977FE5D6A6A7": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "ahk",
+        "method": 1
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_AutoHotkey",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "2A06DC82-51B2-434B-8644-91BDEF994EF8": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_isText",
+      "Keyword": "",
+      "Name": "\u6587\u672C",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "34AA3EE9-46FF-4BB5-B625-5C06C43DEE46": {
+      "FileDir": {},
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {},
+      "FileName": {},
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u7A97\u53E3_\u6392\u9664\u684C\u9762",
+      "Special": 0,
+      "TextRegex": {},
+      "WinClass": {
+        "Match": "Progman;WorkerW",
+        "Method": 2
+      },
+      "WinControl": {},
+      "WinExe": {},
+      "WinTitle": {}
+    },
+    "3D924233-DF6F-434B-B20C-CD7718482CB2": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u7A97\u53E3_\u8D44\u6E90\u7BA1\u7406\u5668",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "CabinetWClass;ExploreWClass;Progman;WorkerW",
+        "method": 1
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "429A0676-47EB-49F3-B9ED-E216A5D21DD0": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "xls;xlsx;xlt;et;ett;",
+        "method": 1
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_WPS Spreadsheets",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "4FDF41A6-2293-4455-BEA7-8F15D3D75A42": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_FileType_Scite4AutoHotkey",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_Scite4AutoHotkey",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "58BEADED-07FE-4380-A96F-84FC874A64AD": {
+      "FileDir": {},
+      "FileExt": {
+        "Match": "zip;rar;7z;Folder",
+        "Method": 1
+      },
+      "FileMulti": {},
+      "FileName": {},
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_HoneyView",
+      "Special": 0,
+      "TextRegex": {},
+      "WinClass": {},
+      "WinControl": {},
+      "WinExe": {},
+      "WinTitle": {}
+    },
+    "5B283B41-17AA-4FDC-AACC-EF975BA778E7": {
+      "FileDir": {},
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {},
+      "FileName": {},
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u7A97\u53E3_\u6392\u9664Notepad2-Mod",
+      "Special": 0,
+      "TextRegex": {},
+      "WinClass": {
+        "Match": "Notepad2U",
+        "Method": 2
+      },
+      "WinControl": {},
+      "WinExe": {},
+      "WinTitle": {}
+    },
+    "5D7E71C0-9992-49BF-8097-F25E84EBDD08": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_FileType_Excel",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_Microsoft Office Excel",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "7EB47A15-3872-44DC-8CB1-5EFB688B1386": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u7A97\u53E3_\u6587\u5B57\u7F16\u8F91\u5668",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "TLister;Notepad;Notepad++;Notepad2U;SciTEWindow;WordPadClass;OpusApp;",
+        "method": 1
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "85690E85-A16C-4BBD-91EC-AFA359FBC74A": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_FileType_M6Librarian",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_Microangelo Toolset 6 Librarian",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "8CE05108-CC59-4F9B-9D7C-B170BFEABBD4": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_FileType_7_Zip",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_7-Zip",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "8D02A24B-0A5A-4DF8-9757-344697633CDB": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_isSingleSel",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u6570\u91CF_\u5355\u9009",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "93A0E7E8-AD54-4782-8C3D-096BCA0CCD15": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_FileType_VirtualDriveMaster",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_VirtualDriveMaster \u8F6F\u5A92\u865A\u62DF\u5149\u9A71",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "98622A8B-0B89-4C03-9625-9F28F9DA75F9": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_FileType_Word",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_Microsoft Office Word",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "A2934375-A208-49F9-9A5A-ADB567320ADE": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_FileType_Notepad",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_Notepad",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "A5EE6D04-63C3-427E-A763-244D44ED29B0": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u7A97\u53E3_\u6587\u4EF6\u7BA1\u7406\u5668",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "TTOTAL_CMD;CabinetWClass;ExploreWClass;Progman;WorkerW",
+        "method": 1
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "A7018E1D-08CB-48C0-B932-871C27D47593": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "Method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "Method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_OnlyFolder",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_\u4EC5\u6587\u4EF6\u5939",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "A712C66F-E70E-4EF9-8C1F-721677F4ADDC": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_FileType_PotPlayer",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_PotPlayer",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "C3891FDE-D020-4B1D-B982-94DA74304C0A": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_isMultiSel",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u6570\u91CF_\u591A\u9009",
+      "Special": 0,
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "CF4AF533-E960-4667-B097-CCD3E1BB53B3": {
+      "FileDir": {},
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {},
+      "FileName": {},
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u7A97\u53E3_\u6392\u9664Notepad++",
+      "Special": 0,
+      "TextRegex": {},
+      "WinClass": {
+        "Match": "Notepad++",
+        "Method": 2
+      },
+      "WinControl": {},
+      "WinExe": {},
+      "WinTitle": {}
+    },
+    "E501BC9F-062B-4676-A962-B208BF328E73": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "Method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "Method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "CustomFilter_OnlyFile",
+      "Keyword": "",
+      "Name": "\u6587\u4EF6\u7C7B\u578B_\u6392\u9664\u6587\u4EF6\u5939",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "F61BE6AA-22D3-44FF-9E0A-AFDEECABC420": {
+      "FileDir": {},
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {},
+      "FileName": {},
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u7A97\u53E3_\u6392\u9664Scite4AutoHotkey",
+      "Special": 0,
+      "TextRegex": {},
+      "WinClass": {
+        "Match": "SciTEWindow",
+        "Method": 2
+      },
+      "WinControl": {},
+      "WinExe": {},
+      "WinTitle": {}
+    }
+  },
+  "gesture": {},
+  "Items": {
+    "012C8AC3-2AAB-47A6-B33A-C28D1251373B": {
+      "Code": "DetectHiddenWindows, on\nIfWinNotExist ahk_class TTOTAL_CMD\n\tRun \"\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\TotalCMD\\TOTALCMD.EXE\"\nElse\n\tIfWinNotActive ahk_class TTOTAL_CMD\n\t{\t\t\t\n\t\tWinActivate\n\t}\nElse\n\t{\n\t\tWinMinimize\n\t\tWinHide\n\t}\nReturn",
+      "Command": "",
+      "Name": "\u6FC0\u6D3B\/\u6700\u5C0F\u5316 TotalCMD",
+      "Options": {
+        "category": "\u901A\u7528",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "0175CD48-D8E6-47EC-95A0-26770F3D97FE": {
+      "Code": "TempWinClass= % gMenuZ.Data.winclass ;\u5C06\u83B7\u53D6\u7684class\u540D\u8D4B\u503C\u7ED9\u7528\u6237\u53D8\u91CF\nif TempWinClass=\n\tWinGetClass, TempWinClass, A\nif % TempWinClass=\"ExploreWClass\" or TempWinClass=\"CabinetWClass\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u8D44\u6E90\u7BA1\u7406\u5668\n{\n\tControlGetText, AddressBarText, ToolbarWindow322,ahk_class %TempWinClass% ;\u901A\u8FC7\u5730\u5740\u680F\u83B7\u53D6\u8DEF\u5F84\n\tstringreplace, AddressBarText, AddressBarText, \u5730\u5740:%A_space%, , All\n\tif AddressBarText =\n\t\tControlGetText, AddressBarText, Edit1,ahk_class %TempWinClass%\n\tif AddressBarText=\u684C\u9762\n\t\tAddressBarText=%A_Desktop%\n\tif AddressBarText=\u5E93\\\u6587\u6863\n\t\tAddressBarText=%A_MyDocuments%\n\tif AddressBarText=\u5E93\\\u56FE\u7247\n\t\tAddressBarText=%A_MyDocuments%\\..\\Pictures\n\tif AddressBarText=\u5E93\\\u97F3\u4E50\n\t\tAddressBarText=%A_MyDocuments%\\..\\Music\n\tif AddressBarText=\u5E93\\\u89C6\u9891\n\t\tAddressBarText=%A_MyDocuments%\\..\\Videos\n\tif AddressBarText=\u5E93\\\u4E0B\u8F7D\n\t\tAddressBarText=%A_MyDocuments%\\..\\Downloads\n\tif AddressBarText=\u5E93\\\u56FE\u7247\n\t\tAddressBarText=%A_MyDocuments%\\..\\Pictures\n\t;~ if AddressBarText=\u8BA1\u7B97\u673A\n\t\t;~ AddressBarText:=\"::{20D04FE0-3AEA-1069-A2D8-08002B30309D}\"\n\t;~ if AddressBarText=\u56DE\u6536\u7AD9\n\t\t;~ AddressBarText:=\"::{645FF040-5081-101B-9F08-00AA002F954E}\"\n\t;~ if AddressBarText=\u7F51\u7EDC\n\t\t;~ AddressBarText:=\"::{208D2C60-3AEA-1069-A2D7-08002B30309D}\"\n}\nif % TempWinClass=\"WorkerW\" or TempWinClass=\"Progman\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u684C\u9762\n{\n\tAddressBarText=%A_Desktop%\n}\nif % TempWinClass=\"Shell_TrayWnd\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F\n{\n\tMsgBox \u8BE5\u64CD\u4F5C\u4E0D\u9002\u7528\u4E8E\u4EFB\u52A1\u680F\n\tExit\n}\n\nif % TempWinClass=\"TTOTAL_CMD\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3ATC\n{\n    ClipSaved := ClipboardAll   ; \u628A\u526A\u8D34\u677F\u7684\u6240\u6709\u5185\u5BB9\u4FDD\u5B58\u5230\u60A8\u9009\u62E9\u7684\u53D8\u91CF\u4E2D.\n    ; ... \u8FD9\u91CC\u4E34\u65F6\u4F7F\u7528\u526A\u8D34\u677F, \u4F8B\u5982\u4F7F\u7528 Transform Unicode \u7C98\u8D34 Unicode \u6587\u672C ...\n    PostMessage,1075,332,0,,ahk_class TTOTAL_CMD ;\u628A\u7126\u70B9\u79FB\u5230\u6765\u6E90\u7A97\u53E3\u7684\u5730\u5740\u680F\n    PostMessage,1075,2029,0,,ahk_class TTOTAL_CMD ;\u83B7\u53D6\u8DEF\u5F84\n    sleep 80\n    AddressBarText= % Clipboard\n    Clipboard := ClipSaved   ; \u6062\u590D\u526A\u8D34\u677F\u4E3A\u539F\u6765\u7684\u5185\u5BB9. \u6CE8\u610F\u8FD9\u91CC\u4F7F\u7528 Clipboard (\u4E0D\u662F ClipboardAll).\n    ClipSaved =   ; \u5728\u539F\u6765\u7684\u526A\u8D34\u677F\u542B\u5927\u91CF\u5185\u5BB9\u65F6\u91CA\u653E\u5185\u5B58.\n    if AddressBarText=\\\\\u6211\u7684\u6587\u6863\n        AddressBarText=%A_MyDocuments%\n    if AddressBarText=\\\\\u684C\u9762\n        AddressBarText=%A_Desktop%\n    if AddressBarText=\\\\\u56DE\u6536\u7AD9\n    {\n        MsgBox \u8BE5\u64CD\u4F5C\u4E0D\u9002\u7528\u4E8E\u56DE\u6536\u7AD9\n        Exit\n    }\n}\n\nif InStr(FileExist(AddressBarText), \"D\")\n    Run cmd.exe \/k chdir \/d \"%AddressBarText%\"\nelse\n    msgbox \u8DEF\u5F84\u9519\u8BEF\nTempWinClass=\nReturn",
+      "Command": "",
+      "Name": "\u5F53\u524D\u76EE\u5F55\u8F6C\u5230\u547D\u4EE4\u884C (&C)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "04A1E8E9-5A4F-4812-B86B-145450B93AA1": {
+      "Code": "",
+      "Command": "\"%HoneyView%\"",
+      "Name": "\u770B\u56FE via HoneyView (&V)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "05AE0929-0E10-46AC-B7F1-79AFBFF341CB": {
+      "Code": "",
+      "Command": "",
+      "Name": "",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "06C0D719-FA1F-4AC6-875A-51F8F59F2BAB": {
+      "Code": "",
+      "Command": "\"%FileLocator%\"",
+      "Name": "\u5728\u672C\u5730\u641C\u7D22\u6B64\u5173\u952E\u5B57 via FileLocator Pro (&F)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": " -d \"\u672C\u5730\u786C\u76D8\" -f \"\" -c \"{text}\"",
+      "Tips": ""
+    },
+    "0CABD00E-F968-49E6-8F89-0B317A11E8C0": {
+      "Code": "",
+      "Command": "",
+      "Name": "Microsoft Office \u6587\u4EF6 (&O)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "0FC0EBD7-D938-4D2C-98A3-9FDEDEFAA8C9": {
+      "Code": "WinActivate % \"ahk_class \" gMenuZ.Data.winclass\nWinWaitActive % \"ahk_class \" gMenuZ.Data.winclass\nWinGetTitle, t, A\nmsgbox % \"---\u4FE1\u606F\u6982\u89C8---`n`n\u6240\u9009\u6587\u4EF6\u4E3A\uFF1A`n\" gMenuZ.Data.files \"`n`n\" \"\u6240\u9009\u6587\u672C\u4E3A\uFF1A`n\" gMenuZ.Data.text \"`n`n\" \"\u5750\u6807\u4E3A\uFF1A`n\" \"x \" gMenuZ.Data.x \", y \" gMenuZ.Data.y \"`n`n\" \"\u524D\u53F0\u7A0B\u5E8F\u4E3A\uFF1A`n\" gMenuZ.Data.winExe \"`n`n\" \"\u7A97\u53E3Class\uFF1A`n\" gMenuZ.Data.winclass \"`n`n\" \"\u63A7\u4EF6\uFF1A`n\" gMenuZ.Data.control \"`n`n\" \"\u7A97\u53E3\u6807\u9898\uFF1A`n\" t\nreturn",
+      "Command": "",
+      "Name": "\u663E\u793A\u6240\u9009\u5185\u5BB9>>(&S)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "1762132B-CBCB-4CFF-B3A9-181E115A4B40": {
+      "Code": "SourceText:=QZData(\"text\")\nSourceText:=CustomFunction_TextEscaping(SourceText)\n;StringReplace, SourceText, SourceText, `n, ``n, All\n;StringReplace, SourceText, SourceText, `r, ``r, All\nSourceText=ToolTip %SourceText%\nSourceText=%SourceText%`nsleep 3000`nexitapp\nCustomFunction_PipeRun(SourceText)",
+      "Command": "",
+      "Name": "\u6D4B\u8BD5 (&1)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "194490FE-77D0-44D8-9F12-E3AA269AE863": {
+      "Code": "FileManager:=QZData(\"%TC%\")\nFileManagerClass=TTOTAL_CMD\n;===========\n;\u4EE5\u4E0B\u5185\u5BB9\u4E0D\u5FC5\u6539\u52A8\n;===========\nTempWinClass=\nTempWinClass= % QZData(\"winclass\") ;\u5C06\u83B7\u53D6\u7684class\u540D\u8D4B\u503C\u7ED9\u7528\u6237\u53D8\u91CF\nif TempWinClass=\n\tWinGetClass, TempWinClass, A\nif % TempWinClass=\"ExploreWClass\" or TempWinClass=\"CabinetWClass\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u8D44\u6E90\u7BA1\u7406\u5668\n{\n\tControlGetText, AddressBarText, ToolbarWindow322,ahk_class %TempWinClass% ;\u901A\u8FC7\u5730\u5740\u680F\u83B7\u53D6\u8DEF\u5F84\n\tstringreplace, AddressBarText, AddressBarText, \u5730\u5740:%A_space%, , All\n\tif AddressBarText =\n\t\tControlGetText, AddressBarText, Edit1,ahk_class %TempWinClass%\n\tif AddressBarText=\u684C\u9762\n\t\tAddressBarText=%A_Desktop%\n\tif AddressBarText=\u5E93\\\u6587\u6863\n\t\tAddressBarText=%A_MyDocuments%\n\tif AddressBarText=\u5E93\\\u56FE\u7247\n\t\tAddressBarText=%A_MyDocuments%\\..\\Pictures\n\tif AddressBarText=\u5E93\\\u97F3\u4E50\n\t\tAddressBarText=%A_MyDocuments%\\..\\Music\n\tif AddressBarText=\u5E93\\\u89C6\u9891\n\t\tAddressBarText=%A_MyDocuments%\\..\\Videos\n\tif AddressBarText=\u5E93\\\u4E0B\u8F7D\n\t\tAddressBarText=%A_MyDocuments%\\..\\Downloads\n\tif AddressBarText=\u5E93\\\u56FE\u7247\n\t\tAddressBarText=%A_MyDocuments%\\..\\Pictures\n\tif AddressBarText=\u8BA1\u7B97\u673A\n\t\tAddressBarText:=\"::{20D04FE0-3AEA-1069-A2D8-08002B30309D}\"\n\tif AddressBarText=\u56DE\u6536\u7AD9\n\t\tAddressBarText:=\"::{645FF040-5081-101B-9F08-00AA002F954E}\"\n\tif AddressBarText=\u7F51\u7EDC\n\t\tAddressBarText:=\"::{208D2C60-3AEA-1069-A2D7-08002B30309D}\"\n}\nif % TempWinClass=\"WorkerW\" or TempWinClass=\"Progman\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u684C\u9762\n\tAddressBarText=%A_Desktop%\nif % TempWinClass=\"Shell_TrayWnd\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F\n    Exit\n\nRun \"%FileManager%\" \"%AddressBarText%\"\nPreClipboard := ClipboardAll   ; \u628A\u526A\u8D34\u677F\u7684\u6240\u6709\u5185\u5BB9\u4FDD\u5B58\u5230\u60A8\u9009\u62E9\u7684\u53D8\u91CF\u4E2D.\n; ... \u8FD9\u91CC\u4E34\u65F6\u4F7F\u7528\u526A\u8D34\u677F, \u4F8B\u5982\u4F7F\u7528 Transform Unicode \u7C98\u8D34 Unicode \u6587\u672C ...\nCounter=3\nLoop %Counter%\n{\n    Counter--\n    WinWaitActive,ahk_class %FileManagerClass%\n    PostMessage,1075,4001,0,,ahk_class %FileManagerClass% ;\u628A\u7126\u70B9\u79FB\u5230\u5DE6\u4FA7\u7A97\u53E3\u7684\u5730\u5740\u680F\n    sleep 80\n    PostMessage,1075,2029,0,,ahk_class %FileManagerClass% ;\u83B7\u53D6\u8DEF\u5F84\n    sleep 80\n    if % Clipboard=AddressBarText\n        break\n    else\n        Run \"%FileManager%\" \"%AddressBarText%\"\n}\nClipboard := PreClipboard   ; \u6062\u590D\u526A\u8D34\u677F\u4E3A\u539F\u6765\u7684\u5185\u5BB9. \u6CE8\u610F\u8FD9\u91CC\u4F7F\u7528 Clipboard (\u4E0D\u662F ClipboardAll).\nif % Counter<>0 and TempWinClass<>\"WorkerW\" and TempWinClass<>\"Progman\"\n    WinClose, ahk_class %TempWinClass%\nReturn",
+      "Command": "",
+      "Name": "\u5F53\u524D\u76EE\u5F55\u8F6C\u5230 TotalCMD \u4E2D\u6D4F\u89C8 Ctrl+T",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "2045F03F-58C0-4466-8FDA-4B89561843F0": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u64CD\u4F5C",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "23EDE350-BDB9-4490-9E11-D1F81E173DF7": {
+      "Code": "If % A_Is64bitOS\n    OSBit=64\nelse\n    OSBit=32\n\nFileList := RegExReplace(gMenuZ.Data.files, \"\\r\\n\", \"\"\" \"\"\")\nRun, \"\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\NirSoft\\HashMyFiles\\HashMyFiles_%OSBit%.exe\" \/files \/folder \"%FileList%\"\nreturn",
+      "Command": "",
+      "Name": "\u8BA1\u7B97\u6821\u9A8C\u7801 via HashMyFiles (&H)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "247D4EB3-FB32-4528-8165-394381123B82": {
+      "Code": "",
+      "Command": "\"%7Z%\"",
+      "Name": "\u6253\u5F00 via 7-Zip (&7)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OF]}",
+      "Tips": ""
+    },
+    "265DE991-D393-4D1E-9E26-341CCCE055C8": {
+      "Code": "",
+      "Command": "DM_Custom_FileTag",
+      "Name": "\u6587\u4EF6\u540D\u52A0\u6807\u7B7E (&T)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "278E2DDE-8CF6-4964-9657-F6B41DBEB991": {
+      "Code": "",
+      "Command": "\"%BCompare%\"",
+      "Name": "\u6587\u4EF6\u5939\u6BD4\u8F83 via Beyond Compare (&B)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OD]}",
+      "Tips": ""
+    },
+    "297F4357-848C-4E44-AF98-32B67078CBC9": {
+      "Code": "FileFullPathList := RegExReplace(gMenuZ.Data.files, \"\\r\\n\", \"\"\" \"\"\") ; \"%FileFullPathList%\" \uFF08\u542B\u53CC\u5F15\u53F7\uFF09\u662F\u88AB\u9009\u4E2D\u6587\u4EF6\u7684\u5217\u8868\u3002\nRun \"%A_AhkPath%\" \"%FileFullPathList%\"\nReturn",
+      "Command": "",
+      "Name": "\u8FD0\u884C via AutoHotkey1>>(&R)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "2A44406E-3A40-4BEF-AA8B-2461084461E2": {
+      "Code": "",
+      "Command": "\"%VirtualDriveMaster%\"",
+      "Name": "\u88C5\u8F7D via \u8F6F\u5A92\u865A\u62DF\u5149\u9A71 (&M)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OF]}",
+      "Tips": ""
+    },
+    "2B58E7F7-CBAE-4801-9464-F73CA00776BB": {
+      "Code": "ExePath:=QZData(\"%TC%\")\ndPath:=CustomFunction_getDocumentPath()\nRun % ExePath \" \/A \/O \" dPath\nreturn",
+      "Command": "",
+      "Name": "\u6D4F\u89C8\u88AB\u7F16\u8F91\u7684\u6587\u4EF6\u6240\u5728\u76EE\u5F55 via TotalCMD (&T)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "2BD23F3A-8C65-4C08-A26A-C9543A532F0F": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u67E5\u8BE2 (&!)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "3164513F-22FC-428F-8DFC-5625E97A432E": {
+      "Code": "dPath:=CustomFunction_getDocumentPath()\nRun, explorer.exe \/select`,\"%dPath%\"\nReturn",
+      "Command": "",
+      "Name": "\u6D4F\u89C8\u88AB\u7F16\u8F91\u7684\u6587\u4EF6\u6240\u5728\u76EE\u5F55 via \u8D44\u6E90\u7BA1\u7406\u5668 (&D)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "341B3420-8762-4F94-A5DA-668B6990C016": {
+      "Code": "",
+      "Command": "\"%BandiZip%\"",
+      "Name": "\u6253\u5F00 via BandiZip (&B)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OF]}",
+      "Tips": ""
+    },
+    "3864F763-F7F9-46CC-ACFD-98EAFFBF021E": {
+      "Code": "",
+      "Command": "",
+      "Name": "---\u7A97\u53E3\u83DC\u5355---",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "39EF0D81-E2E5-42E8-9F44-61508C8F877B": {
+      "Code": "Editor= ;\u6267\u884C\u524D\u6E05\u7A7A\u53D8\u91CF\nEditor:=QZData(\"%Scite%\") ;\u5728\u672C\u884C\u6307\u5B9A\u8981\u4F7F\u7528\u7684\u7F16\u8F91\u5668\u53D8\u91CF\n;===========\n;\u4EE5\u4E0B\u5185\u5BB9\u65E0\u9700\u6539\u52A8\n;===========\ndPath=\ndPath:=CustomFunction_getDocumentPath()\nWinActivate % \"ahk_class\" QZData(\"winclass\")\nWinWaitActive % \"ahk_class\" QZData(\"winclass\")\ndTitle=\nWinGetTitle, dTitle,  A\n;~ ;===========\n;~ ;\u901A\u8FC7Pipe\u8FD0\u884C\u4EE3\u7801\n;~ ;===========\nScriptContent:=% \"SetTitleMatchMode, 3`nGroupAdd, GroupName, \" dTitle \"`nWinClose, ahk_group GroupName`nWinWaitClose, ahk_group GroupName`nRun, \"\"\" Editor \"\"\" \"\"\" dPath \"\"\"`nreturn\"\nCustomFunction_PipeRun(ScriptContent)\nReturn\n",
+      "Command": "",
+      "Name": "\u8F6C\u5230 Scite4AutoHotkey \u4E2D\u7F16\u8F91 (&4)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "3A880D85-5738-496B-97AE-0D9AD053A96B": {
+      "Code": "PostMessage,1075,269,0,,ahk_class TTOTAL_CMD",
+      "Command": "",
+      "Name": "TotalCMD_\u6765\u6E90\u7A97\u53E3_\u7F29\u7565\u56FE",
+      "Options": {
+        "category": "TotalCMD",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "3C625312-C110-4001-82D0-B97CFFD046AA": {
+      "Code": "",
+      "Command": "\"%Scite%\"",
+      "Name": "\u7F16\u8F91 via Scite4AutoHotkey (&4)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OF]}",
+      "Tips": ""
+    },
+    "3F3B51EA-C4F0-4CE2-8245-01FC831CF10C": {
+      "Code": "",
+      "Command": "",
+      "Name": "---\u591A\u6587\u4EF6\u83DC\u5355---",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "52FBA000-1BB2-4860-98FB-3E6D34F598C2": {
+      "Code": "TemplateFileName=\u6F14\u793A\u6587\u7A3F1 ;\u6A21\u677F\u6587\u4EF6\u540D\nExtName=ppt ;\u6A21\u677F\u540E\u7F00\u540D\nNewFileName=\u65B0\u5EFA\u6F14\u793A\u6587\u7A3F ;\u65B0\u5EFA\u6587\u4EF6\u540D\nShellNew:=QZData(\"%ShellNew%\")\n\nCustomWinClass= % GMenuZ.data.winclass ;\u5C06\u83B7\u53D6\u7684class\u540D\u8D4B\u503C\u7ED9\u7528\u6237\u53D8\u91CF\nif % CustomWinClass=\"ExploreWClass\" or CustomWinClass=\"CabinetWClass\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u8D44\u6E90\u7BA1\u7406\u5668\n{\n\tControlGetText, DstDir, ToolbarWindow322,ahk_class %CustomWinClass% ;\u901A\u8FC7\u5730\u5740\u680F\u83B7\u53D6\u8DEF\u5F84\n\tstringreplace, DstDir, DstDir, \u5730\u5740:%A_space%, , All\n\tif DstDir =\n\t\tControlGetText, DstDir, Edit1,ahk_class %CustomWinClass%\n\tif DstDir=\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\u5E93\\\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u5E93\\\u97F3\u4E50\n\t\tDstDir=%A_MyDocuments%\\..\\Music\n\tif DstDir=\u5E93\\\u89C6\u9891\n\t\tDstDir=%A_MyDocuments%\\..\\Videos\n\tif DstDir=\u5E93\\\u4E0B\u8F7D\n\t\tDstDir=%A_MyDocuments%\\..\\Downloads\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\nif % CustomWinClass=\"WorkerW\" or CustomWinClass=\"Progman\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u684C\u9762\n\tDstDir=%A_Desktop%\nif % CustomWinClass=\"Shell_TrayWnd\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F\n{\n\tMsgBox \u65E0\u6CD5\u4ECE\u4EFB\u52A1\u680F\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif % CustomWinClass=\"TTOTAL_CMD\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3ATC\n{\n\tClipSaved := ClipboardAll   ; \u628A\u526A\u8D34\u677F\u7684\u6240\u6709\u5185\u5BB9\u4FDD\u5B58\u5230\u60A8\u9009\u62E9\u7684\u53D8\u91CF\u4E2D.\n\t; ... \u8FD9\u91CC\u4E34\u65F6\u4F7F\u7528\u526A\u8D34\u677F, \u4F8B\u5982\u4F7F\u7528 Transform Unicode \u7C98\u8D34 Unicode \u6587\u672C ...\n\tPostMessage,1075,332,0,,ahk_class TTOTAL_CMD ;\u628A\u7126\u70B9\u79FB\u5230\u6765\u6E90\u7A97\u53E3\u7684\u5730\u5740\u680F\n\tPostMessage,1075,2029,0,,ahk_class TTOTAL_CMD ;\u83B7\u53D6\u8DEF\u5F84\n\tsleep 80\n\tDstDir= % Clipboard\n\tClipboard := ClipSaved   ; \u6062\u590D\u526A\u8D34\u677F\u4E3A\u539F\u6765\u7684\u5185\u5BB9. \u6CE8\u610F\u8FD9\u91CC\u4F7F\u7528 Clipboard (\u4E0D\u662F ClipboardAll).\n\tClipSaved =   ; \u5728\u539F\u6765\u7684\u526A\u8D34\u677F\u542B\u5927\u91CF\u5185\u5BB9\u65F6\u91CA\u653E\u5185\u5B58.\n\tif DstDir=\\\\\u6211\u7684\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\\\\\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\\\\\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\n\nif DstDir=\n{\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif InStr(FileExist(DstDir), \"D\")\n{\n\tFile=%DstDir%\\%NewFileName%.%ExtName%\n\tIfExist, %File%\n\t{\n\t\tLoop\n\t\t{\n\t\t\tFile=%DstDir%\\%NewFileName%_(%A_Index%).%ExtName%\n\t\t\tIf !FileExist( File )\n\t\t\t{\n\t\t\t\tbreak\n\t\t\t}\n\t\t}\n\t}\n\tFileCopy, %ShellNew%\\%TemplateFileName%.%ExtName%, %File%, 0\n}\nelse\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tPostMessage,1075,540,0,,ahk_class TTOTAL_CMD ;\u5237\u65B0TC\u6765\u6E90\u7A97\u53E3\nReturn\n",
+      "Command": "",
+      "Name": "&PPT 97 - 2003 \u6F14\u793A\u6587\u7A3F (&P)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "53C129FC-D751-40C3-A5DB-617597DFDB17": {
+      "Code": "Run \"%A_AhkPath%\"  \"\\QuickZ\\Apps\\AutoHotkey\\AHK_Script_Manager\\scripts\\!\u5DE6\u952E\u4E8B\u4EF6\u76D1\u63A7\\\u5DE6\u952E\u4E8B\u4EF6\u76D1\u63A7.ahk\"",
+      "Command": "",
+      "Name": "\u5DE6\u952E\u4E8B\u4EF6\u76D1\u63A7>>(&L)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "5528C30F-547B-4F59-9D67-9C0E47A172DB": {
+      "Code": "",
+      "Command": "",
+      "Name": "",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "564BD061-9A7B-433C-8557-73723512A2CE": {
+      "Code": "FileSelectFile, ExePath, 1, %A_WorkingDir%\\Apps\\, \u8BF7\u6307\u5B9A\u4F60\u7684\u5E94\u7528\u7A0B\u5E8F, \u53EF\u6267\u884C\u6587\u4EF6 (*.exe; *.bat; *.vbs; *.js; *.cmd; *.com)\nInputBox, WinTitle, \u8BF7\u8F93\u5165\u5E94\u7528\u7A0B\u5E8F\u7684\u6807\u9898, \u793A\u4F8B\uFF1A`n`n\u65E0\u6807\u9898 - \u8BB0\u4E8B\u672C`nahk_class Notepad`nahk_exe notepad.exe`nahk_id 0x2a0604, , , 235, , , , , \u8BF7\u8F93\u5165\u5E94\u7528\u7A0B\u5E8F\u7684\u6807\u9898\nWinActivate % \"ahk_class\" gMenuZ.Data.winclass\nWinWaitActive % \"ahk_class\" gMenuZ.Data.winclass\nSendInput,ExePath=%ExePath%`n;\u6307\u5B9A\u7A0B\u5E8F\u8DEF\u5F84\uFF0C\u53EF\u81EA\u884C\u4FEE\u6539\u4E3A\u76F8\u5BF9\u8DEF\u5F84`nWinTitle=%WinTitle%`n;\u6253\u5F00\u7A0B\u5E8F\u540E\u7684\u9ED8\u8BA4\u6807\u9898`nCustomFunction_RunD(ExePath,WinTitle,x=0,y=0,WaitDuration=0)`n;\u683C\u5F0F\u4E3ACustomFunction_RunD(\u5E94\u7528\u7A0B\u5E8F,\u5E94\u7528\u7A0B\u5E8F\u7684\u6807\u9898,x,y,\u7B49\u5F85\u65F6\u95F4)\nReturn",
+      "Command": "",
+      "Name": "RunD (&D)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "58E4FBA2-4A9E-4818-AA0A-40C3BD6281E9": {
+      "Code": "",
+      "Command": "",
+      "Name": "---\u6587\u672C\u83DC\u5355---",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "59A909AD-5B75-4942-A99C-AF6320B023F1": {
+      "Code": "ExePath:=QZData(\"%TC%\")\nWinActivate,% \"ahk_class \" QZData(\"winclass\")\nWinWaitActive,% \"ahk_class \" QZData(\"winclass\")\nWinGet,ProcessPath,ProcessPath,A\nRun, \"%ExePath%\" \/A \/O \"%ProcessPath%\"\nreturn",
+      "Command": "",
+      "Name": "\u6D4F\u89C8\u7A0B\u5E8F\u76EE\u5F55 via TotalCMD (&P)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "5A74F806-76EC-4039-B6D2-E250DECDD0EF": {
+      "Code": "",
+      "Command": "notepad",
+      "Name": "\u6253\u5F00 via \u8BB0\u4E8B\u672C (&N)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OF]}",
+      "Tips": ""
+    },
+    "5BF66901-9476-4D77-A28F-CB1F48AE7E6A": {
+      "Code": "",
+      "Command": "dm_TCDirHotList",
+      "Name": "TC \u6536\u85CF\u5939\uFF08\u83DC\u5355\u9879\uFF09",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "5D5E5A0C-4DB8-4840-B36D-D4001B92BE0C": {
+      "Code": "",
+      "Command": "",
+      "Name": "",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "5D61487F-B00F-4C5F-A0DD-A839063C9053": {
+      "Code": "Run \"%A_AhkPath%\" \"\\QuickZ\\Apps\\AutoHotkey\\AHK_Script_Manager\\scripts\\!AccViewer Source\\AccViewer Source.ahk\"",
+      "Command": "",
+      "Name": "AccViewer>>(&A)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "63BB83E4-5785-4FB8-8FBA-AA3F6FEAAC11": {
+      "Code": "",
+      "Command": "%unlocker%",
+      "Name": "\u89E3\u9501 via &Unlocker (&U)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" }",
+      "Tips": ""
+    },
+    "66F7AB27-18BB-4AAB-A114-7FE75F634E0B": {
+      "Code": "TemplateFileName=\u65B0\u5EFA\u6587\u672C\u6587\u6863\nExtName=txt\nNewFileName=\u65B0\u5EFA\u6587\u672C\u6587\u6863\nTextEditor:=QZData(\"%Scite%\")\nShellNew:=QZData(\"%ShellNew%\")\n\nCustomWinClass= % gMenuZ.Data.winclass ;\u5C06\u83B7\u53D6\u7684class\u540D\u8D4B\u503C\u7ED9\u7528\u6237\u53D8\u91CF\nif % CustomWinClass=\"ExploreWClass\" or CustomWinClass=\"CabinetWClass\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u8D44\u6E90\u7BA1\u7406\u5668\n{\n\tControlGetText, DstDir, ToolbarWindow322,ahk_class %CustomWinClass% ;\u901A\u8FC7\u5730\u5740\u680F\u83B7\u53D6\u8DEF\u5F84\n\tstringreplace, DstDir, DstDir, \u5730\u5740:%A_space%, , All\n\tif DstDir =\n\t\tControlGetText, DstDir, Edit1,ahk_class %CustomWinClass%\n\tif DstDir=\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\u5E93\\\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u5E93\\\u97F3\u4E50\n\t\tDstDir=%A_MyDocuments%\\..\\Music\n\tif DstDir=\u5E93\\\u89C6\u9891\n\t\tDstDir=%A_MyDocuments%\\..\\Videos\n\tif DstDir=\u5E93\\\u4E0B\u8F7D\n\t\tDstDir=%A_MyDocuments%\\..\\Downloads\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\nif % CustomWinClass=\"WorkerW\" or CustomWinClass=\"Progman\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u684C\u9762\n\tDstDir=%A_Desktop%\nif % CustomWinClass=\"Shell_TrayWnd\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F\n{\n\tMsgBox \u65E0\u6CD5\u4ECE\u4EFB\u52A1\u680F\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif % CustomWinClass=\"TTOTAL_CMD\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3ATC\n{\n\tClipSaved := ClipboardAll   ; \u628A\u526A\u8D34\u677F\u7684\u6240\u6709\u5185\u5BB9\u4FDD\u5B58\u5230\u60A8\u9009\u62E9\u7684\u53D8\u91CF\u4E2D.\n\t; ... \u8FD9\u91CC\u4E34\u65F6\u4F7F\u7528\u526A\u8D34\u677F, \u4F8B\u5982\u4F7F\u7528 Transform Unicode \u7C98\u8D34 Unicode \u6587\u672C ...\n\tPostMessage,1075,332,0,,ahk_class TTOTAL_CMD ;\u628A\u7126\u70B9\u79FB\u5230\u6765\u6E90\u7A97\u53E3\u7684\u5730\u5740\u680F\n\tPostMessage,1075,2029,0,,ahk_class TTOTAL_CMD ;\u83B7\u53D6\u8DEF\u5F84\n\tsleep 80\n\tDstDir= % Clipboard\n\tClipboard := ClipSaved   ; \u6062\u590D\u526A\u8D34\u677F\u4E3A\u539F\u6765\u7684\u5185\u5BB9. \u6CE8\u610F\u8FD9\u91CC\u4F7F\u7528 Clipboard (\u4E0D\u662F ClipboardAll).\n\tClipSaved =   ; \u5728\u539F\u6765\u7684\u526A\u8D34\u677F\u542B\u5927\u91CF\u5185\u5BB9\u65F6\u91CA\u653E\u5185\u5B58.\n\tif DstDir=\\\\\u6211\u7684\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\\\\\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\\\\\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\n\nif DstDir=\n{\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif InStr(FileExist(DstDir), \"D\")\n{\n\tFile=%DstDir%\\%NewFileName%.%ExtName%\n\tIfExist, %File%\n\t{\n\t\tLoop\n\t\t{\n\t\t\tFile=%DstDir%\\%NewFileName%_(%A_Index%).%ExtName%\n\t\t\tIf !FileExist( File )\n\t\t\t{\n\t\t\t\tbreak\n\t\t\t}\n\t\t}\n\t}\n\tFileCopy, %ShellNew%\\%TemplateFileName%.%ExtName%, %File%, 0\n\t;Run, \"%TextEditor%\" \"%File%\"\n}\nelse\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tPostMessage,1075,540,0,,ahk_class TTOTAL_CMD ;\u5237\u65B0TC\u6765\u6E90\u7A97\u53E3\nReturn",
+      "Command": "",
+      "Name": "\u6587\u672C\u6587\u6863 UTF-8 (&T)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "68172365-8930-4F4C-96A7-A7648C5BD688": {
+      "Code": "sendinput {Ins}",
+      "Command": "",
+      "Name": "TotalCMD_\u9009\u4E2D\u6587\u4EF6\u5E76\u4E0B\u79FB\u4E00\u884C",
+      "Options": {
+        "category": "TotalCMD",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "6AA2722C-8C2F-4263-BEE3-D781434E7FCF": {
+      "Code": "TemplateFileName=doc1 ;\u6A21\u677F\u6587\u4EF6\u540D\nExtName=docx ;\u6A21\u677F\u540E\u7F00\u540D\nNewFileName=\u65B0\u5EFA\u6587\u6863 ;\u65B0\u5EFA\u6587\u4EF6\u540D\nShellNew:=QZData(\"%ShellNew%\")\n\nCustomWinClass= % GMenuZ.data.winclass ;\u5C06\u83B7\u53D6\u7684class\u540D\u8D4B\u503C\u7ED9\u7528\u6237\u53D8\u91CF\nif % CustomWinClass=\"ExploreWClass\" or CustomWinClass=\"CabinetWClass\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u8D44\u6E90\u7BA1\u7406\u5668\n{\n\tControlGetText, DstDir, ToolbarWindow322,ahk_class %CustomWinClass% ;\u901A\u8FC7\u5730\u5740\u680F\u83B7\u53D6\u8DEF\u5F84\n\tstringreplace, DstDir, DstDir, \u5730\u5740:%A_space%, , All\n\tif DstDir =\n\t\tControlGetText, DstDir, Edit1,ahk_class %CustomWinClass%\n\tif DstDir=\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\u5E93\\\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u5E93\\\u97F3\u4E50\n\t\tDstDir=%A_MyDocuments%\\..\\Music\n\tif DstDir=\u5E93\\\u89C6\u9891\n\t\tDstDir=%A_MyDocuments%\\..\\Videos\n\tif DstDir=\u5E93\\\u4E0B\u8F7D\n\t\tDstDir=%A_MyDocuments%\\..\\Downloads\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\nif % CustomWinClass=\"WorkerW\" or CustomWinClass=\"Progman\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u684C\u9762\n\tDstDir=%A_Desktop%\nif % CustomWinClass=\"Shell_TrayWnd\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F\n{\n\tMsgBox \u65E0\u6CD5\u4ECE\u4EFB\u52A1\u680F\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif % CustomWinClass=\"TTOTAL_CMD\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3ATC\n{\n\tClipSaved := ClipboardAll   ; \u628A\u526A\u8D34\u677F\u7684\u6240\u6709\u5185\u5BB9\u4FDD\u5B58\u5230\u60A8\u9009\u62E9\u7684\u53D8\u91CF\u4E2D.\n\t; ... \u8FD9\u91CC\u4E34\u65F6\u4F7F\u7528\u526A\u8D34\u677F, \u4F8B\u5982\u4F7F\u7528 Transform Unicode \u7C98\u8D34 Unicode \u6587\u672C ...\n\tPostMessage,1075,332,0,,ahk_class TTOTAL_CMD ;\u628A\u7126\u70B9\u79FB\u5230\u6765\u6E90\u7A97\u53E3\u7684\u5730\u5740\u680F\n\tPostMessage,1075,2029,0,,ahk_class TTOTAL_CMD ;\u83B7\u53D6\u8DEF\u5F84\n\tsleep 80\n\tDstDir= % Clipboard\n\tClipboard := ClipSaved   ; \u6062\u590D\u526A\u8D34\u677F\u4E3A\u539F\u6765\u7684\u5185\u5BB9. \u6CE8\u610F\u8FD9\u91CC\u4F7F\u7528 Clipboard (\u4E0D\u662F ClipboardAll).\n\tClipSaved =   ; \u5728\u539F\u6765\u7684\u526A\u8D34\u677F\u542B\u5927\u91CF\u5185\u5BB9\u65F6\u91CA\u653E\u5185\u5B58.\n\tif DstDir=\\\\\u6211\u7684\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\\\\\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\\\\\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\n\nif DstDir=\n{\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif InStr(FileExist(DstDir), \"D\")\n{\n\tFile=%DstDir%\\%NewFileName%.%ExtName%\n\tIfExist, %File%\n\t{\n\t\tLoop\n\t\t{\n\t\t\tFile=%DstDir%\\%NewFileName%_(%A_Index%).%ExtName%\n\t\t\tIf !FileExist( File )\n\t\t\t{\n\t\t\t\tbreak\n\t\t\t}\n\t\t}\n\t}\n\tFileCopy, %ShellNew%\\%TemplateFileName%.%ExtName%, %File%, 0\n}\nelse\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tPostMessage,1075,540,0,,ahk_class TTOTAL_CMD ;\u5237\u65B0TC\u6765\u6E90\u7A97\u53E3\nReturn\n",
+      "Command": "",
+      "Name": "Word \u6587\u6863",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "6D33BB2C-0A4A-4352-97EB-29FA74A2B699": {
+      "Code": ";\u7ED9\u6B63\u5219\u5F0F\u4E2D\u7279\u6B8A\u7684\u5B57\u7B26\u81EA\u52A8\u52A0\u4E0A\u82B1\u62EC\u53F7\uFF0C\u4EE5\u4FBF\u53EF\u7528\u4E8ESendInput\u7B49\u6307\u4EE4\u4E2D\uFF0C\u5E94\u7528\u4E8ESendRaw\u4E0D\u65B9\u4FBF\u7684\u60C5\u51B5\u3002\nWinActivate % \"ahk_class \" QZData(\"winclass\")\nWinWaitActive % \"ahk_class \" QZData(\"winclass\")\nSendInput % TransRegEx(QZData(\"text\"))\nreturn\n\nTransRegEx(RegExText) {\n\tLoop 2\n\t{\n\t\tRegExText := RegExReplace(RegExText, \"{\", \"{{}\")\n\t\tRegExText := RegExReplace(RegExText, \"(?<=[^{{])\\}\", \"{}}\")\n\t\tArr=^,!,+,#\n\t\tLoop, Parse, Arr, `,\n\t\t\tRegExText := RegExReplace(RegExText, \"((?<=[^{])\\\" A_loopfield \"(?=[^}]))|^\\\" A_loopfield \"|\\\" A_loopfield \"$\", \"{\" A_loopfield \"}\")\n\t}\n\treturn RegExText\n}",
+      "Command": "",
+      "Name": "\u666E\u901A\u6B63\u5219\u5F0F\u8868\u8FBE\u5F0F\u8F6C\u6210Send\u5F62\u5F0F",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "6F883526-6C90-4FD9-8F0C-076333E36E7B": {
+      "Code": "sendinput {Blind}{Down}",
+      "Command": "",
+      "Name": "Keyremap_Down",
+      "Options": {
+        "category": "\u901A\u7528",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "72C61DD7-45BB-472B-BE5D-85296F3C2FD6": {
+      "Code": "",
+      "Command": "",
+      "Name": "",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "733E6957-DE6D-4541-9732-A92998C8CE5A": {
+      "Code": "CustomFunction_PipeRun(gMenuZ.Data.text)\nreturn",
+      "Command": "",
+      "Name": "\u6D4B\u8BD5\u8FD9\u6BB5 AHK \u4EE3\u7801 via PipeRun (&R)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "74A6D17B-75F0-45A6-9429-7E2056E2C698": {
+      "Code": "FileList:=QZData(\"files\")\nLoop,Parse,FileList,`n,`r\n{\nNotepad2:=QZData(\"%Notepad2%\")\nRun \"%Notepad2%\" \"%A_LoopField%\"\nsleep 100 ;\u6B64\u505C\u987F\u662F\u7559\u7ED9\u4FBF\u643A\u7248\u7684\uFF0C\u5B89\u88C5\u7248\u53EF\u6CE8\u91CA\u6389\n}\nReturn",
+      "Command": "",
+      "Name": "\u6253\u5F00 via Notepad 2-mod (&2)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "74FC385E-9692-4CB0-92AB-E0F67D52690F": {
+      "Code": "sendinput {Blind}{Right}",
+      "Command": "",
+      "Name": "Keyremap_Right",
+      "Options": {
+        "category": "\u901A\u7528",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "7C33E51E-41E8-46EC-810E-5258A6453461": {
+      "Code": "ExePath:=QZData(\"%AntRenamer%\")\n;\u6307\u5B9A\u7A0B\u5E8F\u8DEF\u5F84\nWinTitle=ahk_exe Renamer.exe\n;\u6253\u5F00\u7A0B\u5E8F\u540E\u7684\u9ED8\u8BA4\u6807\u9898\nCustomFunction_RunD(ExePath,WinTitle,x=0,y=0,WaitDuration=0)\nReturn\n",
+      "Command": "",
+      "Name": "\u6279\u91CF\u91CD\u547D\u540D via Ant Renamer (&R)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "7F2BA2D6-4F26-45DB-8559-9EED70165625": {
+      "Code": "",
+      "Command": "\"%PotPlayer%\"",
+      "Name": "\u6DFB\u52A0\u5230 PotPlayer \u64AD\u653E\u5217\u8868 (&A)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" } \/add",
+      "Tips": ""
+    },
+    "80C4571C-B10F-423E-85D0-14BD9A91B675": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u53D1\u9001\u9884\u5B9A\u4E49\u6587\u672C (&S)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "831411CC-6EF6-4D5F-81B5-53AA9EB26B54": {
+      "Code": "Run \"%A_AhkPath%\" \"\\QuickZ\\Apps\\AutoHotkey\\AHK_Script_Manager\\\u5C0F\u5DE5\u5177\u53CAAHK\u811A\u672C\u7BA1\u7406\u5668.ahk\"",
+      "Command": "\"%A_AhkPath%\"",
+      "Name": "\u8FD0\u884C\u6240\u6709\u5E38\u9A7B\u7A0B\u5E8F\u53CA\u811A\u672C>>(&A)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "\"\\QuickZ\\Apps\\AutoHotkey\\AHK_Script_Manager\\\u5C0F\u5DE5\u5177\u53CAAHK\u811A\u672C\u7BA1\u7406\u5668.ahk\"",
+      "Tips": ""
+    },
+    "83CED6C3-B7E3-4BB4-BA1B-65341FDB715F": {
+      "Code": ";========\n;\u4EE5\u4E0B\u4E3A\u65E7\u7248\u672C\n;========\n\/*\nSplashImage, % f:=GEN_QR_CODE(gMenuZ.Data.text), B1 fs10,% \"Ctrl+S`n\u4FDD\u5B58\u56FE\u50CF`n`nEsc`n\u5173\u95ED`n`n\" . gMenuZ.Data.text, , \u4E8C\u7EF4\u7801 QRCodeSplashImage\nReturn\n\n#IfWinActive, \u4FDD\u5B58\u4E8C\u7EF4\u7801\u56FE\u7247\nEsc::SendInput {Esc}\n#IfWinActive, \u4E8C\u7EF4\u7801 QRCodeSplashImage\nEsc::goto DestoryQRCodeSplashImage\n^s::goto SaveThisQRCodeQRCodeSplashImage\n#IfWinActive\n\nGEN_QR_CODE(string,file=\"\")\n{\n  sFile := strlen(file) ? file : A_Temp \"\\\" A_NowUTC \".png\"\n  DllCall( \"User\\Custom\\QRCode\\quricol32.dll\\GeneratePNG\",\"str\", sFile , \"str\", string, \"int\", 4, \"int\", 2, \"int\", 0)\n  Return sFile\n}\n\nSaveThisQRCodeQRCodeSplashImage:\nWinHide, \u4E8C\u7EF4\u7801 QRCodeSplashImage\nQRCodeSplashImageVisible=0\nFileSelectFile, FileName, S16, %A_Desktop%\\QR_Code.png, \u4FDD\u5B58\u4E8C\u7EF4\u7801\u56FE\u7247, PNG\u56FE\u50CF (*.png)\nif StrLen(FileName)<1\n  goto ShowTheQRCodeSplashImage\nStringReplace, FileName, FileName, .png,\nFileMove, %f%, %FileName%.png, 1\n\nShowTheQRCodeSplashImage:\nWinShow, \u4E8C\u7EF4\u7801 QRCodeSplashImage\nReturn\n\nDestoryQRCodeSplashImage:\nSplashImage Off\nReturn\n*\/",
+      "Command": "CustomFunction_Text2QRCode",
+      "Name": "\u6587\u672C\u751F\u6210\u4E8C\u7EF4\u7801 (&Q)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "848A494D-B681-4AB9-9F0F-B1D5A98044C5": {
+      "Code": "WinActivate % \"ahk_class \" QZData(\"winclass\")\nWinWaitActive % \"ahk_class \" QZData(\"winclass\")\nSendInput % CustomFunction_TextEscaping(QZData(\"text\"))\nreturn",
+      "Command": "CustomFunction_TextEscaping",
+      "Name": "\u8F6C\u6362\u4E3AAHK\u539F\u4E49\u6587\u672C",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "87BDB765-3AEE-4FAC-A968-0271209077E5": {
+      "Code": "AhkChmPath=\"\\QuickZ\\Apps\\AutoHotkey\\AutoHotKey\\AutoHotKey.chm\"\n;\u6307\u5B9A\u5E2E\u52A9\u6587\u4EF6\u7684\u8DEF\u5F84\nAhkChmTitle=AutoHotkey Help\n;\u6307\u5B9A\u5E2E\u52A9\u6587\u4EF6\u7684\u6807\u9898\n;===========\n;\u4EE5\u4E0B\u5185\u5BB9\u65E0\u9700\u6539\u52A8\n;===========\nCustomFunction_AhkChm(QZData(\"text\"),AhkChmPath,AhkChmTitle)\nReturn",
+      "Command": "",
+      "Name": "\u5728 AHK \u5E2E\u52A9\u4E2D\u641C\u7D22 (&?)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "8AD632DC-F6F6-41EC-8FDA-A47F164FB70B": {
+      "Code": "BandiZip:=QZData(\"%BandiZip%\")\nFileFullPathList =% gMenuZ.Data.files ; \"%FileFullPathList%\" \uFF08\u542B\u53CC\u5F15\u53F7\uFF09\u662F\u88AB\u9009\u4E2D\u6587\u4EF6\u7684\u5217\u8868\u3002\nRegExMatch(gMenuZ.Data.files, \"((?!(\\\\|\\n)).+(?=\\\\[^\\\\]+\\n?$))\", ParentDirPath) ;%ParentDirPath% \u4E3A\u88AB\u9009\u4E2D\u6587\u4EF6\u7684\u7236\u76EE\u5F55\u8DEF\u5F84\nLoop, Parse, FileFullPathList, `n, `r\n{\n IfWinExist, ahk_exe BandiZipPortable.exe\n  WinWaitClose, ahk_exe BandiZipPortable.exe\n Run \"%BandiZip%\" \/extract_autodest  \"%ParentDirPath%\" \"%A_LoopField%\"\n}\nReturn",
+      "Command": "",
+      "Name": "\u5FEB\u901F\u89E3\u538B via BandiZip (&Q)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "8D5C42C4-E2DC-4636-8A7E-8B8643348023": {
+      "Code": "",
+      "Command": "\"%IcoFX%",
+      "Name": "\u7F16\u8F91\u56FE\u6807 via IcoFX (&I)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OF]}",
+      "Tips": ""
+    },
+    "904EF07D-C33E-4556-B034-8B82614D85E4": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u7A0B\u5E8F\u4E0E\u811A\u672C (&A)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "929B29F6-FF4A-4457-A1AB-DAFB567CCE2F": {
+      "Code": "if % A_Is64bitOS=True\n\tmsgbox 64\nelse\n\tmsgbox 32\n*\/\n\/*\nThisProcess := DllCall(\"GetCurrentProcess\") ;\u7528DllCall\u65B9\u6CD5\u5224\u65AD\u7CFB\u7EDF\u4F4D\u6570\n    ; \u5F53\u627E\u4E0D\u5230 IsWow64Process() \u65F6\uFF0C\n    ; \u5373\u5047\u5B9A\u5E76\u975E64\u4F4D\u7CFB\u7EDF\u3002\n    ; Otherwise, use the value returned in IsWow64Process.\n    if !DllCall(\"IsWow64Process\", \"uint\", ThisProcess, \"int*\", IsWow64Process)\n        IsWow64Process := false\n    ;MsgBox % IsWow64Process ? \"win64\" : \"win32\"\n    if  %IsWow64Process%=0\n        msgbox 32\n    else\n        msgbox 64\n*\/\nReturn",
+      "Command": "",
+      "Name": "\u4FA6\u6D4B\u7CFB\u7EDF\u4F4D\u6570>>(&O)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "9341E2C5-77CB-4ADF-A3F6-20D89E8D27A9": {
+      "Code": "Delimiter=;\nFileList=% gMenuZ.Data.files\nif FileList= ;\u5982\u679C\u672A\u83B7\u5F97\u6587\u4EF6\u5217\u8868\n    QuotedFileList:=CustomFunction_getFileManagerAddressBarText() ;\u83B7\u53D6\u5F53\u524D\u6240\u5728\u76EE\u5F55\n;~ { ;\u8FD9\u6BB5\u4EE3\u7801\u590D\u5236\u9009\u4E2D\u7684\u6587\u4EF6\u8DEF\u5F84\u5230\u526A\u8D34\u677F\n    ;~ PreClipboard:=ClipboardAll\n    ;~ SendInput, ^c\n    ;~ sleep 200\n    ;~ if DllCall( \"IsClipboardFormatAvailable\", \"UInt\", iFmt:=15)\n    ;~ {\n        ;~ FileList=% Clipboard\n        ;~ Clipboard:=PreClipboard\n    ;~ }\n    ;~ else\n    ;~ {\n        ;~ Clipboard:=PreClipboard\n        ;~ Return\n    ;~ }\n;~ }    \nelse\n{\n    QuotedFileList= ;\u4F7F\u7528\u524D\u5148\u6E05\u7A7A\n    Loop, Parse, FileList , `n, `r\n    {\n        ;~ msgbox % A_LoopField\n        if % StrLen(A_LoopField)<=3 ;\u5982\u679C\u8DEF\u5F84\u4E3A\u6839\u76EE\u5F55\n            QuotedFileList:=QuotedFileList \"\"\"\" A_LoopField \"\\\"\"\" Delimiter\n        else\n            QuotedFileList:=QuotedFileList \"\"\"\" A_LoopField \"\"\"\" Delimiter\n    }\n}\n;msgbox % QuotedFileList\nRun % \"\"\"\" QZData(\"%FileLocator%\") \"\"\" -d \" QuotedFileList \" -f \"\"\"\" -c \"\"\"\"\"\nReturn",
+      "Command": "",
+      "Name": "\u641C\u7D22 via FileLocator Pro (&F)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "9B1E4D69-DCE3-4DD9-BD0D-EC1574001AAD": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u5E94\u7528\u7A0B\u5E8F>>(&P)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "9D3A004C-DF20-43FC-B202-31098B0812EF": {
+      "Code": "vimd.changeMode(\"\u666E\u901A\u6A21\u5F0F\")\nSplashImage Off\nSplashImage, % \"\",W100 B fs10 CTFFFFFF CW000000,% \"\u666E\u901A\u6A21\u5F0F\", , \u5207\u6362\u6A21\u5F0F\u63D0\u793A\nWinSet, Transparent, 180, ahk_class AutoHotkey2\nsleep 1300\nSplashImage Off\nreturn",
+      "Command": "",
+      "Name": "ChangeMode_\u666E\u901A\u6A21\u5F0F",
+      "Options": {
+        "category": "\u901A\u7528",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "9D93C8C6-1C9C-40AC-B2E2-D3C03F3D9B73": {
+      "Code": "",
+      "Command": "",
+      "Name": "---\u901A\u7528\u83DC\u5355---",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "9FD07F32-0328-4E12-82D5-7DEBCB39B9BD": {
+      "Code": "",
+      "Command": "\".\\Apps\\Start.exe\"",
+      "Name": "\u4FBF\u643A\u7A0B\u5E8F\u5E73\u53F0",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "A00FA273-20C2-41F8-AF71-B37FE693AE85": {
+      "Code": "API_Doc = \n(%\n<html>\n<iframe id=\"api_iframe_51240\" name=\"api_iframe_51240\" src=\"\" width=\"800\" height=\"320\" scrolling=\"no\" frameborder=\"0\"><\/iframe>\n<script type=\"text\/javascript\">\n\/\/\u63A5\u53E3\u751F\u6210\uFF1Ahttp:\/\/www.51240.com\/api\/\ndocument.getElementById(\"api_iframe_51240\").src = \"http:\/\/www.51240.com\/apiiframe\/?api_from=51240&api_url=http:\/\/shouji.51240.com\/&api_width=98%&api_backgroundcolor=FFFFFF\";\n<\/script>\n<\/html>\n)\nAPI_Html := A_Temp \"\\51240.html\"\nFileDelete, %API_Html%\nFileAppend, %API_Doc%, %API_Html%\nGui, API: Destroy\nGui, API: Add, ActiveX, w840 h350 vWB, Shell.Explorer  ; \u6700\u540E\u4E00\u4E2A\u53C2\u6570\u662FActiveX\u7EC4\u4EF6\u7684\u540D\u79F0\u3002\nWB.Navigate(API_Html)\nGui, API: Show",
+      "Command": "",
+      "Name": "\u67E5\u8BE2\u624B\u673A\u53F7>>(&P)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "A2EAA141-8702-4F7E-9D8C-27CD77F2582D": {
+      "Code": "sendinput {Blind}{Left}",
+      "Command": "",
+      "Name": "Keyremap_Left",
+      "Options": {
+        "category": "\u901A\u7528",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "A64AEA54-E211-45FF-B13E-ED219E53C131": {
+      "Code": "FileFullPathList=\nFileFullPathList:=QZData(\"files\")\nLoop, Parse, FileFullPathList, `n, `r\n    Run \"%A_AhkPath%\" \"%A_LoopField%\"\nreturn",
+      "Command": "",
+      "Name": "\u8FD0\u884C via AutoHotkey (&R)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "AA816957-9162-4689-9714-DEDD0E31B39B": {
+      "Code": "API_Doc = \n(%\n<html>\n<iframe id=\"api_iframe_51240\" name=\"api_iframe_51240\" src=\"\" width=\"800\" height=\"800\" scrolling=\"no\" frameborder=\"0\"><\/iframe>\n<script type=\"text\/javascript\">\n\/\/\u63A5\u53E3\u751F\u6210\uFF1Ahttp:\/\/www.51240.com\/api\/\ndocument.getElementById(\"api_iframe_51240\").src = \"http:\/\/www.51240.com\/apiiframe\/?api_from=51240&api_url=http:\/\/zaixianwubishuru.51240.com\/&api_width=98%&api_backgroundcolor=FFFFFF\";\n<\/script>\n<\/html>\n)\nAPI_Html := A_Temp \"\\51240.html\"\nFileDelete, %API_Html%\nFileAppend, %API_Doc%, %API_Html%\nGui, API: Destroy\nGui, API: Add, ActiveX, w840 h350 vWB, Shell.Explorer  ; \u6700\u540E\u4E00\u4E2A\u53C2\u6570\u662FActiveX\u7EC4\u4EF6\u7684\u540D\u79F0\u3002\nWB.Navigate(API_Html)\nGui, API: Show",
+      "Command": "",
+      "Name": "\u5728\u7EBF\u4E94\u7B14\u8F93\u5165\u6CD586\u7248",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "AB2AB56A-7481-48FD-A377-5C4E2AD586A2": {
+      "Code": "",
+      "Command": "\"%Excel03%\"",
+      "Name": "\u6253\u5F00 via Excel 2003 (&3)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OF]}",
+      "Tips": ""
+    },
+    "AE8A1020-54BE-4B65-A26D-6598CF33292A": {
+      "Code": "",
+      "Command": "",
+      "Name": "TC \u6536\u85CF\u5939",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "AEC43033-844B-4F29-93B5-691CB93C1B7B": {
+      "Code": "",
+      "Command": "\"%Excel07%\"",
+      "Name": "\u6253\u5F00 via Excel 2007 (&7)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OF]}",
+      "Tips": ""
+    },
+    "AF76158F-68FD-4D6D-9684-E1B9E21633E7": {
+      "Code": "",
+      "Command": "\"%PotPlayer%\"",
+      "Name": "\u64AD\u653E via PotPlayer (&P)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" }",
+      "Tips": ""
+    },
+    "B02E7A65-602D-4634-83A1-28158CED4CD8": {
+      "Code": "",
+      "Command": "\"%Word03%\"",
+      "Name": "\u6253\u5F00 via Word 2003 (&3)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OF]}",
+      "Tips": ""
+    },
+    "B0DE5D78-BB17-4A59-B9E8-57595B8E6D92": {
+      "Code": "TemplateFileName=\u65B0AHK\u811A\u672C\nExtName=ahk\nNewFileName=\u65B0AHK\u811A\u672C\nTextEditor:=QZData(\"%Scite%\")\nShellNew:=QZData(\"%ShellNew%\")\n\nCustomWinClass= % gMenuZ.Data.winclass ;\u5C06\u83B7\u53D6\u7684class\u540D\u8D4B\u503C\u7ED9\u7528\u6237\u53D8\u91CF\nif % CustomWinClass=\"ExploreWClass\" or CustomWinClass=\"CabinetWClass\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u8D44\u6E90\u7BA1\u7406\u5668\n{\n\tControlGetText, DstDir, ToolbarWindow322,ahk_class %CustomWinClass% ;\u901A\u8FC7\u5730\u5740\u680F\u83B7\u53D6\u8DEF\u5F84\n\tstringreplace, DstDir, DstDir, \u5730\u5740:%A_space%, , All\n\tif DstDir =\n\t\tControlGetText, DstDir, Edit1,ahk_class %CustomWinClass%\n\tif DstDir=\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\u5E93\\\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u5E93\\\u97F3\u4E50\n\t\tDstDir=%A_MyDocuments%\\..\\Music\n\tif DstDir=\u5E93\\\u89C6\u9891\n\t\tDstDir=%A_MyDocuments%\\..\\Videos\n\tif DstDir=\u5E93\\\u4E0B\u8F7D\n\t\tDstDir=%A_MyDocuments%\\..\\Downloads\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\nif % CustomWinClass=\"WorkerW\" or CustomWinClass=\"Progman\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u684C\u9762\n\tDstDir=%A_Desktop%\nif % CustomWinClass=\"Shell_TrayWnd\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F\n{\n\tMsgBox \u65E0\u6CD5\u4ECE\u4EFB\u52A1\u680F\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif % CustomWinClass=\"TTOTAL_CMD\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3ATC\n{\n\tClipSaved := ClipboardAll   ; \u628A\u526A\u8D34\u677F\u7684\u6240\u6709\u5185\u5BB9\u4FDD\u5B58\u5230\u60A8\u9009\u62E9\u7684\u53D8\u91CF\u4E2D.\n\t; ... \u8FD9\u91CC\u4E34\u65F6\u4F7F\u7528\u526A\u8D34\u677F, \u4F8B\u5982\u4F7F\u7528 Transform Unicode \u7C98\u8D34 Unicode \u6587\u672C ...\n\tPostMessage,1075,332,0,,ahk_class TTOTAL_CMD ;\u628A\u7126\u70B9\u79FB\u5230\u6765\u6E90\u7A97\u53E3\u7684\u5730\u5740\u680F\n\tPostMessage,1075,2029,0,,ahk_class TTOTAL_CMD ;\u83B7\u53D6\u8DEF\u5F84\n\tsleep 80\n\tDstDir= % Clipboard\n\tClipboard := ClipSaved   ; \u6062\u590D\u526A\u8D34\u677F\u4E3A\u539F\u6765\u7684\u5185\u5BB9. \u6CE8\u610F\u8FD9\u91CC\u4F7F\u7528 Clipboard (\u4E0D\u662F ClipboardAll).\n\tClipSaved =   ; \u5728\u539F\u6765\u7684\u526A\u8D34\u677F\u542B\u5927\u91CF\u5185\u5BB9\u65F6\u91CA\u653E\u5185\u5B58.\n\tif DstDir=\\\\\u6211\u7684\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\\\\\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\\\\\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\n\nif DstDir=\n{\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif InStr(FileExist(DstDir), \"D\")\n{\n\tFile=%DstDir%\\%NewFileName%.%ExtName%\n\tIfExist, %File%\n\t{\n\t\tLoop\n\t\t{\n\t\t\tFile=%DstDir%\\%NewFileName%_(%A_Index%).%ExtName%\n\t\t\tIf !FileExist( File )\n\t\t\t{\n\t\t\t\tbreak\n\t\t\t}\n\t\t}\n\t}\n\tFileCopy, %ShellNew%\\%TemplateFileName%.%ExtName%, %File%, 0\n\tRun, \"%TextEditor%\" \"%File%\"\n}\nelse\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tPostMessage,1075,540,0,,ahk_class TTOTAL_CMD ;\u5237\u65B0TC\u6765\u6E90\u7A97\u53E3\nReturn",
+      "Command": "",
+      "Name": "AHK \u811A\u672C UTF-8 (&S)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "B3C2F809-3CC9-4D21-8620-7829301E2462": {
+      "Code": "TemplateFileName=book1 ;\u6A21\u677F\u6587\u4EF6\u540D\nExtName=xlsx ;\u6A21\u677F\u540E\u7F00\u540D\nNewFileName=\u65B0\u5EFA\u5DE5\u4F5C\u8868 ;\u65B0\u5EFA\u6587\u4EF6\u540D\nShellNew:=QZData(\"%ShellNew%\")\n\nCustomWinClass= % GMenuZ.data.winclass ;\u5C06\u83B7\u53D6\u7684class\u540D\u8D4B\u503C\u7ED9\u7528\u6237\u53D8\u91CF\nif % CustomWinClass=\"ExploreWClass\" or CustomWinClass=\"CabinetWClass\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u8D44\u6E90\u7BA1\u7406\u5668\n{\n\tControlGetText, DstDir, ToolbarWindow322,ahk_class %CustomWinClass% ;\u901A\u8FC7\u5730\u5740\u680F\u83B7\u53D6\u8DEF\u5F84\n\tstringreplace, DstDir, DstDir, \u5730\u5740:%A_space%, , All\n\tif DstDir =\n\t\tControlGetText, DstDir, Edit1,ahk_class %CustomWinClass%\n\tif DstDir=\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\u5E93\\\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u5E93\\\u97F3\u4E50\n\t\tDstDir=%A_MyDocuments%\\..\\Music\n\tif DstDir=\u5E93\\\u89C6\u9891\n\t\tDstDir=%A_MyDocuments%\\..\\Videos\n\tif DstDir=\u5E93\\\u4E0B\u8F7D\n\t\tDstDir=%A_MyDocuments%\\..\\Downloads\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\nif % CustomWinClass=\"WorkerW\" or CustomWinClass=\"Progman\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u684C\u9762\n\tDstDir=%A_Desktop%\nif % CustomWinClass=\"Shell_TrayWnd\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F\n{\n\tMsgBox \u65E0\u6CD5\u4ECE\u4EFB\u52A1\u680F\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif % CustomWinClass=\"TTOTAL_CMD\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3ATC\n{\n\tClipSaved := ClipboardAll   ; \u628A\u526A\u8D34\u677F\u7684\u6240\u6709\u5185\u5BB9\u4FDD\u5B58\u5230\u60A8\u9009\u62E9\u7684\u53D8\u91CF\u4E2D.\n\t; ... \u8FD9\u91CC\u4E34\u65F6\u4F7F\u7528\u526A\u8D34\u677F, \u4F8B\u5982\u4F7F\u7528 Transform Unicode \u7C98\u8D34 Unicode \u6587\u672C ...\n\tPostMessage,1075,332,0,,ahk_class TTOTAL_CMD ;\u628A\u7126\u70B9\u79FB\u5230\u6765\u6E90\u7A97\u53E3\u7684\u5730\u5740\u680F\n\tPostMessage,1075,2029,0,,ahk_class TTOTAL_CMD ;\u83B7\u53D6\u8DEF\u5F84\n\tsleep 80\n\tDstDir= % Clipboard\n\tClipboard := ClipSaved   ; \u6062\u590D\u526A\u8D34\u677F\u4E3A\u539F\u6765\u7684\u5185\u5BB9. \u6CE8\u610F\u8FD9\u91CC\u4F7F\u7528 Clipboard (\u4E0D\u662F ClipboardAll).\n\tClipSaved =   ; \u5728\u539F\u6765\u7684\u526A\u8D34\u677F\u542B\u5927\u91CF\u5185\u5BB9\u65F6\u91CA\u653E\u5185\u5B58.\n\tif DstDir=\\\\\u6211\u7684\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\\\\\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\\\\\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\n\nif DstDir=\n{\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif InStr(FileExist(DstDir), \"D\")\n{\n\tFile=%DstDir%\\%NewFileName%.%ExtName%\n\tIfExist, %File%\n\t{\n\t\tLoop\n\t\t{\n\t\t\tFile=%DstDir%\\%NewFileName%_(%A_Index%).%ExtName%\n\t\t\tIf !FileExist( File )\n\t\t\t{\n\t\t\t\tbreak\n\t\t\t}\n\t\t}\n\t}\n\tFileCopy, %ShellNew%\\%TemplateFileName%.%ExtName%, %File%, 0\n}\nelse\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tPostMessage,1075,540,0,,ahk_class TTOTAL_CMD ;\u5237\u65B0TC\u6765\u6E90\u7A97\u53E3\nReturn\n",
+      "Command": "",
+      "Name": "Excel \u5DE5\u4F5C\u8868",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "B537E2AE-5E90-48B2-B831-47DE66E57B23": {
+      "Code": "FileFullPathList := RegExReplace(gMenuZ.Data.files, \"\\r\\n\", \"\"\" \"\"\") ; \"%FileFullPathList%\" \uFF08\u542B\u53CC\u5F15\u53F7\uFF09\u662F\u88AB\u9009\u4E2D\u6587\u4EF6\u7684\u5217\u8868\u3002\nRun \"%A_AhkPath%\" \"%FileFullPathList%\"\nReturn",
+      "Command": "",
+      "Name": "\u8FD0\u884C via AutoHotkey>>(&R)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "B73F96C7-D554-4F14-8CD2-B371226C6A80": {
+      "Code": "",
+      "Command": "\"%CHB%\"",
+      "Name": "\u6279\u91CF\u91CD\u547D\u540D via CHB Renamer (&C)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "-af {file: \"[P]\" }",
+      "Tips": ""
+    },
+    "B75A5D8D-D087-4DCD-9A6E-824A23439EB3": {
+      "Code": "Run \"%A_AhkPath%\" \"\\QuickZ\\Apps\\AutoHotkey\\AHK_Script_Manager\\\u5C0F\u5DE5\u5177\u53CAAHK\u811A\u672C\u7BA1\u7406\u5668.ahk\"",
+      "Command": "\"%A_AhkPath%\"",
+      "Name": "\u8FD0\u884C\u6240\u6709\u5E38\u9A7B\u7A0B\u5E8F\u53CA\u811A\u672C>>(&A)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "\"\\QuickZ\\Apps\\AutoHotkey\\AHK_Script_Manager\\\u5C0F\u5DE5\u5177\u53CAAHK\u811A\u672C\u7BA1\u7406\u5668.ahk\"",
+      "Tips": ""
+    },
+    "B7E29256-A0C3-4EB0-A3EA-9F5FF180263E": {
+      "Code": "",
+      "Command": "",
+      "Name": "---\u6587\u4EF6\u83DC\u5355---",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "BEE6AB5F-ED75-4588-8641-15EC770C72FB": {
+      "Code": "Youdao_keyword=% QZData(\"text\")\nYoudao_\u8BD1\u6587:=YouDaoApi(Youdao_keyword)\n;~ \tMsgBox %Youdao_\u8BD1\u6587%\n\nYoudao_\u97F3\u6807:= json(Youdao_\u8BD1\u6587, \"basic.phonetic\")\nYoudao_\u57FA\u672C\u91CA\u4E49:= json(Youdao_\u8BD1\u6587, \"basic.explains\")\nYoudao_\u7F51\u7EDC\u91CA\u4E49:= json(Youdao_\u8BD1\u6587, \"web.value\")\nGui Gui_youdao_danci: Font,s14 \u5FAE\u8F6F\u96C5\u9ED1 c62384C q2\nIf Youdao_\u57FA\u672C\u91CA\u4E49<>\n{\n    Gui Gui_youdao_danci:add,Edit,x10 y10  w300 h100,[ %Youdao_\u97F3\u6807% ]\n    Gui Gui_youdao_danci:add,Edit,x10 y120 w300 h100,%Youdao_\u57FA\u672C\u91CA\u4E49%\n    Gui Gui_youdao_danci:add,Edit,x10 y230 w300 h100,%Youdao_\u7F51\u7EDC\u91CA\u4E49%\n}\nElse\n{\n    Youdao_\u97F3\u6807:=RegExReplace(Youdao_\u8BD1\u6587,\"m)({\"\"translation\"\"\\:\\[\"\")|(\"\"\\],\"\"query\"\"\\:.*)\")\n    Gui Gui_youdao_danci:add,Edit,x10 y10  w300 h300,%Youdao_\u97F3\u6807%\n}\n\nGui Gui_youdao_danci:show,,\u6709\u9053\u7F51\u7EDC\u7FFB\u8BD1\nReturn\nGui_youdao_danciGuiClose:\nGui_youdao_danciGuiEscape:\nGui Gui_youdao_danci:destroy\nReturn\n\n\n\n\nYouDaoApi(KeyWord)\n{\n    KeyWord:=CustomFunction_SkSub_UrlEncode(KeyWord,\"utf-8\")\n\turl:=\"http:\/\/fanyi.youdao.com\/fanyiapi.do?keyfrom=qqqqqqqq123&key=86514254&type=data&doctype=json&version=1.1&q=\" . KeyWord\n    WebRequest := ComObjCreate(\"WinHttp.WinHttpRequest.5.1\")\n    WebRequest.Open(\"GET\", url)\n    WebRequest.Send()\n    result := WebRequest.ResponseText\n    Return result\n}\n\n\njson(ByRef js, s, v = \"\")\n{\n\tj = %js%\n\tLoop, Parse, s, .\n\t{\n\t\tp = 2\n\t\tRegExMatch(A_LoopField, \"([+\\-]?)([^[]+)((?:\\[\\d+\\])*)\", q)\n\t\tLoop {\n\t\t\tIf (!p := RegExMatch(j, \"(?<!\\\\)(\"\"|')([^\\1]+?)(?<!\\\\)(?-1)\\s*:\\s*((\\{(?:[^{}]++|(?-1))*\\})|(\\[(?:[^[\\]]++|(?-1))*\\])|\"\n\t\t\t\t. \"(?<!\\\\)(\"\"|')[^\\7]*?(?<!\\\\)(?-1)|[+\\-]?\\d+(?:\\.\\d*)?|true|false|null?)\\s*(?:,|$|\\})\", x, p))\n\t\t\t\tReturn\n\t\t\tElse If (x2 == q2 or q2 == \"*\") {\n\t\t\t\tj = %x3%\n\t\t\t\tz += p + StrLen(x2) - 2\n\t\t\t\tIf (q3 != \"\" and InStr(j, \"[\") == 1) {\n\t\t\t\t\tStringTrimRight, q3, q3, 1\n\t\t\t\t\tLoop, Parse, q3, ], [\n\t\t\t\t\t{\n\t\t\t\t\t\tz += 1 + RegExMatch(SubStr(j, 2, -1), \"^(?:\\s*((\\[(?:[^[\\]]++|(?-1))*\\])|(\\{(?:[^{\\}]++|(?-1))*\\})|[^,]*?)\\s*(?:,|$)){\" . SubStr(A_LoopField, 1) + 1 . \"}\", x)\n\t\t\t\t\t\tj = %x1%\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tBreak\n\t\t\t}\n\t\t\tElse p += StrLen(x)\n\t\t}\n\t}\n\tIf v !=\n\t{\n\t\tvs = \"\n\t\tIf (RegExMatch(v, \"^\\s*(?:\"\"|')*\\s*([+\\-]?\\d+(?:\\.\\d*)?|true|false|null?)\\s*(?:\"\"|')*\\s*$\", vx)\n\t\t\tand (vx1 + 0 or vx1 == 0 or vx1 == \"true\" or vx1 == \"false\" or vx1 == \"null\" or vx1 == \"nul\"))\n\t\t\tvs := \"\", v := vx1\n\t\tStringReplace, v, v, \", \\\", All\n\t\tjs := SubStr(js, 1, z := RegExMatch(js, \":\\s*\", zx, z) + StrLen(zx) - 1) . vs . v . vs . SubStr(js, z + StrLen(x3) + 1)\n\t}\n\tReturn, j == \"false\" ? 0 : j == \"true\" ? 1 : j == \"null\" or j == \"nul\"\n\t\t? \"\" : SubStr(j, 1, 1) == \"\"\"\" ? SubStr(j, 2, -1) : j\n}",
+      "Command": "",
+      "Name": "\u6709\u9053\u7F51\u7EDC\u7FFB\u8BD1 (&Y)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "C0ED14DE-E2CE-4A9B-B58D-748E6B948044": {
+      "Code": "if DllCall( \"IsClipboardFormatAvailable\", \"UInt\", iFmt:=15)\n\tmsgbox % \"\u526A\u8D34\u677F\u5185\u5305\u542B\u7684\u6587\u4EF6\u4E3A\uFF1A`n\"Clipboard\nif DllCall( \"IsClipboardFormatAvailable\", \"UInt\", iFmt:=2)\n\tMsgBox \u526A\u8D34\u677F\u5185\u4E3A\u4F4D\u56FE\nif DllCall( \"IsClipboardFormatAvailable\", \"UInt\", iFmt:=1)\n\tmsgbox % \"\u526A\u8D34\u677F\u5185\u7684\u6587\u672C\u5185\u5BB9\u4E3A\uFF1A`n\"Clipboard\nelse\n\tMsgBox \u65E0\u6CD5\u8BC6\u522B\u526A\u8D34\u677F\u5185\u5BB9\nReturn",
+      "Command": "",
+      "Name": "\u67E5\u8BE2\u526A\u8D34\u677F\u6570\u636E\u7C7B\u578B>>(&C)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "C3A4C284-79B3-4DCF-8516-AD4A653CA8BD": {
+      "Code": "vimd.changeMode(\"\u63D2\u5165\u6A21\u5F0F\")\nSplashImage Off\nSplashImage, % \"\",W100 B fs10 CTFFFFFF CW000000,% \"\u63D2\u5165\u6A21\u5F0F\", , \u5207\u6362\u6A21\u5F0F\u63D0\u793A\nWinSet, Transparent, 180, ahk_class AutoHotkey2\nsleep 1300\nSplashImage Off\nreturn",
+      "Command": "",
+      "Name": "ChangeMode_\u63D2\u5165\u6A21\u5F0F",
+      "Options": {
+        "category": "\u901A\u7528",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "C52F6052-0D11-4CE9-B33E-ACBEEC27A1A8": {
+      "Code": "WinActivate,% \"ahk_class \" QZData(\"winclass\")\nWinWaitActive,% \"ahk_class \" QZData(\"winclass\")\nWinGet,ProcessPath,ProcessPath,A\nRun,% \"explorer.exe \/select,\"ProcessPath\nreturn",
+      "Command": "",
+      "Name": "\u6D4F\u89C8\u8FDB\u7A0B\u76EE\u5F55 via \u8D44\u6E90\u7BA1\u7406\u5668",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "C751C970-3F47-458F-BA18-F6C462501342": {
+      "Code": "if % gMenuZ.Data.files=\"\"\n{\n    ;#UseHook  ; \u5F3A\u5236\u4ECE\u8FD9\u91CC\u5F80\u540E\u7684\u70ED\u952E\u4F7F\u7528\u952E\u76D8\u94A9\u5B50\u3002\n    PreClipboard:=ClipboardAll\n    SendInput, ^Ins\n    Sleep 200\n    ;#UseHook off\n    if DllCall( \"IsClipboardFormatAvailable\", \"UInt\", iFmt:=15)\n        Clipboard=% Clipboard\n    else\n        Clipboard:=PreClipboard\n    PreClipboard=\n}\nelse\n    Clipboard=% gMenuZ.Data.files\ngMenuZ.Data.files:=\"\"\nReturn",
+      "Command": "",
+      "Name": "\u590D\u5236\u6587\u4EF6\u5B8C\u6574\u8DEF\u5F84 Alt+Ins",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "C81BC009-6E97-4C0A-87BE-39F9A9AB97B9": {
+      "Code": "sendinput {Blind}{Up}",
+      "Command": "",
+      "Name": "Keyremap_Up",
+      "Options": {
+        "category": "\u901A\u7528",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "CA590820-AB53-4F2E-A82D-DCB2A4DD8857": {
+      "Code": "Editor= ;\u6267\u884C\u524D\u6E05\u7A7A\u53D8\u91CF\nEditor:=QZData(\"%Notepad2%\") ;\u5728\u672C\u884C\u6307\u5B9A\u8981\u4F7F\u7528\u7684\u7F16\u8F91\u5668\u53D8\u91CF\n;===========\n;\u4EE5\u4E0B\u5185\u5BB9\u65E0\u9700\u6539\u52A8\n;===========\ndPath=\ndPath:=CustomFunction_getDocumentPath()\nWinActivate % \"ahk_class\" QZData(\"winclass\")\nWinWaitActive % \"ahk_class\" QZData(\"winclass\")\ndTitle=\nWinGetTitle, dTitle,  A\n;~ ;===========\n;~ ;\u901A\u8FC7Pipe\u8FD0\u884C\u4EE3\u7801\n;~ ;===========\nScriptContent:=% \"SetTitleMatchMode, 3`nGroupAdd, GroupName, \" dTitle \"`nWinClose, ahk_group GroupName`nWinWaitClose, ahk_group GroupName`nRun, \"\"\" Editor \"\"\" \"\"\" dPath \"\"\"`nreturn\"\nCustomFunction_PipeRun(ScriptContent)\nReturn",
+      "Command": "",
+      "Name": "\u8F6C\u5230 Notepad2-mod \u4E2D\u7F16\u8F91 (&2)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "CAC214EB-EDE2-4A9B-9F22-50B9326ABFD7": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u65B0\u5EFA>>(&W)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 0,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "CC62AFFA-4A16-4C8D-994F-EFF887C6B019": {
+      "Code": "",
+      "Command": "",
+      "Name": "AHK \u811A\u672C>>(&S)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "CFD902C9-C82E-475A-A490-C326C2B6AF39": {
+      "Code": "Run \"%A_AhkPath%\" \"\\QuickZ\\Apps\\AutoHotkey\\AHK_Script_Manager\\scripts\\!Ahkspy++\\Ahkspy++.ahk\"",
+      "Command": "",
+      "Name": "Spy++>>(&S)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "D1212C27-5B50-4B26-B5DF-E07290ED60E5": {
+      "Code": "TemplateFileName=doc1 ;\u6A21\u677F\u6587\u4EF6\u540D\nExtName=doc ;\u6A21\u677F\u540E\u7F00\u540D\nNewFileName=\u65B0\u5EFA\u6587\u6863 ;\u65B0\u5EFA\u6587\u4EF6\u540D\nShellNew:=QZData(\"%ShellNew%\")\n\nCustomWinClass= % GMenuZ.data.winclass ;\u5C06\u83B7\u53D6\u7684class\u540D\u8D4B\u503C\u7ED9\u7528\u6237\u53D8\u91CF\nif % CustomWinClass=\"ExploreWClass\" or CustomWinClass=\"CabinetWClass\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u8D44\u6E90\u7BA1\u7406\u5668\n{\n\tControlGetText, DstDir, ToolbarWindow322,ahk_class %CustomWinClass% ;\u901A\u8FC7\u5730\u5740\u680F\u83B7\u53D6\u8DEF\u5F84\n\tstringreplace, DstDir, DstDir, \u5730\u5740:%A_space%, , All\n\tif DstDir =\n\t\tControlGetText, DstDir, Edit1,ahk_class %CustomWinClass%\n\tif DstDir=\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\u5E93\\\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u5E93\\\u97F3\u4E50\n\t\tDstDir=%A_MyDocuments%\\..\\Music\n\tif DstDir=\u5E93\\\u89C6\u9891\n\t\tDstDir=%A_MyDocuments%\\..\\Videos\n\tif DstDir=\u5E93\\\u4E0B\u8F7D\n\t\tDstDir=%A_MyDocuments%\\..\\Downloads\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\nif % CustomWinClass=\"WorkerW\" or CustomWinClass=\"Progman\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u684C\u9762\n\tDstDir=%A_Desktop%\nif % CustomWinClass=\"Shell_TrayWnd\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F\n{\n\tMsgBox \u65E0\u6CD5\u4ECE\u4EFB\u52A1\u680F\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif % CustomWinClass=\"TTOTAL_CMD\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3ATC\n{\n\tClipSaved := ClipboardAll   ; \u628A\u526A\u8D34\u677F\u7684\u6240\u6709\u5185\u5BB9\u4FDD\u5B58\u5230\u60A8\u9009\u62E9\u7684\u53D8\u91CF\u4E2D.\n\t; ... \u8FD9\u91CC\u4E34\u65F6\u4F7F\u7528\u526A\u8D34\u677F, \u4F8B\u5982\u4F7F\u7528 Transform Unicode \u7C98\u8D34 Unicode \u6587\u672C ...\n\tPostMessage,1075,332,0,,ahk_class TTOTAL_CMD ;\u628A\u7126\u70B9\u79FB\u5230\u6765\u6E90\u7A97\u53E3\u7684\u5730\u5740\u680F\n\tPostMessage,1075,2029,0,,ahk_class TTOTAL_CMD ;\u83B7\u53D6\u8DEF\u5F84\n\tsleep 80\n\tDstDir= % Clipboard\n\tClipboard := ClipSaved   ; \u6062\u590D\u526A\u8D34\u677F\u4E3A\u539F\u6765\u7684\u5185\u5BB9. \u6CE8\u610F\u8FD9\u91CC\u4F7F\u7528 Clipboard (\u4E0D\u662F ClipboardAll).\n\tClipSaved =   ; \u5728\u539F\u6765\u7684\u526A\u8D34\u677F\u542B\u5927\u91CF\u5185\u5BB9\u65F6\u91CA\u653E\u5185\u5B58.\n\tif DstDir=\\\\\u6211\u7684\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\\\\\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\\\\\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\n\nif DstDir=\n{\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif InStr(FileExist(DstDir), \"D\")\n{\n\tFile=%DstDir%\\%NewFileName%.%ExtName%\n\tIfExist, %File%\n\t{\n\t\tLoop\n\t\t{\n\t\t\tFile=%DstDir%\\%NewFileName%_(%A_Index%).%ExtName%\n\t\t\tIf !FileExist( File )\n\t\t\t{\n\t\t\t\tbreak\n\t\t\t}\n\t\t}\n\t}\n\tFileCopy, %ShellNew%\\%TemplateFileName%.%ExtName%, %File%, 0\n}\nelse\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tPostMessage,1075,540,0,,ahk_class TTOTAL_CMD ;\u5237\u65B0TC\u6765\u6E90\u7A97\u53E3\nReturn",
+      "Command": "",
+      "Name": "&Word 97 - 2003 \u6587\u6863 (&W)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "D2E5E9CC-A552-40A5-AD7D-29EE74CB80C9": {
+      "Code": "TemplateFileName=\u6F14\u793A\u6587\u7A3F1 ;\u6A21\u677F\u6587\u4EF6\u540D\nExtName=pptx ;\u6A21\u677F\u540E\u7F00\u540D\nNewFileName=\u65B0\u5EFA\u6F14\u793A\u6587\u7A3F ;\u65B0\u5EFA\u6587\u4EF6\u540D\nShellNew:=QZData(\"%ShellNew%\")\n\nCustomWinClass= % GMenuZ.data.winclass ;\u5C06\u83B7\u53D6\u7684class\u540D\u8D4B\u503C\u7ED9\u7528\u6237\u53D8\u91CF\nif % CustomWinClass=\"ExploreWClass\" or CustomWinClass=\"CabinetWClass\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u8D44\u6E90\u7BA1\u7406\u5668\n{\n\tControlGetText, DstDir, ToolbarWindow322,ahk_class %CustomWinClass% ;\u901A\u8FC7\u5730\u5740\u680F\u83B7\u53D6\u8DEF\u5F84\n\tstringreplace, DstDir, DstDir, \u5730\u5740:%A_space%, , All\n\tif DstDir =\n\t\tControlGetText, DstDir, Edit1,ahk_class %CustomWinClass%\n\tif DstDir=\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\u5E93\\\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u5E93\\\u97F3\u4E50\n\t\tDstDir=%A_MyDocuments%\\..\\Music\n\tif DstDir=\u5E93\\\u89C6\u9891\n\t\tDstDir=%A_MyDocuments%\\..\\Videos\n\tif DstDir=\u5E93\\\u4E0B\u8F7D\n\t\tDstDir=%A_MyDocuments%\\..\\Downloads\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\nif % CustomWinClass=\"WorkerW\" or CustomWinClass=\"Progman\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u684C\u9762\n\tDstDir=%A_Desktop%\nif % CustomWinClass=\"Shell_TrayWnd\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F\n{\n\tMsgBox \u65E0\u6CD5\u4ECE\u4EFB\u52A1\u680F\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif % CustomWinClass=\"TTOTAL_CMD\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3ATC\n{\n\tClipSaved := ClipboardAll   ; \u628A\u526A\u8D34\u677F\u7684\u6240\u6709\u5185\u5BB9\u4FDD\u5B58\u5230\u60A8\u9009\u62E9\u7684\u53D8\u91CF\u4E2D.\n\t; ... \u8FD9\u91CC\u4E34\u65F6\u4F7F\u7528\u526A\u8D34\u677F, \u4F8B\u5982\u4F7F\u7528 Transform Unicode \u7C98\u8D34 Unicode \u6587\u672C ...\n\tPostMessage,1075,332,0,,ahk_class TTOTAL_CMD ;\u628A\u7126\u70B9\u79FB\u5230\u6765\u6E90\u7A97\u53E3\u7684\u5730\u5740\u680F\n\tPostMessage,1075,2029,0,,ahk_class TTOTAL_CMD ;\u83B7\u53D6\u8DEF\u5F84\n\tsleep 80\n\tDstDir= % Clipboard\n\tClipboard := ClipSaved   ; \u6062\u590D\u526A\u8D34\u677F\u4E3A\u539F\u6765\u7684\u5185\u5BB9. \u6CE8\u610F\u8FD9\u91CC\u4F7F\u7528 Clipboard (\u4E0D\u662F ClipboardAll).\n\tClipSaved =   ; \u5728\u539F\u6765\u7684\u526A\u8D34\u677F\u542B\u5927\u91CF\u5185\u5BB9\u65F6\u91CA\u653E\u5185\u5B58.\n\tif DstDir=\\\\\u6211\u7684\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\\\\\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\\\\\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\n\nif DstDir=\n{\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif InStr(FileExist(DstDir), \"D\")\n{\n\tFile=%DstDir%\\%NewFileName%.%ExtName%\n\tIfExist, %File%\n\t{\n\t\tLoop\n\t\t{\n\t\t\tFile=%DstDir%\\%NewFileName%_(%A_Index%).%ExtName%\n\t\t\tIf !FileExist( File )\n\t\t\t{\n\t\t\t\tbreak\n\t\t\t}\n\t\t}\n\t}\n\tFileCopy, %ShellNew%\\%TemplateFileName%.%ExtName%, %File%, 0\n}\nelse\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tPostMessage,1075,540,0,,ahk_class TTOTAL_CMD ;\u5237\u65B0TC\u6765\u6E90\u7A97\u53E3\nReturn\n",
+      "Command": "",
+      "Name": "PPT \u6F14\u793A\u6587\u7A3F",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "D2FBFEF3-2FAA-4AF5-9849-72967C5B77E4": {
+      "Code": "",
+      "Command": "\"%Spreadsheets%\"",
+      "Name": "\u6253\u5F00 via Spreadsheets 2013",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OF]}",
+      "Tips": ""
+    },
+    "D7F18D11-6035-4821-9DB5-629DD76B4678": {
+      "Code": "",
+      "Command": "\"%m6librarian%\"",
+      "Name": "\u56FE\u6807\u7BA1\u7406 via Microangelo Toolset 6 Librarian (&L)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OF]}",
+      "Tips": ""
+    },
+    "D8D9E343-81FC-461F-ACEC-3B88917B56D2": {
+      "Code": "Run \"%A_AhkPath%\" \"\\QuickZ\\Apps\\AutoHotkey\\AHK_Script_Manager\\scripts\\AHKControl\\AHKControl.ahk\"",
+      "Command": "",
+      "Name": "AHK Control>>(&C)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "DBACD96C-64FD-4FB7-9993-9579950BFB57": {
+      "Code": "",
+      "Command": "\"%BCompare%\"",
+      "Name": "\u6587\u4EF6\u6BD4\u8F83 via Beyond Compare (&B)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OF]}",
+      "Tips": ""
+    },
+    "E0F95860-67AD-4AEB-9934-8EF68630F91E": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u8C03\u7528\u51FD\u6570 (&F)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "E3DA10FE-60E9-41F0-B708-B1A3642EEFA3": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u65B0\u5EFA (&W)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "E6BB23EF-8B23-482F-B6B2-226869855DBD": {
+      "Code": "Editor= ;\u6267\u884C\u524D\u6E05\u7A7A\u53D8\u91CF\nEditor:=QZData(\"%Notepad++%\") ;\u5728\u672C\u884C\u6307\u5B9A\u8981\u4F7F\u7528\u7684\u7F16\u8F91\u5668\u53D8\u91CF\n;===========\n;\u4EE5\u4E0B\u5185\u5BB9\u65E0\u9700\u6539\u52A8\n;===========\ndPath=\ndPath:=CustomFunction_getDocumentPath()\nWinActivate % \"ahk_class\" QZData(\"winclass\")\nWinWaitActive % \"ahk_class\" QZData(\"winclass\")\ndTitle=\nWinGetTitle, dTitle,  A\n;~ ;===========\n;~ ;\u901A\u8FC7Pipe\u8FD0\u884C\u4EE3\u7801\n;~ ;===========\nScriptContent:=% \"SetTitleMatchMode, 3`nGroupAdd, GroupName, \" dTitle \"`nWinClose, ahk_group GroupName`nWinWaitClose, ahk_group GroupName`nRun, \"\"\" Editor \"\"\" \"\"\" dPath \"\"\"`nreturn\"\nCustomFunction_PipeRun(ScriptContent)\nReturn\n",
+      "Command": "",
+      "Name": "\u8F6C\u5230 Notepad++ \u4E2D\u7F16\u8F91 (&+)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "E7ABDEB0-05A5-4A88-96EF-3605FC4DBBC4": {
+      "Code": "ExePath:=QZData(\"%360FileSmasher%\")\n;\u6307\u5B9A\u7A0B\u5E8F\u8DEF\u5F84\nWinTitle=ahk_exe FileSmasher.exe\n;\u6253\u5F00\u7A0B\u5E8F\u540E\u7684\u9ED8\u8BA4\u6807\u9898\nCustomFunction_RunD(ExePath,WinTitle,x=0,y=0,WaitDuration=0)\nReturn\n",
+      "Command": "",
+      "Name": "\u7C89\u788E\u6587\u4EF6 via 360\u6587\u4EF6\u7C89\u788E\u673A",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "E81E2ED3-78C1-40E1-B9E1-5DEF106D7DAE": {
+      "Code": "SDelete:=QZData(\"%SDelete%\")\nCustomFunction_TaskDialogUseMsgBoxOnXP(true)\nChoice=\nChoice:=CustomFunction_TaskDialogEx(\"\u5220\u9664\u6587\u4EF6\u786E\u8BA4,\u5220\u9664\u7684\u6587\u4EF6\u5C06\u4E0D\u53EF\u6062\u590D\uFF0C\u8BF7\u8C28\u614E\u64CD\u4F5C\u3002\u786E\u5B9A\u8981\u5F7B\u5E95\u5220\u9664\u4E0B\u5217\u6587\u4EF6\uFF1F\",QZData(\"files\"),\"SDelete - \u6587\u4EF6\u6C38\u4E45\u5220\u9664\",6,7,800,-1,0)\nif Choice=6\n{\n\tFileList := RegExReplace(QZData(\"files\"), \"\\r\\n\", \"\"\" \"\"\") ; \"%FileList%\" \uFF08\u542B\u53CC\u5F15\u53F7\uFF09\u662F\u88AB\u9009\u4E2D\u6587\u4EF6\u7684\u5217\u8868\u3002\n\tRun, \"%SDelete%\" -a -r \"%FileList%\" \n\tWinWait, ahk_exe SDelete.exe\n\tWinWaitClose, ahk_exe SDelete.exe\n\tFileList=% QZData(\"files\")\n\tLoop, Parse, FileList, `n, `r\n\t\tFileRemoveDir, %A_LoopField%, 1\n\tif % QZData(\"winclass\")=\"TTOTAL_CMD\"\n\t\tPostMessage,1075,540,0,,ahk_class TTOTAL_CMD\n\telse\n\t{\n\t\tWinActivate,% \"ahk_class \" QZData(\"winclass\")\n\t\tWinWaitActive,% \"ahk_class \" QZData(\"winclass\")\n\t\tSendInput {F5}\n\t}\n}\nReturn",
+      "Command": "",
+      "Name": "\u64E6\u9664\u6587\u4EF6 via SDelete (&D)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "E86D8A59-FE5E-47B3-84BE-1ABD21B83ABB": {
+      "Code": "FileList := RegExReplace(gMenuZ.Data.files, \"\\r\\n\", \"\"\" \"\"\") \nIfInString,FileList,\" \"\n\tRegExMatch(gMenuZ.Data.files, \"([^(\\\\|\\n)]+[^:]|\\w)(?=:?\\\\[^\\\\]+$)\", PackName) ;%PackName% \u4E3A\u88AB\u9009\u4E2D\u6587\u4EF6\u7684\u7236\u76EE\u5F55\u540D\uFF0C\u5C06\u88AB\u7528\u4F5C\u538B\u7F29\u5305\u540D\nelse\n\tTempAttribute:=FileExist(FileList)\n\tIfInString,TempAttribute,D\n\t\tSplitPath, FileList, PackName\n\telse\n\t\tSplitPath, FileList, , , , PackName\nRegExMatch(gMenuZ.Data.files, \"((?!(\\\\|\\n)).+(?=\\\\[^\\\\]+\\n?$))\", ParentDirPath) ;%ParentDirPath% \u4E3A\u88AB\u9009\u4E2D\u6587\u4EF6\u7684\u7236\u76EE\u5F55\u8DEF\u5F84\nPack:=PackNameCheck(ParentDirPath,PackName)\nThisProcess := DllCall(\"GetCurrentProcess\")\nif !DllCall(\"IsWow64Process\", \"uint\", ThisProcess, \"int*\", IsWow64Process)\n\tIsWow64Process := false\nif  %IsWow64Process%=0\n\tRun \"Apps\\PortableApps\\7-ZipPortable\\App\\7-Zip\\7zG.exe\" a \"%Pack% \"%FileList%\"\nelse\n\tRun \"Apps\\PortableApps\\7-ZipPortable\\App\\7-Zip64\\7zG.exe\" a \"%Pack%\" \"%FileList%\"\nPostMessage,1075,540,0,,ahk_class TTOTAL_CMD\nReturn\n\nPackNameCheck(ParentDirPath,PackName)\n{\n\tPack=%ParentDirPath%\\%PackName%.zip\n\tIfExist, %Pack%\n\t{\n\t\tLoop\n\t\t{\n\t\t\tPack=%ParentDirPath%\\%PackName%_(%A_Index%).zip\n\t\t\tIf !FileExist( Pack )\n\t\t\t{\n\t\t\t\tbreak\n\t\t\t}\n\t\t}\n\t}\n\tReturn Pack\n}",
+      "Command": "",
+      "Name": "\u538B\u7F29\u6253\u5305 via 7-Zip (&Z)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "E8D1629D-ABEE-4593-A78F-D354F8402FDD": {
+      "Code": "",
+      "Command": "\"%Scite%\"",
+      "Name": "\u6253\u5F00 QZ_Codes.ahk",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "\".\\Lib\\QZ_Codes.ahk\"",
+      "Tips": ""
+    },
+    "EA789A86-B642-459A-9F96-2320C1A37B1E": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u6587\u672C\u6587\u6863",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "EDA4EBC3-7D05-452D-B62A-BAB6AE7A88F8": {
+      "Code": "",
+      "Command": "\"%Notepad++%\"",
+      "Name": "\u6253\u5F00 via Notepad++ (&+)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{file: \"[P]\" [OF]}",
+      "Tips": ""
+    },
+    "EEBDE0B7-B560-48D1-B552-17FC2A990FF2": {
+      "Code": "",
+      "Command": "%RegexTester%",
+      "Name": "RegExTester>>(&R)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "EFCEF694-2DBA-4D5D-94C7-0D06374CAC2D": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u6D4B\u8BD5",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "F25AC06D-0672-4AFB-BF53-66C2224FF013": {
+      "Code": "iHwnd=\niHwnd := gMenuZ.Data.hwnd\nif iHwnd=\n\tWinGet, iHwnd, ID, A\nwTitle=\nWinGetTitle, wTitle, ahk_id %iHwnd%\nX=\nY=\nWidth=\nHeight=\nWinSet, AlwaysOnTop, Toggle, ahk_id %iHwnd%\nWinGetPos, X, Y, Width, Height, ahk_id %iHwnd%\nY:=Y+5\nWinGet, ExStyle, ExStyle, ahk_id %iHwnd%\nif (ExStyle & 0x8)  ; 0x8 \u4E3A WS_EX_TOPMOST.\n;  ... \u7A97\u53E3\u5904\u4E8E\u7F6E\u9876\u72B6\u6001, \u6267\u884C\u9002\u5F53\u7684\u52A8\u4F5C.\n{\n\tWinSetTitle, ahk_id %iHwnd%, , %wTitle%_\u5DF2\u7F6E\u9876\n\tSplashImage Off\n\tSplashImage, % \"\",X%X% Y%Y% W100 B fs10 CTFFFFFF CW000000,% \"\u7A97\u53E3\u5DF2\u7F6E\u9876\", , \u5207\u6362\u6A21\u5F0F\u63D0\u793A\n\tWinSet, Transparent, 180, ahk_class AutoHotkey2\n\tsleep 1300\n\tSplashImage Off\n}\nelse\n{\n\twTitle:=RegExReplace(wTitle, \"_\u5DF2\u7F6E\u9876\")\n\tWinSetTitle, ahk_id %iHwnd%, , %wTitle%\n\tSplashImage Off\n\tSplashImage, % \"\",X%X% Y%Y% W100 B fs10 CTFFFFFF CW000000,% \"\u53D6\u6D88\u7F6E\u9876\", , \u5207\u6362\u6A21\u5F0F\u63D0\u793A\n\tWinSet, Transparent, 180, ahk_class AutoHotkey2\n\tsleep 1300\n\tSplashImage Off\n}\nreturn",
+      "Command": "",
+      "Name": "\u7A97\u53E3\u7F6E\u9876\/\u53D6\u6D88\u7F6E\u9876 Win+Tab",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "F5EE2F80-5ED3-4884-8CB2-C9319CF091BE": {
+      "Code": "TemplateFileName=book1 ;\u6A21\u677F\u6587\u4EF6\u540D\nExtName=xls ;\u6A21\u677F\u540E\u7F00\u540D\nNewFileName=\u65B0\u5EFA\u5DE5\u4F5C\u8868 ;\u65B0\u5EFA\u6587\u4EF6\u540D\nShellNew:=QZData(\"%ShellNew%\")\n\nCustomWinClass= % GMenuZ.data.winclass ;\u5C06\u83B7\u53D6\u7684class\u540D\u8D4B\u503C\u7ED9\u7528\u6237\u53D8\u91CF\nif % CustomWinClass=\"ExploreWClass\" or CustomWinClass=\"CabinetWClass\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u8D44\u6E90\u7BA1\u7406\u5668\n{\n\tControlGetText, DstDir, ToolbarWindow322,ahk_class %CustomWinClass% ;\u901A\u8FC7\u5730\u5740\u680F\u83B7\u53D6\u8DEF\u5F84\n\tstringreplace, DstDir, DstDir, \u5730\u5740:%A_space%, , All\n\tif DstDir =\n\t\tControlGetText, DstDir, Edit1,ahk_class %CustomWinClass%\n\tif DstDir=\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\u5E93\\\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u5E93\\\u97F3\u4E50\n\t\tDstDir=%A_MyDocuments%\\..\\Music\n\tif DstDir=\u5E93\\\u89C6\u9891\n\t\tDstDir=%A_MyDocuments%\\..\\Videos\n\tif DstDir=\u5E93\\\u4E0B\u8F7D\n\t\tDstDir=%A_MyDocuments%\\..\\Downloads\n\tif DstDir=\u5E93\\\u56FE\u7247\n\t\tDstDir=%A_MyDocuments%\\..\\Pictures\n\tif DstDir=\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\nif % CustomWinClass=\"WorkerW\" or CustomWinClass=\"Progman\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u684C\u9762\n\tDstDir=%A_Desktop%\nif % CustomWinClass=\"Shell_TrayWnd\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3A\u4EFB\u52A1\u680F\n{\n\tMsgBox \u65E0\u6CD5\u4ECE\u4EFB\u52A1\u680F\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif % CustomWinClass=\"TTOTAL_CMD\" ;\u5982\u679C\u5F53\u524D\u6FC0\u6D3B\u7A97\u53E3\u4E3ATC\n{\n\tClipSaved := ClipboardAll   ; \u628A\u526A\u8D34\u677F\u7684\u6240\u6709\u5185\u5BB9\u4FDD\u5B58\u5230\u60A8\u9009\u62E9\u7684\u53D8\u91CF\u4E2D.\n\t; ... \u8FD9\u91CC\u4E34\u65F6\u4F7F\u7528\u526A\u8D34\u677F, \u4F8B\u5982\u4F7F\u7528 Transform Unicode \u7C98\u8D34 Unicode \u6587\u672C ...\n\tPostMessage,1075,332,0,,ahk_class TTOTAL_CMD ;\u628A\u7126\u70B9\u79FB\u5230\u6765\u6E90\u7A97\u53E3\u7684\u5730\u5740\u680F\n\tPostMessage,1075,2029,0,,ahk_class TTOTAL_CMD ;\u83B7\u53D6\u8DEF\u5F84\n\tsleep 80\n\tDstDir= % Clipboard\n\tClipboard := ClipSaved   ; \u6062\u590D\u526A\u8D34\u677F\u4E3A\u539F\u6765\u7684\u5185\u5BB9. \u6CE8\u610F\u8FD9\u91CC\u4F7F\u7528 Clipboard (\u4E0D\u662F ClipboardAll).\n\tClipSaved =   ; \u5728\u539F\u6765\u7684\u526A\u8D34\u677F\u542B\u5927\u91CF\u5185\u5BB9\u65F6\u91CA\u653E\u5185\u5B58.\n\tif DstDir=\\\\\u6211\u7684\u6587\u6863\n\t\tDstDir=%A_MyDocuments%\n\tif DstDir=\\\\\u684C\u9762\n\t\tDstDir=%A_Desktop%\n\tif DstDir=\\\\\u56DE\u6536\u7AD9\n\t{\n\t\tMsgBox \u65E0\u6CD5\u4ECE\u56DE\u6536\u7AD9\u4E2D\u65B0\u5EFA\u6587\u4EF6\n\t\tExit\n\t}\n}\n\nif DstDir=\n{\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tExit\n}\nif InStr(FileExist(DstDir), \"D\")\n{\n\tFile=%DstDir%\\%NewFileName%.%ExtName%\n\tIfExist, %File%\n\t{\n\t\tLoop\n\t\t{\n\t\t\tFile=%DstDir%\\%NewFileName%_(%A_Index%).%ExtName%\n\t\t\tIf !FileExist( File )\n\t\t\t{\n\t\t\t\tbreak\n\t\t\t}\n\t\t}\n\t}\n\tFileCopy, %ShellNew%\\%TemplateFileName%.%ExtName%, %File%, 0\n}\nelse\n\tmsgbox \u65E0\u6CD5\u4ECE\u5F53\u524D\u7A97\u53E3\u65B0\u5EFA\u6587\u4EF6\n\tPostMessage,1075,540,0,,ahk_class TTOTAL_CMD ;\u5237\u65B0TC\u6765\u6E90\u7A97\u53E3\nReturn\n",
+      "Command": "",
+      "Name": "&Excel 97 - 2003 \u5DE5\u4F5C\u8868 (&E)",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "F68EC720-D63C-41A9-84A7-B2E493706370": {
+      "Code": "",
+      "Command": "{func:cando_\u667A\u80FD\u89E3\u538B}",
+      "Name": "\u667A\u80FD\u89E3\u538B>>(&S)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    }
+  },
+  "menuz": [
+    {
+      "Filter": {},
+      "ID": "A881693C-C1B3-4144-BBEC-C805D8767150",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": 0,
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "14",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "9D93C8C6-1C9C-40AC-B2E2-D3C03F3D9B73"
+    },
+    {
+      "Filter": {},
+      "ID": "0C3022C5-99FB-4180-BD4A-BA457FAA8352",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "40",
+        "Type": 1
+      },
+      "SubItem": [
+        {
+          "Filter": {},
+          "ID": "6C8C9281-2D67-4AC5-9CD1-C2A5E81BAEC5",
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+            "IconNumber": "40",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "831411CC-6EF6-4D5F-81B5-53AA9EB26B54"
+        },
+        {
+          "Filter": {},
+          "ID": "E6EB4035-39BD-43A6-A8A4-DEF65E894864",
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "\\QuickZ\\Apps\\PortableApps\\PortableApps.com\\PortableAppsPlatform.exe",
+            "IconNumber": "1",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "9FD07F32-0328-4E12-82D5-7DEBCB39B9BD"
+        },
+        {
+          "Filter": {},
+          "ID": "C36B5FD4-5BD9-466F-AA6E-459435EE43B1",
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+            "IconNumber": "213",
+            "Type": 1
+          },
+          "SubItem": [
+            {
+              "Filter": {},
+              "ID": "757EB5BD-0955-4F22-A4A8-78059C850EBA",
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "%RegexTester%",
+                "IconNumber": "1",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "EEBDE0B7-B560-48D1-B552-17FC2A990FF2"
+            }
+          ],
+          "uuid": "9B1E4D69-DCE3-4DD9-BD0D-EC1574001AAD"
+        },
+        {
+          "Filter": {},
+          "ID": "850220C4-9430-4428-BD6B-2BFC60072A45",
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%A_AhkPath%",
+            "IconNumber": "2",
+            "Type": 1
+          },
+          "SubItem": [
+            {
+              "Filter": {},
+              "ID": "B9C6ECE0-3616-47A6-A3F6-08B79E725DCF",
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "%A_WinDir%\\System32\\imageres.dll",
+                "IconNumber": "74",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "D8D9E343-81FC-461F-ACEC-3B88917B56D2"
+            },
+            {
+              "Filter": {},
+              "ID": "21A20780-B4D9-4FDD-82F8-DF30B91108E9",
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "",
+                "IconNumber": "",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "5D61487F-B00F-4C5F-A0DD-A839063C9053"
+            },
+            {
+              "Filter": {},
+              "ID": "5675871B-AA98-47B3-B472-F24565A5EC6C",
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "",
+                "IconNumber": "",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "CFD902C9-C82E-475A-A490-C326C2B6AF39"
+            },
+            {
+              "Filter": {},
+              "ID": "AB7E1D01-DD17-4B24-8427-FA7FFEB9CD80",
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "",
+                "IconNumber": "",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "53C129FC-D751-40C3-A5DB-617597DFDB17"
+            }
+          ],
+          "uuid": "CC62AFFA-4A16-4C8D-994F-EFF887C6B019"
+        }
+      ],
+      "uuid": "904EF07D-C33E-4556-B034-8B82614D85E4"
+    },
+    {
+      "Filter": {},
+      "ID": "BD050DAD-CDFA-4528-B0E0-7DE56D905FA4",
+      "Options": {
+        "Bold": "",
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": 0,
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "87",
+        "IconSize": 0,
+        "Type": 1
+      },
+      "SubItem": [
+        {
+          "Filter": {},
+          "ID": "650AAAFA-D4B6-4DE9-A183-C4E5452F7351",
+          "Options": {
+            "Bold": "",
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+            "IconNumber": "288",
+            "IconSize": 0,
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "5BF66901-9476-4D77-A28F-CB1F48AE7E6A"
+        }
+      ],
+      "uuid": "AE8A1020-54BE-4B65-A26D-6598CF33292A"
+    },
+    {
+      "Filter": {},
+      "ID": "F21783EB-0FAD-48AD-A89D-79B547F51005",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": 0,
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "222",
+        "Type": 1
+      },
+      "SubItem": [
+        {
+          "Filter": {},
+          "ID": "D192C120-FEB2-4237-82AB-8A6673E75727",
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+            "IconNumber": "134",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "0FC0EBD7-D938-4D2C-98A3-9FDEDEFAA8C9"
+        },
+        {
+          "Filter": {},
+          "ID": "74A9668E-8DC4-4896-868E-C6D7796F6D28",
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+            "IconNumber": "261",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "C0ED14DE-E2CE-4A9B-B58D-748E6B948044"
+        },
+        {
+          "Filter": {},
+          "ID": "E9033F1E-5934-4C5D-8D8D-302AB11A4657",
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%Icons%\\default.icl",
+            "IconNumber": "42",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "929B29F6-FF4A-4457-A1AB-DAFB567CCE2F"
+        },
+        {
+          "Filter": {},
+          "ID": "EAF3F70F-3904-43B3-8FA1-A5B8558BBFE7",
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%A_WinDir%\\System32\\imageres.dll",
+            "IconNumber": "43",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "A00FA273-20C2-41F8-AF71-B37FE693AE85"
+        }
+      ],
+      "uuid": "2BD23F3A-8C65-4C08-A26A-C9543A532F0F"
+    },
+    {
+      "Filter": {},
+      "ID": "D46ECA2B-35C3-4134-A771-9318A610F4E6",
+      "Options": {
+        "Bold": "",
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": 0,
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "73",
+        "IconSize": 0,
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "E8D1629D-ABEE-4593-A78F-D354F8402FDD"
+    },
+    {
+      "Filter": {},
+      "ID": "5202DA19-E7C1-493B-857F-453B1F156F6D",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": 0,
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "236",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "1762132B-CBCB-4CFF-B3A9-181E115A4B40"
+    },
+    {
+      "Filter": [
+        "1B52B4AD-79EF-49FF-948C-B63537B81938"
+      ],
+      "ID": "C8253F8C-134A-47D3-9446-A68241B3F079",
+      "Options": {
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0
+      }
+    },
+    {
+      "Filter": [
+        "1B52B4AD-79EF-49FF-948C-B63537B81938"
+      ],
+      "ID": "39FBD571-A097-4241-A764-29E436D56162",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "35",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "3864F763-F7F9-46CC-ACFD-98EAFFBF021E"
+    },
+    {
+      "Filter": [
+        "7EB47A15-3872-44DC-8CB1-5EFB688B1386",
+        "1B52B4AD-79EF-49FF-948C-B63537B81938"
+      ],
+      "ID": "4F72FF2F-4316-4864-934D-6D8366DB4EBD",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "267",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "3164513F-22FC-428F-8DFC-5625E97A432E"
+    },
+    {
+      "Filter": [
+        "7EB47A15-3872-44DC-8CB1-5EFB688B1386",
+        "1B52B4AD-79EF-49FF-948C-B63537B81938"
+      ],
+      "ID": "099E7580-9006-4527-BC0D-EAA6BE826483",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%TC%",
+        "IconNumber": "18",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "2B58E7F7-CBAE-4801-9464-F73CA00776BB"
+    },
+    {
+      "Filter": [
+        "1B52B4AD-79EF-49FF-948C-B63537B81938"
+      ],
+      "ID": "5EC3810E-6BEB-45F0-B9AA-F73448928ADF",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\imageres.dll",
+        "IconNumber": "175",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "C52F6052-0D11-4CE9-B33E-ACBEEC27A1A8"
+    },
+    {
+      "Filter": [
+        "1B52B4AD-79EF-49FF-948C-B63537B81938"
+      ],
+      "ID": "806F984E-9B86-4249-8AE2-EAAC7E0DADCA",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%TC%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "59A909AD-5B75-4942-A99C-AF6320B023F1"
+    },
+    {
+      "Filter": [
+        "1B52B4AD-79EF-49FF-948C-B63537B81938",
+        "7EB47A15-3872-44DC-8CB1-5EFB688B1386",
+        "5B283B41-17AA-4FDC-AACC-EF975BA778E7"
+      ],
+      "ID": "7CC4A196-215B-403F-AA2D-F3F230FDA342",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%Notepad2%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "CA590820-AB53-4F2E-A82D-DCB2A4DD8857"
+    },
+    {
+      "Filter": [
+        "7EB47A15-3872-44DC-8CB1-5EFB688B1386",
+        "1B52B4AD-79EF-49FF-948C-B63537B81938",
+        "F61BE6AA-22D3-44FF-9E0A-AFDEECABC420"
+      ],
+      "ID": "E943A783-BE86-41B4-86B6-4C84BFBB384B",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%Scite%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "39EF0D81-E2E5-42E8-9F44-61508C8F877B"
+    },
+    {
+      "Filter": [
+        "CF4AF533-E960-4667-B097-CCD3E1BB53B3",
+        "1B52B4AD-79EF-49FF-948C-B63537B81938",
+        "7EB47A15-3872-44DC-8CB1-5EFB688B1386"
+      ],
+      "ID": "07D526DC-A6A4-45B8-9B0A-67C3E9672FC3",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%Notepad++%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "E6BB23EF-8B23-482F-B6B2-226869855DBD"
+    },
+    {
+      "Filter": [
+        "1B52B4AD-79EF-49FF-948C-B63537B81938",
+        "A5EE6D04-63C3-427E-A763-244D44ED29B0"
+      ],
+      "ID": "C23EE7CE-22AE-46A3-A9CB-FCB318123C9F",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%WinDir%\\System32\\cmd.exe",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "0175CD48-D8E6-47EC-95A0-26770F3D97FE"
+    },
+    {
+      "Filter": [
+        "1B52B4AD-79EF-49FF-948C-B63537B81938",
+        "3D924233-DF6F-434B-B20C-CD7718482CB2"
+      ],
+      "ID": "B6C210D1-A0BC-4642-9BEC-271EBE5B4186",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%CustomIcons%\\CustomIcon_Window_Explorer2TC.ico",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "194490FE-77D0-44D8-9F12-E3AA269AE863"
+    },
+    {
+      "Filter": [
+        "A5EE6D04-63C3-427E-A763-244D44ED29B0",
+        "1B52B4AD-79EF-49FF-948C-B63537B81938"
+      ],
+      "ID": "C27C33DE-5F1A-4EAA-9325-465311A7CA77",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "101",
+        "Type": 1
+      },
+      "SubItem": [
+        {
+          "Filter": {},
+          "ID": "35ACD4F8-5D55-4043-B3A5-92F3B4CEC342",
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+            "IconNumber": "71",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "66F7AB27-18BB-4AAB-A114-7FE75F634E0B"
+        },
+        {
+          "Filter": {},
+          "ID": "B2A969A1-3F60-493C-ADD0-10587909B73E",
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": "0",
+            "Hide": 0,
+            "IconFile": "%AutoHotkey%",
+            "IconNumber": "2",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "B0DE5D78-BB17-4A59-B9E8-57595B8E6D92"
+        },
+        {
+          "Filter": {},
+          "ID": "ABC11550-F943-4199-8934-945784EA66EA",
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%CustomIcons%\\CustomIcon_File_Office.ico",
+            "IconNumber": "1",
+            "Type": 1
+          },
+          "SubItem": [
+            {
+              "Filter": {},
+              "ID": "A2443689-AC2E-4098-9487-B25A754D8740",
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "%Word07%",
+                "IconNumber": "2",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "D1212C27-5B50-4B26-B5DF-E07290ED60E5"
+            },
+            {
+              "Filter": {},
+              "ID": "B8E4AF61-519D-4971-81DD-EFF81703CCC0",
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "%Word07%",
+                "IconNumber": "4",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "6AA2722C-8C2F-4263-BEE3-D781434E7FCF"
+            },
+            {
+              "Filter": {},
+              "ID": "56534E49-548A-40C0-A6DD-7CEC9CBCAEAE",
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "%Excel07%",
+                "IconNumber": "3",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "F5EE2F80-5ED3-4884-8CB2-C9319CF091BE"
+            },
+            {
+              "Filter": {},
+              "ID": "2B136FAC-5A19-4544-B269-9B97DCCEFA73",
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "%Excel07%",
+                "IconNumber": "7",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "B3C2F809-3CC9-4D21-8620-7829301E2462"
+            },
+            {
+              "Filter": {},
+              "ID": "F4E9948F-D8D7-47C1-A506-1ABCE2CBFE1E",
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "%PPT07%",
+                "IconNumber": "2",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "52FBA000-1BB2-4860-98FB-3E6D34F598C2"
+            },
+            {
+              "Filter": {},
+              "ID": "0EE0B244-8778-4FBE-A15D-54A54C2A2201",
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "%PPT07%",
+                "IconNumber": "7",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "D2E5E9CC-A552-40A5-AD7D-29EE74CB80C9"
+            }
+          ],
+          "uuid": "0CABD00E-F968-49E6-8F89-0B317A11E8C0"
+        }
+      ],
+      "uuid": "E3DA10FE-60E9-41F0-B708-B1A3642EEFA3"
+    },
+    {
+      "Filter": {},
+      "ID": "E1A53DEF-DDE9-4571-94EE-CD5083AC9387",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\imageres.dll",
+        "IconNumber": "217",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "F25AC06D-0672-4AFB-BF53-66C2224FF013"
+    },
+    {
+      "Filter": [
+        "2A06DC82-51B2-434B-8644-91BDEF994EF8"
+      ],
+      "ID": "ACDE9108-7601-406E-8306-5634E309EE0F",
+      "Options": {
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0
+      }
+    },
+    {
+      "Filter": [
+        "2A06DC82-51B2-434B-8644-91BDEF994EF8"
+      ],
+      "ID": "0CD3BA1C-C474-4C0F-A3E5-7F4B6C81DDCE",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "134",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "58E4FBA2-4A9E-4818-AA0A-40C3BD6281E9"
+    },
+    {
+      "Filter": [
+        "2A06DC82-51B2-434B-8644-91BDEF994EF8"
+      ],
+      "ID": "EB58C3C3-24E2-48C2-AB1A-2AC1408A1A27",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "155",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "87BDB765-3AEE-4FAC-A968-0271209077E5"
+    },
+    {
+      "Filter": [
+        "2A06DC82-51B2-434B-8644-91BDEF994EF8"
+      ],
+      "ID": "045D8360-63DC-4372-858E-0BCBFEC47016",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%CustomIcons%\\CustomIcon_Text_youdao.ico",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "BEE6AB5F-ED75-4588-8641-15EC770C72FB"
+    },
+    {
+      "Filter": [
+        "2A06DC82-51B2-434B-8644-91BDEF994EF8"
+      ],
+      "ID": "96D128AC-1039-44E7-8571-0485398ADFA0",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%CustomIcons%\\CustomIcon_Text_QRCode.ico",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "83CED6C3-B7E3-4BB4-BA1B-65341FDB715F"
+    },
+    {
+      "Filter": [
+        "1B52B4AD-79EF-49FF-948C-B63537B81938",
+        "2A06DC82-51B2-434B-8644-91BDEF994EF8"
+      ],
+      "ID": "F5D7BC20-BA80-43B0-890A-610691D3EC1C",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "1",
+        "Hide": 0,
+        "IconFile": "%Icons%\\default.icl",
+        "IconNumber": "33",
+        "Type": 1
+      },
+      "SubItem": [
+        {
+          "Filter": {},
+          "ID": "18DE354F-8CC3-4042-9C68-EDC1B00DBA94",
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%Icons%\\default.icl",
+            "IconNumber": "12",
+            "Type": 1
+          },
+          "SubItem": [
+            {
+              "Filter": {},
+              "ID": "C366DCB9-4F3A-4169-95A1-A7066E2E854B",
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "",
+                "IconNumber": "",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "564BD061-9A7B-433C-8557-73723512A2CE"
+            }
+          ],
+          "uuid": "E0F95860-67AD-4AEB-9934-8EF68630F91E"
+        }
+      ],
+      "uuid": "80C4571C-B10F-423E-85D0-14BD9A91B675"
+    },
+    {
+      "Filter": [
+        "2A06DC82-51B2-434B-8644-91BDEF994EF8"
+      ],
+      "ID": "ACD39108-9188-4A52-8DAD-31E6ADFC0A3C",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%FileLocator%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "06C0D719-FA1F-4AC6-875A-51F8F59F2BAB"
+    },
+    {
+      "Filter": [
+        "2A06DC82-51B2-434B-8644-91BDEF994EF8"
+      ],
+      "ID": "0106CCA8-55C4-4D6B-B493-C1A2D8484FD8",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "25",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "733E6957-DE6D-4541-9732-A92998C8CE5A"
+    },
+    {
+      "Filter": {},
+      "ID": "74834628-F6EE-497E-A632-3AC6348D5C6A",
+      "Options": {
+        "Bold": "",
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": 0,
+        "Hide": 0,
+        "IconFile": "",
+        "IconNumber": "",
+        "IconSize": 0,
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "848A494D-B681-4AB9-9F0F-B1D5A98044C5"
+    },
+    {
+      "Filter": [
+        "2A06DC82-51B2-434B-8644-91BDEF994EF8"
+      ],
+      "ID": "EF98C4A9-6B9C-43AD-B86D-A0E40380671A",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "",
+        "IconNumber": "",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "6D33BB2C-0A4A-4352-97EB-29FA74A2B699"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "13433B9F-B465-497C-9F98-1CFA691129A3",
+      "Options": {
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0
+      }
+    },
+    {
+      "Filter": [
+        "8D02A24B-0A5A-4DF8-9757-344697633CDB",
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "3C8059AB-328E-4B3A-96BB-71E786C7BDA5",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\imageres.dll",
+        "IconNumber": "3",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "B7E29256-A0C3-4EB0-A3EA-9F5FF180263E"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "8D02A24B-0A5A-4DF8-9757-344697633CDB"
+      ],
+      "ID": "DBC8AA2A-3B43-429E-B805-AAA4E5733798",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%IOBitUnlocker%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "63BB83E4-5785-4FB8-8FBA-AA3F6FEAAC11"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "1BC48211-736A-4010-B1C0-977FE5D6A6A7"
+      ],
+      "ID": "6D1A8538-E069-49F7-863C-EA2B7E511F5F",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%A_AhkPath%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "A64AEA54-E211-45FF-B13E-ED219E53C131"
+    },
+    {
+      "Filter": [
+        "429A0676-47EB-49F3-B9ED-E216A5D21DD0",
+        "8D02A24B-0A5A-4DF8-9757-344697633CDB",
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "101344CB-271D-4737-AE35-2DB73A01A019",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%Spreadsheets%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "D2FBFEF3-2FAA-4AF5-9849-72967C5B77E4"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "8D02A24B-0A5A-4DF8-9757-344697633CDB",
+        "58BEADED-07FE-4380-A96F-84FC874A64AD"
+      ],
+      "ID": "B98F8878-E73F-446A-B35C-717208AC795F",
+      "Options": {
+        "Bold": "",
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%HoneyView%",
+        "IconNumber": "1",
+        "IconSize": 0,
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "04A1E8E9-5A4F-4812-B86B-145450B93AA1"
+    },
+    {
+      "Filter": [
+        "8D02A24B-0A5A-4DF8-9757-344697633CDB",
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "93A0E7E8-AD54-4782-8C3D-096BCA0CCD15",
+        "E501BC9F-062B-4676-A962-B208BF328E73"
+      ],
+      "ID": "8FB89DFC-64CB-4168-9EBF-46354B5FDA2D",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%VirtualDriveMaster%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "2A44406E-3A40-4BEF-AA8B-2461084461E2"
+    },
+    {
+      "Filter": [
+        "C3891FDE-D020-4B1D-B982-94DA74304C0A"
+      ],
+      "ID": "2C3D5C65-09FF-4956-83CB-92C88B79665F",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "55",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "3F3B51EA-C4F0-4CE2-8245-01FC831CF10C"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "45A27A44-3D0D-4EF7-824B-0AB6C9FD91EB",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%FileLocator%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "9341E2C5-77CB-4ADF-A3F6-20D89E8D27A9"
+    },
+    {
+      "Filter": {},
+      "ID": "662673E5-B8B2-4A54-8367-93A4BA9ED6D8",
+      "Options": {
+        "Bold": "",
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": 0,
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "290",
+        "IconSize": 0,
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "265DE991-D393-4D1E-9E26-341CCCE055C8"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "D52D3D31-E3FE-4B09-AA80-821D4C3E4BE6",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\Shell32.dll",
+        "IconNumber": "261",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "C751C970-3F47-458F-BA18-F6C462501342"
+    },
+    {
+      "Filter": [
+        "A2934375-A208-49F9-9A5A-ADB567320ADE",
+        "E501BC9F-062B-4676-A962-B208BF328E73",
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "2B826B31-3584-4E95-9EA5-BBCB36C964D8",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%WinDir%\\System32\\notepad.exe",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "5A74F806-76EC-4039-B6D2-E250DECDD0EF"
+    },
+    {
+      "Filter": [
+        "E501BC9F-062B-4676-A962-B208BF328E73",
+        "A2934375-A208-49F9-9A5A-ADB567320ADE",
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "3A636D9F-DC52-447F-ACFE-6B4C8F53B16E",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%Notepad2%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "74A6D17B-75F0-45A6-9429-7E2056E2C698"
+    },
+    {
+      "Filter": [
+        "E501BC9F-062B-4676-A962-B208BF328E73",
+        "A2934375-A208-49F9-9A5A-ADB567320ADE",
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "093E884D-4D62-45BC-B691-EEC7394B19C3",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%Notepad++%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "EDA4EBC3-7D05-452D-B62A-BAB6AE7A88F8"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "4FDF41A6-2293-4455-BEA7-8F15D3D75A42"
+      ],
+      "ID": "F598B6EF-BA8F-4AED-A21D-7C4465CC875D",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%Scite%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "3C625312-C110-4001-82D0-B97CFFD046AA"
+    },
+    {
+      "Filter": [
+        "98622A8B-0B89-4C03-9625-9F28F9DA75F9",
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "6DFFBF95-B5E8-4C08-A273-1DE920D55A14",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%Word03%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "B02E7A65-602D-4634-83A1-28158CED4CD8"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "5D7E71C0-9992-49BF-8097-F25E84EBDD08"
+      ],
+      "ID": "E004BC8C-7D51-42D9-990D-6A4FAA8E15BA",
+      "Options": {
+        "Bold": "",
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%Excel03%",
+        "IconNumber": "1",
+        "IconSize": 0,
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "AB2AB56A-7481-48FD-A377-5C4E2AD586A2"
+    },
+    {
+      "Filter": [
+        "5D7E71C0-9992-49BF-8097-F25E84EBDD08",
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "07059106-B1A9-4E2B-90A9-A7C3890113A5",
+      "Options": {
+        "Bold": "",
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%Excel07%",
+        "IconNumber": "1",
+        "IconSize": 0,
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "AEC43033-844B-4F29-93B5-691CB93C1B7B"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "8CE05108-CC59-4F9B-9D7C-B170BFEABBD4"
+      ],
+      "ID": "5FC1DA1A-A7CA-46F3-8A2A-9B5A3BDC24DE",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%7Z%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "247D4EB3-FB32-4528-8165-394381123B82"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "2C8A0D15-5CF6-4DCD-9E6F-49EF726E50F9",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "\\QuickZ\\Apps\\PortableApps\\7-ZipPortable\\7-ZipPortable.exe",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "E86D8A59-FE5E-47B3-84BE-1ABD21B83ABB"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "18E61BDF-C86F-4DD4-8F06-A44849AD97D7"
+      ],
+      "ID": "6633040A-B4BB-4084-9A04-ED4AA4FE8E0A",
+      "Options": {
+        "Bold": "",
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%BandiZip%",
+        "IconNumber": "1",
+        "IconSize": 0,
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "341B3420-8762-4F94-A5DA-668B6990C016"
+    },
+    {
+      "Filter": [
+        "18E61BDF-C86F-4DD4-8F06-A44849AD97D7",
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "040E53EB-743D-4CFE-8032-C5022C654CAA",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%BandiZip%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "8AD632DC-F6F6-41EC-8FDA-A47F164FB70B"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "A712C66F-E70E-4EF9-8C1F-721677F4ADDC"
+      ],
+      "ID": "B50DBEB9-4075-4CAC-90B8-34885FA1069F",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%PotPlayer%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "AF76158F-68FD-4D6D-9684-E1B9E21633E7"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "A712C66F-E70E-4EF9-8C1F-721677F4ADDC"
+      ],
+      "ID": "16FC9923-CD20-4EF0-A436-6A974B22FFE5",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%PotPlayer%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "7F2BA2D6-4F26-45DB-8559-9EED70165625"
+    },
+    {
+      "Filter": [
+        "E501BC9F-062B-4676-A962-B208BF328E73",
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "C3891FDE-D020-4B1D-B982-94DA74304C0A"
+      ],
+      "ID": "1C677FE9-A70C-4AD6-9FF1-FC28A67B5E93",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%BCompare%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "DBACD96C-64FD-4FB7-9993-9579950BFB57"
+    },
+    {
+      "Filter": [
+        "A7018E1D-08CB-48C0-B932-871C27D47593",
+        "C3891FDE-D020-4B1D-B982-94DA74304C0A",
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "F7EE2286-5EA0-4711-9DBB-2D050736C1BF",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%BCompare%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "278E2DDE-8CF6-4964-9657-F6B41DBEB991"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "14D2CB9B-3CAF-437F-85DC-EB88DDC70DD8"
+      ],
+      "ID": "FF9BE44A-D8B3-447E-9C18-9D6238B74458",
+      "Options": {
+        "Bold": "",
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%IcoFX%",
+        "IconNumber": "1",
+        "IconSize": 0,
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "8D5C42C4-E2DC-4636-8A7E-8B8643348023"
+    },
+    {
+      "Filter": [
+        "8D02A24B-0A5A-4DF8-9757-344697633CDB",
+        "85690E85-A16C-4BBD-91EC-AFA359FBC74A",
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "6C34C8FD-0D0F-4940-8C5D-A4FEA1351047",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%m6librarian%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "D7F18D11-6035-4821-9DB5-629DD76B4678"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "1964B9F5-4765-4032-A5B3-111E7C3B0501",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%360FileSmasher%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "E7ABDEB0-05A5-4A88-96EF-3605FC4DBBC4"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499"
+      ],
+      "ID": "B9AFC039-CBF6-4E90-8694-94A36F3D1189",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\NirSoft\\HashMyFiles\\HashMyFiles_32.exe",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "23EDE350-BDB9-4490-9E11-D1F81E173DF7"
+    },
+    {
+      "Filter": {},
+      "ID": "EA57E6E0-D6E2-4DC3-95A9-DF40FFF97E75",
+      "Options": {
+        "Bold": "",
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": 0,
+        "Hide": 0,
+        "IconFile": "%A_WinDir%\\System32\\cmd.exe",
+        "IconNumber": "1",
+        "IconSize": 0,
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "E81E2ED3-78C1-40E1-B9E1-5DEF106D7DAE"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "C3891FDE-D020-4B1D-B982-94DA74304C0A"
+      ],
+      "ID": "071B0911-8543-4ED4-9E50-F8E3F8DFF97A",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%AntRenamer%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "7C33E51E-41E8-46EC-810E-5258A6453461"
+    },
+    {
+      "Filter": [
+        "0081D11E-0EED-47A2-BA96-D13410140499",
+        "C3891FDE-D020-4B1D-B982-94DA74304C0A"
+      ],
+      "ID": "F0F570DE-A2FA-41DA-BCF1-E7A73D4871DE",
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%CHB%",
+        "IconNumber": "1",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "B73F96C7-D554-4F14-8CD2-B371226C6A80"
+    }
+  ],
+  "setting": {
+    "gesture": {},
+    "global": {
+      "CategoryList": "\u901A\u7528\nTotalCMD"
+    },
+    "menuz": {
+      "Keyword": {}
+    },
+    "userenv": [
+      {
+        "Name": ";",
+        "Value": "=====\u5E38\u7528\u76EE\u5F55======"
+      },
+      {
+        "Name": "ShellNew",
+        "Value": "\\QuickZ\\User\\Custom\\ShellNew"
+      },
+      {
+        "Name": "CustomIcons",
+        "Value": "\\QuickZ\\User\\Custom\\CustomIcons"
+      },
+      {
+        "Name": ";",
+        "Value": "=====\u5B89\u5168\u76F8\u5173======"
+      },
+      {
+        "Name": "360FileSmasher",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\360\\360FileSmasher.exe"
+      },
+      {
+        "Name": "SDelete",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\SDelete\\sdelete.exe"
+      },
+      {
+        "Name": "TrueCrypt",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\TrueCryptPortable\\TrueCryptPortable.exe"
+      },
+      {
+        "Name": ";",
+        "Value": "=====\u529E\u516C\u8F6F\u4EF6======"
+      },
+      {
+        "Name": "Excel03",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\MicrosoftOffice2003Portable\\MicrosoftOfficeExcelPortable.exe"
+      },
+      {
+        "Name": "Excel07",
+        "Value": "\\QuickZ\\Apps\\ThinApps\\Microsoft Office 2007 ThinApp\\Microsoft Office Excel 2007.exe"
+      },
+      {
+        "Name": "PPT03",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\MicrosoftOffice2003Portable\\MicrosoftOfficePowerPointPortable.exe"
+      },
+      {
+        "Name": "PPT07",
+        "Value": "\\QuickZ\\Apps\\ThinApps\\Microsoft Office 2007 ThinApp\\Microsoft Office PowerPoint 2007.exe"
+      },
+      {
+        "Name": "Presentation",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\WPSOffice2013ProfessionalPortable\\PresentationPortable.exe"
+      },
+      {
+        "Name": "Spreadsheets",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\WPSOffice2013ProfessionalPortable\\SpreadsheetsPortable.exe"
+      },
+      {
+        "Name": "Word03",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\MicrosoftOffice2003Portable\\MicrosoftOfficeWordPortable.exe"
+      },
+      {
+        "Name": "Word07",
+        "Value": "\\QuickZ\\Apps\\ThinApps\\Microsoft Office 2007 ThinApp\\Microsoft Office Word 2007.exe"
+      },
+      {
+        "Name": "Writer",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\WPSOffice2013ProfessionalPortable\\WriterPortable.exe"
+      },
+      {
+        "Name": ";",
+        "Value": "=====\u7F16\u7A0B\u5F00\u53D1======"
+      },
+      {
+        "Name": "MacroCreator",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\MacroCreator-Portable\\x86\\MacroCreator\\MacroCreator.exe"
+      },
+      {
+        "Name": "Notepad++",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\Notepad++Portable\\Notepad++Portable.exe"
+      },
+      {
+        "Name": "Notepad2",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\Notepad2-modPortable\\Notepad2-modPortable.exe"
+      },
+      {
+        "Name": "Scite",
+        "Value": "\\QuickZ\\Apps\\AutoHotkey\\AutoHotKey\\SciTE\\SciTE.exe"
+      },
+      {
+        "Name": "Studio",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\StudioPortable\\StudioPortable.exe"
+      },
+      {
+        "Name": "UE",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\UltraEdit\\UltraEdit.exe"
+      },
+      {
+        "Name": "Vim",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\gVimPortable\\gVimPortable.exe"
+      },
+      {
+        "Name": "W32DSM",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\W32DSM\\W32dsm89.exe"
+      },
+      {
+        "Name": "\u534E\u4E3DMsgBox\u751F\u6210\u5668",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\\u534E\u4E3DMsgBox\u751F\u6210\u5668\u6709slide\\\u534E\u4E3DMsgBox\u751F\u6210\u5668\u6709slide.exe"
+      },
+      {
+        "Name": ";",
+        "Value": "=====\u6559\u80B2\u5F00\u53D1======"
+      },
+      {
+        "Name": "keyhh",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\KeyHH\\keyhh.exe"
+      },
+      {
+        "Name": "RegexTester",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\RegexTester\\RegexTester.exe"
+      },
+      {
+        "Name": "Sumatra",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\SumatraPDFPortable\\SumatraPDFPortable.exe"
+      },
+      {
+        "Name": "Yodao",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\YodaoDictPortable\\YodaoDictPortable.exe"
+      },
+      {
+        "Name": ";",
+        "Value": "=====\u5A92\u4F53\u5DE5\u5177======"
+      },
+      {
+        "Name": "BoilsoftVideoSplitter",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\BoilsoftVideoSplitterPortable\\BoilsoftVideoSplitterPortable.exe"
+      },
+      {
+        "Name": "DVDFab",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\DVDFabPortable\\DVDFab9Portable.exe"
+      },
+      {
+        "Name": "GifCam",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\GifCam\\GifCam.exe"
+      },
+      {
+        "Name": "Kugou",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\KuGouPortable\\KugouPortable.exe"
+      },
+      {
+        "Name": "MediaInfo",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\MediaInfoPortable\\MediaInfoPortable.exe"
+      },
+      {
+        "Name": "MKVToolNix",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\MkvToolNix\\mmg.exe"
+      },
+      {
+        "Name": "PotPlayer",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\PotPlayerPortable\\PotPlayerPortable.exe"
+      },
+      {
+        "Name": "SPlayer",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\SPlayerPortableLegacy\\SPlayerPortable.exe"
+      },
+      {
+        "Name": "SrtEdit",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\SrtEditPortable\\SrtEditPortable.exe"
+      },
+      {
+        "Name": "TTPlayer",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\TTPlayerPortable\\TTPlayerPortable.exe"
+      },
+      {
+        "Name": ";",
+        "Value": "======\u8F93\u5165\u6CD5======"
+      },
+      {
+        "Name": "CoolIME",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\CoolIME\\CoolIME.exe"
+      },
+      {
+        "Name": "Freeime",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\FreeimePortable\\FreeimePortable.exe"
+      },
+      {
+        "Name": "IMETool",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\IMETool\\IMETool.exe"
+      },
+      {
+        "Name": "SogouPinyin",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\SogouPinyinPortable\\SogouPinyinPortable.exe"
+      },
+      {
+        "Name": "yong",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\Yong\\yong.exe"
+      },
+      {
+        "Name": ";",
+        "Value": "=====\u56FE\u5F62\u56FE\u50CF======"
+      },
+      {
+        "Name": "EPSnap",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\EPSnap\\EPSnap.exe"
+      },
+      {
+        "Name": "FineReader",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\ABBYYFineReaderCorporate\\FineReader.exe"
+      },
+      {
+        "Name": "HoneyView",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\HoneyView\\Honeyview32.exe"
+      },
+      {
+        "Name": "IcoFX",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\IcoFXPortable\\IcoFXPortable.exe"
+      },
+      {
+        "Name": "IconsExt",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\NirSoft\\IconsExtract\\IconsExt.exe"
+      },
+      {
+        "Name": "ImgMetaManager",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\ImgMetaManager 1.0\\ImgMetaManager.exe"
+      },
+      {
+        "Name": "ImgMetaViewer",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\ImgMetaViewer 1.0b6\\ImgMetaViewer.exe"
+      },
+      {
+        "Name": "IrfanView",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\IrfanViewPortable\\IrfanViewPortable.exe"
+      },
+      {
+        "Name": "m6librarian",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\Microangelo Toolset 6\\m6librarian.exe"
+      },
+      {
+        "Name": "PortraitProfessionalStudio",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\PortraitProStudio\\PortraitProfessionalStudioPortable.exe"
+      },
+      {
+        "Name": "PS",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\PhotoshopCCPortable\\PhotoshopCCPortable.exe"
+      },
+      {
+        "Name": ";",
+        "Value": "=====\u7F51\u7EDC\u5DE5\u5177======"
+      },
+      {
+        "Name": "360WangPan",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\360WangPanPortable\\360WangPanPortable.exe"
+      },
+      {
+        "Name": "ADM",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\ADM\\ADM.exe"
+      },
+      {
+        "Name": "BaiduYunGuanjia",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\BaiduYunGuanjiaPortable\\BaiduYunGuanjiaPortable.exe"
+      },
+      {
+        "Name": "firefox",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\Firefox_tete009\\Firefox\\firefox.exe"
+      },
+      {
+        "Name": "Foxmail",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\FoxmailPortable\\FoxmailPortable.exe"
+      },
+      {
+        "Name": "freegate",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\FreeGate\\freegate.exe"
+      },
+      {
+        "Name": "Maxthon",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\MaxthonPortable\\MaxthonPortable.exe"
+      },
+      {
+        "Name": "MiPony",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\MiPonyPortable\\MiPonyPortable.exe"
+      },
+      {
+        "Name": "PPS",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\PPStreamPortable\\PPStreamPortable.exe"
+      },
+      {
+        "Name": "PPTV",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\PPTVPortable\\PPTVPortable.exe"
+      },
+      {
+        "Name": "QQDownload",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\QQDownloadPortable\\QQDownloadPortable.exe"
+      },
+      {
+        "Name": "QQ\u7FA4\u6587\u4EF6\u4E0B\u8F7D\u5668",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\QQGroupFileDownloader\\QQ\u7FA4\u6587\u4EF6\u4E0B\u8F7D\u5668.v1.82.exe"
+      },
+      {
+        "Name": "ShooterDownloader",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\ShooterDownloader\\ShooterDownloader.exe"
+      },
+      {
+        "Name": "thunder",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\ThunderPortable\\thunderportable.exe"
+      },
+      {
+        "Name": "Waterfox",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\WaterfoxPortable\\WaterfoxPortable.exe"
+      },
+      {
+        "Name": "\u51B0\u70B9\u6587\u5E93",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\iDocDown\\\u51B0\u70B9\u6587\u5E93.exe"
+      },
+      {
+        "Name": ";",
+        "Value": "=====\u6587\u4EF6\u7BA1\u7406======"
+      },
+      {
+        "Name": "7Z",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\7-ZipPortable\\7-ZipPortable.exe"
+      },
+      {
+        "Name": "AllwaySync",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\Allway Sync 'n' Go\\AllwaySync'n'Go.exe"
+      },
+      {
+        "Name": "AntRenamer",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\AntRenamerPortable\\AntRenamerPortable.exe"
+      },
+      {
+        "Name": "BandiZip",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\BandiZipPortable\\BandiZipPortable.exe"
+      },
+      {
+        "Name": "BCompare",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\Beyond Compare\\BCompare.exe"
+      },
+      {
+        "Name": "CHB",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\CHB_Renamer\\Renamer.exe"
+      },
+      {
+        "Name": "DuplicateFileFinder",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\AuslogicsDuplicateFileFinderPortable\\AuslogicsDuplicateFileFinderPortable.exe"
+      },
+      {
+        "Name": "ExtremeCopy",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\ExtremeCopyPortable\\ExtremeCopyPortable.exe"
+      },
+      {
+        "Name": "FastCopy",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\FastCopyPortable\\FastCopyPortable.exe"
+      },
+      {
+        "Name": "PowerISO",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\PowerISOPortable\\PowerISOPortable.exe"
+      },
+      {
+        "Name": "SmartUnZip",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\SmartUnZip\\SmartUnZip.exe"
+      },
+      {
+        "Name": "TC",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\TotalCMD\\TOTALCMD.EXE"
+      },
+      {
+        "Name": "UltraISO",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\UltraISOPortable\\UltraISOPortable.exe"
+      },
+      {
+        "Name": "Undelete",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\UndeletePlusPortable\\UndeletePlusPortable.exe"
+      },
+      {
+        "Name": "VirtualDriveMaster",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\PCMaster\\virtualdrivemaster.exe"
+      },
+      {
+        "Name": "WinMount",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\WinMountPortable\\WinMountPortable.exe"
+      },
+      {
+        "Name": "WinRAR",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\WinRARPortable\\WinRARPortable.exe"
+      },
+      {
+        "Name": ";",
+        "Value": "=====\u7CFB\u7EDF\u5DE5\u5177======"
+      },
+      {
+        "Name": "360SoftManager",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\360SoftManagerPortable\\360SoftManagerPortable.exe"
+      },
+      {
+        "Name": "AutoHotkey",
+        "Value": "\\QuickZ\\Apps\\AutoHotkey\\AutoHotKey\\AutoHotkeyU32.exe"
+      },
+      {
+        "Name": "Clavier",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\ClavierPlusPortable\\ClavierPlusPortable.exe"
+      },
+      {
+        "Name": "ClipboardFusion",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\ClipboardFusionPortable\\ClipboardFusionPortable.exe"
+      },
+      {
+        "Name": "CloseAll",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\CloseAllPortable\\CloseAllPortable.exe"
+      },
+      {
+        "Name": "Clover",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\CloverPortable\\CloverPortable.exe"
+      },
+      {
+        "Name": "CopyContents",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\Copy Contents\\CopyContents.exe"
+      },
+      {
+        "Name": "Ditto",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\DittoPortable\\DittoPortable.exe"
+      },
+      {
+        "Name": "FSCapture",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\FastStoneCapture\\FSCapture.exe"
+      },
+      {
+        "Name": "hiddenstart",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\HiddenStartPortable\\hiddenstartportable.exe"
+      },
+      {
+        "Name": "IObitUninstaller",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\IObitUninstallerPortable\\IObitUninstallerPortable.exe"
+      },
+      {
+        "Name": "IObitUnlocker",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\IObitUnlockerPortable\\IObitUnlockerPortable.exe"
+      },
+      {
+        "Name": "Procexp",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\Procexp\\Procexp.exe"
+      },
+      {
+        "Name": "RegWorkshop",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\RegWorkshopPortable\\RegWorkshopPortable.exe"
+      },
+      {
+        "Name": "Sandboxie",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\SandboxiePortable\\SandboxiePortable.exe"
+      },
+      {
+        "Name": "TU",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\TotalUninstallPortable\\TotalUninstallPortable.exe"
+      },
+      {
+        "Name": "UniExtract",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\UniExtractPortable\\UniExtractPortable.exe"
+      },
+      {
+        "Name": "unlocker",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\UnlockerPortable\\unlockerportable.exe"
+      },
+      {
+        "Name": "VirtualBox",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\VirtualBoxPortable\\VirtualBoxPortable.exe"
+      },
+      {
+        "Name": ";",
+        "Value": "=====\u786C\u4EF6\u76F8\u5173======"
+      },
+      {
+        "Name": "AIDA64",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\AIDA64Portable\\AIDA64ExtremePortable.exe"
+      },
+      {
+        "Name": "DriverGenius",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\DriverGeniusPortable\\DriverGeniusPortable.exe"
+      },
+      {
+        "Name": "HDTune",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\HDTune\\HDTune.exe"
+      },
+      {
+        "Name": "\u82AF\u7247\u65E0\u5FE7",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\ChipEasy\\\u82AF\u7247\u65E0\u5FE7.exe"
+      },
+      {
+        "Name": ";",
+        "Value": "=====\u684C\u9762\u5DE5\u5177======"
+      },
+      {
+        "Name": "7TaskbarTweaker",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\7+ Taskbar Tweaker\\7+ Taskbar Tweaker.exe"
+      },
+      {
+        "Name": "dexpot",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\Dexpot\\dexpot.exe"
+      },
+      {
+        "Name": "Everything",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\EverythingPortable\\EverythingPortable.exe"
+      },
+      {
+        "Name": "FileLocator",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\FileLocatorPro\\FileLocatorPro.exe"
+      },
+      {
+        "Name": "JetSearch",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\Wise JetSearch\\WiseJetSearch.exe"
+      },
+      {
+        "Name": "Listary",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\Listary\\Listary.exe"
+      },
+      {
+        "Name": "MacType",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\MacTypePortable\\MacTypePortable.exe"
+      },
+      {
+        "Name": "strokeit",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\StrokeItPortable\\strokeitportable.exe"
+      },
+      {
+        "Name": "Vswitcher",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\VistaSwitcherPortable\\VistaSwitcherPortable.exe"
+      },
+      {
+        "Name": ";",
+        "Value": "======\u6E38\u620F========"
+      },
+      {
+        "Name": "SteinsGate",
+        "Value": "\\QuickZ\\Apps\\PortableApps\\SteinsGatePortable\\SteinsGatePortable.exe"
+      },
+      {
+        "Name": "VirtuaNES",
+        "Value": "\\QuickZ\\Apps\\\u5176\u5B83\u4FBF\u643A\u8F6F\u4EF6\\VirtualNES\\VirtuaNES.exe"
+      }
+    ],
+    "vimd": {}
+  },
+  "vimd": [
+    {
+      "Code": "\/*\n    \u529F\u80FD\uFF1AQuickZ\u5728\u52A0\u8F7D\u7684\u65F6\u5019\u6267\u884C\u6B64\u51FD\u6570\n*\/\nGlobal_Init()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u6BCF\u6B21\u5207\u6362\u6A21\u5F0F\u7684\u65F6\u5019\u6267\u884C\u6B64\u51FD\u6570\n*\/\nGlobal_ChangeMode()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u6309\u4E0B\u70ED\u952E\u540E\uFF0C\u70ED\u952E\u5BF9\u5E94\u7684\u529F\u80FD\u6267\u884C\u524D\uFF0C\u4F1A\u8FD0\u884C\u6B64\u51FD\u6570\n    * \u9ED8\u8BA4\u8FD4\u56DEFalse\uFF0C\u529F\u80FD\u6B63\u5E38\u6267\u884C\u3002\n    * \u5982\u679C\u8FD4\u56DETrue\uFF0C\u529F\u80FD\u4E0D\u4F1A\u6267\u884C\u3002\n    \u53EF\u4EE5\u5229\u7528\u8FD9\u4E2A\u51FD\u6570\u8BBE\u7F6E\u81EA\u52A8\u5224\u65AD\u6A21\u5F0F\n*\/\nGlobal_ActionBefore()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u70ED\u952E\u5BF9\u5E94\u7684\u529F\u80FD\u6267\u884C\u540E\uFF0C\u4F1A\u8FD0\u884C\u6B64\u51FD\u6570\u3002\n    \u51FD\u6570\u4E0D\u9700\u8981\u8FD4\u56DE\u503C\n    \u53EF\u4EE5\u5229\u7528\u8FD9\u4E2A\u51FD\u6570\u6765\u505A\u72B6\u6001\u63D0\u9192\n*\/\nGlobal_ActionAfter()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u70ED\u952E\u63D0\u9192\uFF0C\u7528\u4E8E\u63D0\u793A\u5F53\u524D\u6709\u6548\u70ED\u952E\n    QuickZ\u4F1A\u4F20\u9012\u5F53\u524D\u6709\u6548\u70ED\u952E\u5217\u8868\u5230\u6B64\u51FD\u6570\u4E2D\u3002\u6240\u4EE5\u9700\u8981\u9884\u7559\u4E24\u4E2A\u53C2\u6570\n    aTemp - \u5F53\u524D\u70ED\u952E\u7F13\u5B58\n    aMore - \u7B26\u5408\u5F53\u524D\u70ED\u952E\u7F13\u5B58\u7684\u66F4\u591A\u70ED\u952E\n*\/\nGlobal_Show(aTemp, aMore)\n{\n    Global VimD\n}\n",
+      "Modes": [
+        {
+          "Maps": [
+            {
+              "Disable": "0",
+              "Key": "<w-Tab>",
+              "Tips": "",
+              "UUID": "F25AC06D-0672-4AFB-BF53-66C2224FF013"
+            },
+            {
+              "Disable": "1",
+              "Key": "<c-p>",
+              "Tips": "\u5FEB\u6377\u952E\u51B2\u7A81\uFF1A\u6253\u5370",
+              "UUID": "59A909AD-5B75-4942-A99C-AF6320B023F1"
+            }
+          ],
+          "Name": "\u666E\u901A\u6A21\u5F0F",
+          "Options": {
+            "Disable": 0,
+            "IconFile": "",
+            "IconNumber": 0
+          }
+        }
+      ],
+      "Name": "\u5168\u5C40",
+      "Options": {
+        "DefaultMode": "\u666E\u901A\u6A21\u5F0F",
+        "Disable": "0",
+        "MaxCount": "99",
+        "OnActionAfter": "Global_ActionAfter",
+        "OnActionBefore": "Global_ActionBefore",
+        "OnChangeMode": "Global_ChangeMode",
+        "OnInit": "Global_Init",
+        "OnShow": "Global_Show",
+        "TimeOut": "800"
+      },
+      "WinClass": "",
+      "WinExe": ""
+    },
+    {
+      "Code": "\/*\n    \u529F\u80FD\uFF1AQuickZ\u5728\u52A0\u8F7D\u7684\u65F6\u5019\u6267\u884C\u6B64\u51FD\u6570\n*\/\nexplorer_Init()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u6BCF\u6B21\u5207\u6362\u6A21\u5F0F\u7684\u65F6\u5019\u6267\u884C\u6B64\u51FD\u6570\n*\/\nexplorer_ChangeMode()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u6309\u4E0B\u70ED\u952E\u540E\uFF0C\u70ED\u952E\u5BF9\u5E94\u7684\u529F\u80FD\u6267\u884C\u524D\uFF0C\u4F1A\u8FD0\u884C\u6B64\u51FD\u6570\n    * \u9ED8\u8BA4\u8FD4\u56DEFalse\uFF0C\u529F\u80FD\u6B63\u5E38\u6267\u884C\u3002\n    * \u5982\u679C\u8FD4\u56DETrue\uFF0C\u529F\u80FD\u4E0D\u4F1A\u6267\u884C\u3002\n    \u53EF\u4EE5\u5229\u7528\u8FD9\u4E2A\u51FD\u6570\u8BBE\u7F6E\u81EA\u52A8\u5224\u65AD\u6A21\u5F0F\n*\/\nexplorer_ActionBefore()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u70ED\u952E\u5BF9\u5E94\u7684\u529F\u80FD\u6267\u884C\u540E\uFF0C\u4F1A\u8FD0\u884C\u6B64\u51FD\u6570\u3002\n    \u51FD\u6570\u4E0D\u9700\u8981\u8FD4\u56DE\u503C\n    \u53EF\u4EE5\u5229\u7528\u8FD9\u4E2A\u51FD\u6570\u6765\u505A\u72B6\u6001\u63D0\u9192\n*\/\nexplorer_ActionAfter()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u70ED\u952E\u63D0\u9192\uFF0C\u7528\u4E8E\u63D0\u793A\u5F53\u524D\u6709\u6548\u70ED\u952E\n    QuickZ\u4F1A\u4F20\u9012\u5F53\u524D\u6709\u6548\u70ED\u952E\u5217\u8868\u5230\u6B64\u51FD\u6570\u4E2D\u3002\u6240\u4EE5\u9700\u8981\u9884\u7559\u4E24\u4E2A\u53C2\u6570\n    aTemp - \u5F53\u524D\u70ED\u952E\u7F13\u5B58\n    aMore - \u7B26\u5408\u5F53\u524D\u70ED\u952E\u7F13\u5B58\u7684\u66F4\u591A\u70ED\u952E\n*\/\nexplorer_Show(aTemp, aMore)\n{\n    Global VimD\n}\n",
+      "Modes": [
+        {
+          "Maps": [
+            {
+              "Disable": "0",
+              "Key": "<c-t>",
+              "Tips": "",
+              "UUID": "194490FE-77D0-44D8-9F12-E3AA269AE863"
+            },
+            {
+              "Disable": "1",
+              "Key": "<a-Ins>",
+              "Tips": "vimd\u4E2D\u6682\u65F6\u4E0D\u8D77\u4F5C\u7528",
+              "UUID": "C751C970-3F47-458F-BA18-F6C462501342"
+            },
+            {
+              "Disable": "0",
+              "Key": "<c-f>",
+              "Tips": "",
+              "UUID": "9341E2C5-77CB-4ADF-A3F6-20D89E8D27A9"
+            },
+            {
+              "Disable": "1",
+              "Key": "h",
+              "Tips": "",
+              "UUID": "A2EAA141-8702-4F7E-9D8C-27CD77F2582D"
+            },
+            {
+              "Disable": "1",
+              "Key": "j",
+              "Tips": "",
+              "UUID": "6F883526-6C90-4FD9-8F0C-076333E36E7B"
+            },
+            {
+              "Disable": "1",
+              "Key": "k",
+              "Tips": "",
+              "UUID": "C81BC009-6E97-4C0A-87BE-39F9A9AB97B9"
+            },
+            {
+              "Disable": "1",
+              "Key": "l",
+              "Tips": "",
+              "UUID": "74FC385E-9692-4CB0-92AB-E0F67D52690F"
+            },
+            {
+              "Disable": "1",
+              "Key": "i",
+              "Tips": "",
+              "UUID": "C3A4C284-79B3-4DCF-8516-AD4A653CA8BD"
+            }
+          ],
+          "Name": "\u666E\u901A\u6A21\u5F0F",
+          "Options": {
+            "Disable": 0,
+            "IconFile": "",
+            "IconNumber": 0
+          }
+        },
+        {
+          "Maps": [
+            {
+              "Disable": "1",
+              "Key": "<Esc>",
+              "Tips": "",
+              "UUID": "9D3A004C-DF20-43FC-B202-31098B0812EF"
+            }
+          ],
+          "Name": "\u63D2\u5165\u6A21\u5F0F",
+          "Options": {
+            "Disable": "0",
+            "IconFile": "",
+            "IconNumber": ""
+          }
+        }
+      ],
+      "Name": "\u8D44\u6E90\u7BA1\u7406\u5668",
+      "Options": {
+        "DefaultMode": "\u666E\u901A\u6A21\u5F0F",
+        "Disable": "0",
+        "MaxCount": "99",
+        "OnActionAfter": "explorer_ActionAfter",
+        "OnActionBefore": "explorer_ActionBefore",
+        "OnChangeMode": "explorer_ChangeMode",
+        "OnInit": "explorer_Init",
+        "OnShow": "explorer_Show",
+        "TimeOut": "800"
+      },
+      "WinClass": "CabinetWClass;ExploreWClass;Progman;WorkerW",
+      "WinExe": "explorer.exe"
+    },
+    {
+      "Code": "\/*\n    \u529F\u80FD\uFF1AQuickZ\u5728\u52A0\u8F7D\u7684\u65F6\u5019\u6267\u884C\u6B64\u51FD\u6570\n*\/\nTOTALCMD_Init()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u6BCF\u6B21\u5207\u6362\u6A21\u5F0F\u7684\u65F6\u5019\u6267\u884C\u6B64\u51FD\u6570\n*\/\nTOTALCMD_ChangeMode()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u6309\u4E0B\u70ED\u952E\u540E\uFF0C\u70ED\u952E\u5BF9\u5E94\u7684\u529F\u80FD\u6267\u884C\u524D\uFF0C\u4F1A\u8FD0\u884C\u6B64\u51FD\u6570\n    * \u9ED8\u8BA4\u8FD4\u56DEFalse\uFF0C\u529F\u80FD\u6B63\u5E38\u6267\u884C\u3002\n    * \u5982\u679C\u8FD4\u56DETrue\uFF0C\u529F\u80FD\u4E0D\u4F1A\u6267\u884C\u3002\n    \u53EF\u4EE5\u5229\u7528\u8FD9\u4E2A\u51FD\u6570\u8BBE\u7F6E\u81EA\u52A8\u5224\u65AD\u6A21\u5F0F\n*\/\nTOTALCMD_ActionBefore()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u70ED\u952E\u5BF9\u5E94\u7684\u529F\u80FD\u6267\u884C\u540E\uFF0C\u4F1A\u8FD0\u884C\u6B64\u51FD\u6570\u3002\n    \u51FD\u6570\u4E0D\u9700\u8981\u8FD4\u56DE\u503C\n    \u53EF\u4EE5\u5229\u7528\u8FD9\u4E2A\u51FD\u6570\u6765\u505A\u72B6\u6001\u63D0\u9192\n*\/\nTOTALCMD_ActionAfter()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u70ED\u952E\u63D0\u9192\uFF0C\u7528\u4E8E\u63D0\u793A\u5F53\u524D\u6709\u6548\u70ED\u952E\n    QuickZ\u4F1A\u4F20\u9012\u5F53\u524D\u6709\u6548\u70ED\u952E\u5217\u8868\u5230\u6B64\u51FD\u6570\u4E2D\u3002\u6240\u4EE5\u9700\u8981\u9884\u7559\u4E24\u4E2A\u53C2\u6570\n    aTemp - \u5F53\u524D\u70ED\u952E\u7F13\u5B58\n    aMore - \u7B26\u5408\u5F53\u524D\u70ED\u952E\u7F13\u5B58\u7684\u66F4\u591A\u70ED\u952E\n*\/\nTOTALCMD_Show(aTemp, aMore)\n{\n    Global VimD\n}\n",
+      "Modes": [
+        {
+          "Maps": [
+            {
+              "Disable": "0",
+              "Key": "slt",
+              "Tips": "",
+              "UUID": "3A880D85-5738-496B-97AE-0D9AD053A96B"
+            },
+            {
+              "Disable": "0",
+              "Key": "h",
+              "Tips": "",
+              "UUID": "A2EAA141-8702-4F7E-9D8C-27CD77F2582D"
+            },
+            {
+              "Disable": "0",
+              "Key": "j",
+              "Tips": "",
+              "UUID": "6F883526-6C90-4FD9-8F0C-076333E36E7B"
+            },
+            {
+              "Disable": "0",
+              "Key": "i",
+              "Tips": "",
+              "UUID": "C3A4C284-79B3-4DCF-8516-AD4A653CA8BD"
+            },
+            {
+              "Disable": "0",
+              "Key": "k",
+              "Tips": "",
+              "UUID": "C81BC009-6E97-4C0A-87BE-39F9A9AB97B9"
+            },
+            {
+              "Disable": "0",
+              "Key": "l",
+              "Tips": "",
+              "UUID": "74FC385E-9692-4CB0-92AB-E0F67D52690F"
+            },
+            {
+              "Disable": "0",
+              "Key": "n",
+              "Tips": "",
+              "UUID": "68172365-8930-4F4C-96A7-A7648C5BD688"
+            }
+          ],
+          "Name": "\u666E\u901A\u6A21\u5F0F",
+          "Options": {
+            "Disable": 0,
+            "IconFile": "",
+            "IconNumber": 0
+          }
+        },
+        {
+          "Maps": [
+            {
+              "Disable": "0",
+              "Key": "<esc>",
+              "Tips": "",
+              "UUID": "9D3A004C-DF20-43FC-B202-31098B0812EF"
+            }
+          ],
+          "Name": "\u63D2\u5165\u6A21\u5F0F",
+          "Options": {
+            "Disable": "0",
+            "IconFile": "",
+            "IconNumber": ""
+          }
+        }
+      ],
+      "Name": "Total Commander",
+      "Options": {
+        "DefaultMode": "\u666E\u901A\u6A21\u5F0F",
+        "Disable": "1",
+        "MaxCount": "99",
+        "OnActionAfter": "TOTALCMD_ActionAfter",
+        "OnActionBefore": "TOTALCMD_ActionBefore",
+        "OnChangeMode": "TOTALCMD_ChangeMode",
+        "OnInit": "TOTALCMD_Init",
+        "OnShow": "TOTALCMD_Show",
+        "TimeOut": "800"
+      },
+      "WinClass": "TTOTAL_CMD",
+      "WinExe": "TOTALCMD.EXE"
+    }
+  ]
+}

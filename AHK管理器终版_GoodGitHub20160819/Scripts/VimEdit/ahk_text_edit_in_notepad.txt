@@ -1,0 +1,730 @@
+package org.apache.commons.httpclient;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+import org.apache.commons.httpclient.auth.AuthChallengeException;
+import org.apache.commons.httpclient.auth.AuthChallengeParser;
+import org.apache.commons.httpclient.auth.AuthChallengeProcessor;
+import org.apache.commons.httpclient.auth.AuthScheme;
+import org.apache.commons.httpclient.auth.AuthScope;
+import org.apache.commons.httpclient.auth.AuthState;
+import org.apache.commons.httpclient.auth.AuthenticationException;
+import org.apache.commons.httpclient.auth.CredentialsNotAvailableException;
+import org.apache.commons.httpclient.auth.CredentialsProvider;
+import org.apache.commons.httpclient.auth.MalformedChallengeException;
+import org.apache.commons.httpclient.params.DefaultHttpParams;
+import org.apache.commons.httpclient.params.HttpClientParams;
+import org.apache.commons.httpclient.params.HttpConnectionParams;
+import org.apache.commons.httpclient.params.HttpMethodParams;
+import org.apache.commons.httpclient.params.HttpParams;
+import org.apache.commons.httpclient.protocol.Protocol;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+class HttpMethodDirector
+{
+  public static final String WWW_AUTH_CHALLENGE = "WWW-Authenticate";
+  public static final String WWW_AUTH_RESP = "Authorization";
+  public static final String PROXY_AUTH_CHALLENGE = "Proxy-Authenticate";
+  public static final String PROXY_AUTH_RESP = "Proxy-Authorization";
+  private static final Log LOG = LogFactory.getLog(HttpMethodDirector.class);
+  private ConnectMethod connectMethod;
+  private HttpState state;
+  private HostConfiguration hostConfiguration;
+  private HttpConnectionManager connectionManager;
+  private HttpClientParams params;
+  private HttpConnection conn;
+  private boolean releaseConnection = false;
+
+  private AuthChallengeProcessor authProcessor = null;
+
+  private Set redirectLocations = null;
+
+  public HttpMethodDirector(HttpConnectionManager connectionManager, HostConfiguration hostConfiguration, HttpClientParams params, HttpState state)
+  {
+    this.connectionManager = connectionManager;
+    this.hostConfiguration = hostConfiguration;
+    this.params = params;
+    this.state = state;
+    this.authProcessor = new AuthChallengeProcessor(this.params);
+  }
+
+  public void executeMethod(HttpMethod method)
+    throws IOException, HttpException
+  {
+    if (method == null) {
+      throw new IllegalArgumentException("Method may not be null");
+    }
+
+    this.hostConfiguration.getParams().setDefaults(this.params);
+    method.getParams().setDefaults(this.hostConfiguration.getParams());
+
+    Collection defaults = (Collection)this.hostConfiguration.getParams().getParameter("http.default-headers");
+
+    if (defaults != null) {
+      Iterator i = defaults.iterator();
+      while (i.hasNext()) {
+        method.addRequestHeader((Header)i.next());
+      }
+    }
+    try
+    {
+      int maxRedirects = this.params.getIntParameter("http.protocol.max-redirects", 100);
+
+      int redirectCount = 0;
+      while (true)
+      {
+        if ((this.conn != null) && (!this.hostConfiguration.hostEquals(this.conn))) {
+          this.conn.setLocked(false);
+          this.conn.releaseConnection();
+          this.conn = null;
+        }
+
+        if (this.conn == null) {
+          this.conn = this.connectionManager.getConnectionWithTimeout(this.hostConfiguration, this.params.getConnectionManagerTimeout());
+
+          this.conn.setLocked(true);
+          if ((this.params.isAuthenticationPreemptive()) || (this.state.isAuthenticationPreemptive()))
+          {
+            LOG.debug("Preemptively sending default basic credentials");
+            method.getHostAuthState().setPreemptive();
+            method.getHostAuthState().setAuthAttempted(true);
+            if ((this.conn.isProxied()) && (!this.conn.isSecure())) {
+              method.getProxyAuthState().setPreemptive();
+              method.getProxyAuthState().setAuthAttempted(true);
+            }
+          }
+        }
+        authenticate(method);
+        executeWithRetry(method);
+        if (this.connectMethod != null) {
+          fakeResponse(method);
+          break;
+        }
+
+        boolean retry = false;
+        if ((isRedirectNeeded(method)) && 
+          (processRedirectResponse(method))) {
+          retry = true;
+          redirectCount++;
+          if (redirectCount >= maxRedirects) {
+            LOG.error("Narrowly avoided an infinite loop in execute");
+            throw new RedirectException("Maximum redirects (" + maxRedirects + ") exceeded");
+          }
+
+          if (LOG.isDebugEnabled()) {
+            LOG.debug("Execute redirect " + redirectCount + " of " + maxRedirects);
+          }
+        }
+
+        if ((isAuthenticationNeeded(method)) && 
+          (processAuthenticationResponse(method))) {
+          LOG.debug("Retry authentication");
+          retry = true;
+        }
+
+        if (!retry)
+        {
+          break;
+        }
+
+        if (method.getResponseBodyAsStream() != null)
+          method.getResponseBodyAsStream().close();
+      }
+    }
+    finally
+    {
+      if (this.conn != null) {
+        this.conn.setLocked(false);
+      }
+
+      if (((this.releaseConnection) || (method.getResponseBodyAsStream() == null)) && (this.conn != null))
+      {
+        this.conn.releaseConnection();
+      }
+    }
+  }
+
+  private void authenticate(HttpMethod method)
+  {
+    try
+    {
+      if ((this.conn.isProxied()) && (!this.conn.isSecure())) {
+        authenticateProxy(method);
+      }
+      authenticateHost(method);
+    } catch (AuthenticationException e) {
+      LOG.error(e.getMessage(), e);
+    }
+  }
+
+  private boolean cleanAuthHeaders(HttpMethod method, String name)
+  {
+    Header[] authheaders = method.getRequestHeaders(name);
+    boolean clean = true;
+    for (int i = 0; i < authheaders.length; i++) {
+      Header authheader = authheaders[i];
+      if (authheader.isAutogenerated())
+        method.removeRequestHeader(authheader);
+      else {
+        clean = false;
+      }
+    }
+    return clean;
+  }
+
+  private void authenticateHost(HttpMethod method)
+    throws AuthenticationException
+  {
+    if (!cleanAuthHeaders(method, "Authorization"))
+    {
+      return;
+    }
+    AuthState authstate = method.getHostAuthState();
+    AuthScheme authscheme = authstate.getAuthScheme();
+    if (authscheme == null) {
+      return;
+    }
+    if ((authstate.isAuthRequested()) || (!authscheme.isConnectionBased())) {
+      String host = method.getParams().getVirtualHost();
+      if (host == null) {
+        host = this.conn.getHost();
+      }
+      int port = this.conn.getPort();
+      AuthScope authscope = new AuthScope(host, port, authscheme.getRealm(), authscheme.getSchemeName());
+
+      if (LOG.isDebugEnabled()) {
+        LOG.debug("Authenticating with " + authscope);
+      }
+      Credentials credentials = this.state.getCredentials(authscope);
+      if (credentials != null) {
+        String authstring = authscheme.authenticate(credentials, method);
+        if (authstring != null) {
+          method.addRequestHeader(new Header("Authorization", authstring, true));
+        }
+      }
+      else if (LOG.isWarnEnabled()) {
+        LOG.warn("Required credentials not available for " + authscope);
+        if (method.getHostAuthState().isPreemptive())
+          LOG.warn("Preemptive authentication requested but no default credentials available");
+      }
+    }
+  }
+
+  private void authenticateProxy(HttpMethod method)
+    throws AuthenticationException
+  {
+    if (!cleanAuthHeaders(method, "Proxy-Authorization"))
+    {
+      return;
+    }
+    AuthState authstate = method.getProxyAuthState();
+    AuthScheme authscheme = authstate.getAuthScheme();
+    if (authscheme == null) {
+      return;
+    }
+    if ((authstate.isAuthRequested()) || (!authscheme.isConnectionBased())) {
+      AuthScope authscope = new AuthScope(this.conn.getProxyHost(), this.conn.getProxyPort(), authscheme.getRealm(), authscheme.getSchemeName());
+
+      if (LOG.isDebugEnabled()) {
+        LOG.debug("Authenticating with " + authscope);
+      }
+      Credentials credentials = this.state.getProxyCredentials(authscope);
+      if (credentials != null) {
+        String authstring = authscheme.authenticate(credentials, method);
+        if (authstring != null) {
+          method.addRequestHeader(new Header("Proxy-Authorization", authstring, true));
+        }
+      }
+      else if (LOG.isWarnEnabled()) {
+        LOG.warn("Required proxy credentials not available for " + authscope);
+        if (method.getProxyAuthState().isPreemptive())
+          LOG.warn("Preemptive authentication requested but no default proxy credentials available");
+      }
+    }
+  }
+
+  private void applyConnectionParams(HttpMethod method)
+    throws IOException
+  {
+    int timeout = 0;
+
+    Object param = method.getParams().getParameter("http.socket.timeout");
+    if (param == null)
+    {
+      param = this.conn.getParams().getParameter("http.socket.timeout");
+    }
+    if (param != null) {
+      timeout = ((Integer)param).intValue();
+    }
+    this.conn.setSocketTimeout(timeout);
+  }
+
+  private void executeWithRetry(HttpMethod method)
+    throws IOException, HttpException
+  {
+    int execCount = 0;
+    try
+    {
+      while (true)
+      {
+        execCount++;
+        try
+        {
+          if (LOG.isTraceEnabled()) {
+            LOG.trace("Attempt number " + execCount + " to process request");
+          }
+          if (this.conn.getParams().isStaleCheckingEnabled()) {
+            this.conn.closeIfStale();
+          }
+          if (!this.conn.isOpen())
+          {
+            this.conn.open();
+            if ((this.conn.isProxied()) && (this.conn.isSecure()) && (!(method instanceof ConnectMethod)))
+            {
+              if (!executeConnect())
+              {
+                return;
+              }
+            }
+          }
+          applyConnectionParams(method);
+          method.execute(this.state, this.conn);
+        }
+        catch (HttpException e)
+        {
+          throw e;
+        } catch (IOException e) {
+          LOG.debug("Closing the connection.");
+          this.conn.close();
+
+          if ((method instanceof HttpMethodBase)) {
+            MethodRetryHandler handler = ((HttpMethodBase)method).getMethodRetryHandler();
+
+            if ((handler != null) && 
+              (!handler.retryMethod(method, this.conn, new HttpRecoverableException(e.getMessage()), execCount, method.isRequestSent())))
+            {
+              LOG.debug("Method retry handler returned false. Automatic recovery will not be attempted");
+
+              throw e;
+            }
+
+          }
+
+          HttpMethodRetryHandler handler = (HttpMethodRetryHandler)method.getParams().getParameter("http.method.retry-handler");
+
+          if (handler == null) {
+            handler = new DefaultHttpMethodRetryHandler();
+          }
+          if (!handler.retryMethod(method, e, execCount)) {
+            LOG.debug("Method retry handler returned false. Automatic recovery will not be attempted");
+
+            throw e;
+          }
+          if (LOG.isInfoEnabled()) {
+            LOG.info("I/O exception (" + e.getClass().getName() + ") caught when processing request: " + e.getMessage());
+          }
+
+          if (LOG.isDebugEnabled()) {
+            LOG.debug(e.getMessage(), e);
+          }
+          LOG.info("Retrying request");
+        }
+      }
+    } catch (IOException e) {
+      if (this.conn.isOpen()) {
+        LOG.debug("Closing the connection.");
+        this.conn.close();
+      }
+      this.releaseConnection = true;
+      throw e;
+    } catch (RuntimeException e) {
+      if (this.conn.isOpen) {
+        LOG.debug("Closing the connection.");
+        this.conn.close();
+      }
+      this.releaseConnection = true;
+      throw e;
+    }
+  }
+
+  private boolean executeConnect() throws IOException, HttpException {
+    this.connectMethod = new ConnectMethod();
+    this.connectMethod.getParams().setDefaults(this.hostConfiguration.getParams());
+    int code;
+    while (true) {
+      if (!this.conn.isOpen()) {
+        this.conn.open();
+      }
+      if ((this.params.isAuthenticationPreemptive()) || (this.state.isAuthenticationPreemptive()))
+      {
+        LOG.debug("Preemptively sending default basic credentials");
+        this.connectMethod.getProxyAuthState().setPreemptive();
+        this.connectMethod.getProxyAuthState().setAuthAttempted(true);
+      }
+      try {
+        authenticateProxy(this.connectMethod);
+      } catch (AuthenticationException e) {
+        LOG.error(e.getMessage(), e);
+      }
+      applyConnectionParams(this.connectMethod);
+      this.connectMethod.execute(this.state, this.conn);
+      code = this.connectMethod.getStatusCode();
+      boolean retry = false;
+      AuthState authstate = this.connectMethod.getProxyAuthState();
+      authstate.setAuthRequested(code == 407);
+      if ((authstate.isAuthRequested()) && 
+        (processAuthenticationResponse(this.connectMethod))) {
+        retry = true;
+      }
+
+      if (!retry) {
+        break;
+      }
+      if (this.connectMethod.getResponseBodyAsStream() != null) {
+        this.connectMethod.getResponseBodyAsStream().close();
+      }
+    }
+    if ((code >= 200) && (code < 300)) {
+      this.conn.tunnelCreated();
+
+      this.connectMethod = null;
+      return true;
+    }
+    return false;
+  }
+
+  private void fakeResponse(HttpMethod method)
+    throws IOException, HttpException
+  {
+    LOG.debug("CONNECT failed, fake the response for the original method");
+
+    if ((method instanceof HttpMethodBase)) {
+      ((HttpMethodBase)method).fakeResponse(this.connectMethod.getStatusLine(), this.connectMethod.getResponseHeaderGroup(), this.connectMethod.getResponseBodyAsStream());
+
+      method.getProxyAuthState().setAuthScheme(this.connectMethod.getProxyAuthState().getAuthScheme());
+
+      this.connectMethod = null;
+    } else {
+      this.releaseConnection = true;
+      LOG.warn("Unable to fake response on method as it is not derived from HttpMethodBase.");
+    }
+  }
+
+  private boolean processRedirectResponse(HttpMethod method)
+    throws RedirectException
+  {
+    Header locationHeader = method.getResponseHeader("location");
+    if (locationHeader == null)
+    {
+      LOG.error("Received redirect response " + method.getStatusCode() + " but no location header");
+
+      return false;
+    }
+    String location = locationHeader.getValue();
+    if (LOG.isDebugEnabled()) {
+      LOG.debug("Redirect requested to location '" + location + "'");
+    }
+
+    URI redirectUri = null;
+    URI currentUri = null;
+    try
+    {
+      currentUri = new URI(this.conn.getProtocol().getScheme(), null, this.conn.getHost(), this.conn.getPort(), method.getPath());
+
+      redirectUri = new URI(location, true);
+      if (redirectUri.isRelativeURI()) {
+        if (this.params.isParameterTrue("http.protocol.reject-relative-redirect")) {
+          LOG.warn("Relative redirect location '" + location + "' not allowed");
+          return false;
+        }
+
+        LOG.debug("Redirect URI is not absolute - parsing as relative");
+        redirectUri = new URI(currentUri, redirectUri);
+      }
+      else
+      {
+        method.getParams().setDefaults(this.params);
+      }
+      method.setURI(redirectUri);
+      this.hostConfiguration.setHost(redirectUri);
+    } catch (URIException e) {
+      LOG.warn("Redirected location '" + location + "' is malformed");
+      return false;
+    }
+
+    if (this.params.isParameterFalse("http.protocol.allow-circular-redirects")) {
+      if (this.redirectLocations == null) {
+        this.redirectLocations = new HashSet();
+      }
+      this.redirectLocations.add(currentUri);
+      try {
+        if (redirectUri.hasQuery())
+          redirectUri.setQuery(null);
+      }
+      catch (URIException e)
+      {
+        return false;
+      }
+
+      if (this.redirectLocations.contains(redirectUri)) {
+        throw new CircularRedirectException("Circular redirect to '" + redirectUri + "'");
+      }
+
+    }
+
+    if (LOG.isDebugEnabled()) {
+      LOG.debug("Redirecting from '" + currentUri.getEscapedURI() + "' to '" + redirectUri.getEscapedURI());
+    }
+
+    method.getHostAuthState().invalidate();
+    return true;
+  }
+
+  private boolean processAuthenticationResponse(HttpMethod method)
+  {
+    LOG.trace("enter HttpMethodBase.processAuthenticationResponse(HttpState, HttpConnection)");
+    try
+    {
+      switch (method.getStatusCode()) {
+      case 401:
+        return processWWWAuthChallenge(method);
+      case 407:
+        return processProxyAuthChallenge(method);
+      }
+      return false;
+    }
+    catch (Exception e) {
+      if (LOG.isErrorEnabled())
+        LOG.error(e.getMessage(), e);
+    }
+    return false;
+  }
+
+  private boolean processWWWAuthChallenge(HttpMethod method)
+    throws MalformedChallengeException, AuthenticationException
+  {
+    AuthState authstate = method.getHostAuthState();
+    Map challenges = AuthChallengeParser.parseChallenges(method.getResponseHeaders("WWW-Authenticate"));
+
+    if (challenges.isEmpty()) {
+      LOG.debug("Authentication challenge(s) not found");
+      return false;
+    }
+    AuthScheme authscheme = null;
+    try {
+      authscheme = this.authProcessor.processChallenge(authstate, challenges);
+    } catch (AuthChallengeException e) {
+      if (LOG.isWarnEnabled()) {
+        LOG.warn(e.getMessage());
+      }
+    }
+    if (authscheme == null) {
+      return false;
+    }
+    String host = method.getParams().getVirtualHost();
+    if (host == null) {
+      host = this.conn.getHost();
+    }
+    int port = this.conn.getPort();
+    AuthScope authscope = new AuthScope(host, port, authscheme.getRealm(), authscheme.getSchemeName());
+
+    if (LOG.isDebugEnabled()) {
+      LOG.debug("Authentication scope: " + authscope);
+    }
+    if ((authstate.isAuthAttempted()) && (authscheme.isComplete()))
+    {
+      Credentials credentials = promptForCredentials(authscheme, method.getParams(), authscope);
+
+      if (credentials == null) {
+        if (LOG.isInfoEnabled()) {
+          LOG.info("Failure authenticating with " + authscope);
+        }
+        return false;
+      }
+      return true;
+    }
+
+    authstate.setAuthAttempted(true);
+    Credentials credentials = this.state.getCredentials(authscope);
+    if (credentials == null) {
+      credentials = promptForCredentials(authscheme, method.getParams(), authscope);
+    }
+
+    if (credentials == null) {
+      if (LOG.isInfoEnabled()) {
+        LOG.info("No credentials available for " + authscope);
+      }
+      return false;
+    }
+    return true;
+  }
+
+  private boolean processProxyAuthChallenge(HttpMethod method)
+    throws MalformedChallengeException, AuthenticationException
+  {
+    AuthState authstate = method.getProxyAuthState();
+    Map proxyChallenges = AuthChallengeParser.parseChallenges(method.getResponseHeaders("Proxy-Authenticate"));
+
+    if (proxyChallenges.isEmpty()) {
+      LOG.debug("Proxy authentication challenge(s) not found");
+      return false;
+    }
+    AuthScheme authscheme = null;
+    try {
+      authscheme = this.authProcessor.processChallenge(authstate, proxyChallenges);
+    } catch (AuthChallengeException e) {
+      if (LOG.isWarnEnabled()) {
+        LOG.warn(e.getMessage());
+      }
+    }
+    if (authscheme == null) {
+      return false;
+    }
+    AuthScope authscope = new AuthScope(this.conn.getProxyHost(), this.conn.getProxyPort(), authscheme.getRealm(), authscheme.getSchemeName());
+
+    if (LOG.isDebugEnabled()) {
+      LOG.debug("Proxy authentication scope: " + authscope);
+    }
+    if ((authstate.isAuthAttempted()) && (authscheme.isComplete()))
+    {
+      Credentials credentials = promptForProxyCredentials(authscheme, method.getParams(), authscope);
+
+      if (credentials == null) {
+        if (LOG.isInfoEnabled()) {
+          LOG.info("Failure authenticating with " + authscope);
+        }
+        return false;
+      }
+      return true;
+    }
+
+    authstate.setAuthAttempted(true);
+    Credentials credentials = this.state.getProxyCredentials(authscope);
+    if (credentials == null) {
+      credentials = promptForProxyCredentials(authscheme, method.getParams(), authscope);
+    }
+
+    if (credentials == null) {
+      if (LOG.isInfoEnabled()) {
+        LOG.info("No credentials available for " + authscope);
+      }
+      return false;
+    }
+    return true;
+  }
+
+  private boolean isRedirectNeeded(HttpMethod method)
+  {
+    switch (method.getStatusCode()) {
+    case 301:
+    case 302:
+    case 303:
+    case 307:
+      LOG.debug("Redirect required");
+      if (method.getFollowRedirects()) {
+        return true;
+      }
+      LOG.info("Redirect requested but followRedirects is disabled");
+
+      return false;
+    case 304:
+    case 305:
+    case 306: } return false;
+  }
+
+  private boolean isAuthenticationNeeded(HttpMethod method)
+  {
+    method.getHostAuthState().setAuthRequested(method.getStatusCode() == 401);
+
+    method.getProxyAuthState().setAuthRequested(method.getStatusCode() == 407);
+
+    if ((method.getHostAuthState().isAuthRequested()) || (method.getProxyAuthState().isAuthRequested()))
+    {
+      LOG.debug("Authorization required");
+      if (method.getDoAuthentication()) {
+        return true;
+      }
+      LOG.info("Authentication requested but doAuthentication is disabled");
+
+      return false;
+    }
+
+    return false;
+  }
+
+  private Credentials promptForCredentials(AuthScheme authScheme, HttpParams params, AuthScope authscope)
+  {
+    LOG.debug("Credentials required");
+    Credentials creds = null;
+    CredentialsProvider credProvider = (CredentialsProvider)params.getParameter("http.authentication.credential-provider");
+
+    if (credProvider != null) {
+      try {
+        creds = credProvider.getCredentials(authScheme, authscope.getHost(), authscope.getPort(), false);
+      }
+      catch (CredentialsNotAvailableException e) {
+        LOG.warn(e.getMessage());
+      }
+      if (creds != null) {
+        this.state.setCredentials(authscope, creds);
+        if (LOG.isDebugEnabled())
+          LOG.debug(authscope + " new credentials given");
+      }
+    }
+    else {
+      LOG.debug("Credentials provider not available");
+    }
+    return creds;
+  }
+
+  private Credentials promptForProxyCredentials(AuthScheme authScheme, HttpParams params, AuthScope authscope)
+  {
+    LOG.debug("Proxy credentials required");
+    Credentials creds = null;
+    CredentialsProvider credProvider = (CredentialsProvider)params.getParameter("http.authentication.credential-provider");
+
+    if (credProvider != null) {
+      try {
+        creds = credProvider.getCredentials(authScheme, authscope.getHost(), authscope.getPort(), true);
+      }
+      catch (CredentialsNotAvailableException e) {
+        LOG.warn(e.getMessage());
+      }
+      if (creds != null) {
+        this.state.setProxyCredentials(authscope, creds);
+        if (LOG.isDebugEnabled())
+          LOG.debug(authscope + " new credentials given");
+      }
+    }
+    else {
+      LOG.debug("Proxy credentials provider not available");
+    }
+    return creds;
+  }
+
+  public HostConfiguration getHostConfiguration()
+  {
+    return this.hostConfiguration;
+  }
+
+  public HttpState getState()
+  {
+    return this.state;
+  }
+
+  public HttpConnectionManager getConnectionManager()
+  {
+    return this.connectionManager;
+  }
+
+  public HttpParams getParams()
+  {
+    return this.params;
+  }
+}

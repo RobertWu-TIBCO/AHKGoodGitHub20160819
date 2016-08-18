@@ -1,0 +1,1549 @@
+﻿{
+  "Filters": {
+    "25E25A3B-6F48-48E5-BD4C-E3FDBB3D9FC5": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "*",
+        "method": 2
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u6392\u9664\u591A\u6587\u4EF6",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "2A7FC9CB-CA44-4E15-8AC2-0B503A7090EA": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "*",
+        "method": 1
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u4EC5\u9009\u4E2D\u6587\u4EF6\u6709\u6548",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "564CCC7F-12E7-4075-A50F-67CA17FE5A3E": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "*",
+        "method": 1
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u4EC5\u591A\u6587\u4EF6\u6709\u6548",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "79C3F1F8-7E5F-46CA-A57A-B209EC1B389B": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u9009\u62E9\u6587\u672C\u4E3AURL\u5730\u5740",
+      "TextRegex": {
+        "Match": "i)^(((ht|f)tp(s?))\\:\/\/)?([a-zA-Z0-9\\.\\-]+(\\:[a-zA-Z0-9\\.&amp;%\\$\\-]+)*)*((25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9])\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[0-9])|localhost|([a-zA-Z0-9\\-]+\\.)*[a-zA-Z0-9\\-]+\\.(com|edu|gov|int|mil|net|org|biz|arpa|info|name|pro|aero|coop|museum|[a-zA-Z]{2}))(\\:[0-9]+)*(\/($|[a-zA-Z0-9\\.\\,\\?\\:\\'\\\\\\+&amp;%\\$#\\=~_\\-]+))*$",
+        "method": 3
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "87A3B3FE-C3D6-46BC-9A2E-9FD5319D5BBA": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u4EC5\u9009\u62E9\u6587\u672C\u6709\u6548",
+      "TextRegex": {
+        "Match": "*",
+        "method": 1
+      },
+      "WinClass": {
+        "Match": "",
+        "method": 0
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    },
+    "D4B6D539-6D52-4A7D-B1E0-00067A55F9D1": {
+      "FileDir": {
+        "Match": "",
+        "method": 0
+      },
+      "FileExt": {
+        "Match": "",
+        "method": 0
+      },
+      "FileMulti": {
+        "Match": "",
+        "method": 0
+      },
+      "FileName": {
+        "Match": "",
+        "method": 0
+      },
+      "Function": "",
+      "Keyword": "",
+      "Name": "\u4EFB\u610F\u7A97\u53E3",
+      "TextRegex": {
+        "Match": "",
+        "method": 0
+      },
+      "WinClass": {
+        "Match": "*",
+        "method": 1
+      },
+      "WinControl": {
+        "Match": "",
+        "method": 0
+      },
+      "WinExe": {
+        "Match": "",
+        "method": 0
+      },
+      "WinTitle": {
+        "Match": "",
+        "method": 0
+      }
+    }
+  },
+  "gesture": {},
+  "Items": {
+    "00F5341A-7C82-45D8-8927-8DDB97E061AC": {
+      "Code": "",
+      "Command": "DM_FileTag",
+      "Name": "\u6587\u4EF6\u52A0\u6807\u7B7E",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "09DA54C7-28B5-4F52-882C-7C472A512176": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u3010\u793A\u4F8B12\u3011\u83DC\u5355\u5206\u7EC4",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "0A6C320D-D5A0-4B4F-8253-7C8FF54C615B": {
+      "Code": "",
+      "Command": "calc.exe",
+      "Name": "\u3010\u793A\u4F8B1\u3011\u8FD0\u884C\u7A0B\u5E8F(\u8BA1\u7B97\u5668\uFF09",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "0CD2B360-6D99-4830-A62E-978BB4FB0773": {
+      "Code": "",
+      "Command": "calc.exe",
+      "Name": "\u3010\u793A\u4F8B1\u3011\u8FD0\u884C\u7A0B\u5E8F(\u8BA1\u7B97\u5668\uFF09",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "0EA56950-DF8E-4666-A0AF-C18D3E826AF6": {
+      "Code": "",
+      "Command": "",
+      "Name": "URL\u5730\u5740",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "0FE3196A-1915-4A2A-9214-00A74468C74E": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u3010\u793A\u4F8B11\u3011\u4EFB\u610F\u7A97\u53E3",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "1881F50D-AC57-4F12-8D73-D010AF3D4D97": {
+      "Code": "",
+      "Command": "dm_TCDirHotList",
+      "Name": "TC\u6536\u85CF\u5939",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "2030A2B4-9116-475A-8A89-DB67E443CFD6": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u3010\u793A\u4F8B10\u3011\u4EC5\u591A\u6587\u4EF6\u6709\u6548",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "27A784C8-3C6F-4FF2-BB52-BD982800CEA9": {
+      "Code": "",
+      "Command": "notepad.exe",
+      "Name": "\u8BB0\u4E8B\u672C(&N)",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "2A6A4D22-27EF-4CA0-AAEF-ED163E4D3934": {
+      "Code": "",
+      "Command": "http:\/\/cn.bing.com\/search?q=",
+      "Name": "\u5FC5\u5E94\u641C\u7D22",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{text}",
+      "Tips": ""
+    },
+    "30A93E7E-2A8C-458D-AA51-AB63CFB94E0D": {
+      "Code": "Send {down}",
+      "Command": "",
+      "Name": "\u5411\u4E0B\u79FB\u52A8",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "32666DED-EC93-4C55-B598-296A848C8A59": {
+      "Code": "Send {delete}",
+      "Command": "",
+      "Name": "\u5220\u9664",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "34FD166F-6EBC-4AFE-945A-D950EAFE8EF6": {
+      "Code": "",
+      "Command": "www.baidu.com",
+      "Name": "\u3010\u793A\u4F8B4\u3011\u6253\u5F00\u94FE\u63A5",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "41A6D6AF-DFE7-4D86-AF3D-E4AEE3E0A634": {
+      "Code": "msgbox % gMenuZ.Data.WinTitle",
+      "Command": "",
+      "Name": "\u3010\u793A\u4F8B6\u3011AHK\u4EE3\u7801\u6A21\u5F0F",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "45978890-886F-4330-9465-8A46A93094D6": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u3010\u793A\u4F8B7\u3011\u5B50\u83DC\u5355",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "4B94C395-7BD8-4253-A832-F0032A2A70C1": {
+      "Code": "Send {Left}",
+      "Command": "",
+      "Name": "\u5411\u5DE6\u79FB\u52A8",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "52783379-56CB-471B-85CC-2ABCE5F9747B": {
+      "Code": "vimd.changemode(\"\u666E\u901A\u6A21\u5F0F\")",
+      "Command": "",
+      "Name": "\u5207\u6362\u4E3A\u666E\u901A\u6A21\u5F0F",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "5FBD2A36-9BD7-4413-B1FC-6DE2E3010706": {
+      "Code": "Send {Up}",
+      "Command": "",
+      "Name": "\u5411\u4E0A\u79FB\u52A8",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "67AA5912-BB28-4B3F-9F43-D964FED8BBBF": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u9009\u62E9\u6587\u672C",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "67DBC958-C6B2-413B-83F8-F42A1B432966": {
+      "Code": "",
+      "Command": "calc.exe",
+      "Name": "\u8BA1\u7B97\u5668",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "6AB7A159-89D5-4D19-A0F4-99E4847E92CF": {
+      "Code": "",
+      "Command": "%chrome%",
+      "Name": "&Chrome\u6253\u5F00",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{text}",
+      "Tips": ""
+    },
+    "6E1B4536-C2C0-40F7-A775-95212189C487": {
+      "Code": "vimd.changemode(\"VIM\u6A21\u5F0F\")",
+      "Command": "",
+      "Name": "\u5207\u6362\u4E3AVIM\u6A21\u5F0F",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "6F0EB8E6-4E76-4128-AE6F-02D7D274DC10": {
+      "Code": "",
+      "Command": "https:\/\/www.baidu.com\/s?wd=",
+      "Name": "\u3010\u793A\u4F8B5\u3011\u767E\u5EA6\u641C\u7D22\u6587\u672C",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{select}",
+      "Tips": ""
+    },
+    "75D196AF-EB04-44A4-B513-06A7534E9AE7": {
+      "Code": "msgbox % gMenuZ.Data.WinTitle",
+      "Command": "",
+      "Name": "\u3010\u793A\u4F8B6\u3011AHK\u4EE3\u7801\u6A21\u5F0F",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "76EC4158-2C5A-4E77-8BA7-4A8F5E854088": {
+      "Code": "",
+      "Command": "www.baidu.com",
+      "Name": "\u3010\u793A\u4F8B4\u3011\u6253\u5F00\u94FE\u63A5",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "784A1505-BE2A-4F40-AAB5-202A979438F9": {
+      "Code": "",
+      "Command": "http:\/\/fanyi.baidu.com\/#en\/zh\/",
+      "Name": "\u767E\u5EA6\u7FFB\u8BD1",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{text}",
+      "Tips": ""
+    },
+    "792838AB-C840-4626-B63A-DD8FA4706463": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u3010\u793A\u4F8B\u83DC\u5355\u3011",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "7A46D94B-949E-4433-9236-A0A07195A03D": {
+      "Code": "",
+      "Command": "%A_ScriptDir%\\Readme.ahk",
+      "Name": "\u3010\u793A\u4F8B2\u3011\u6253\u5F00\u6587\u4EF6",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "7BDF6DF1-3AD7-402D-B65F-D701257B4FE1": {
+      "Code": "",
+      "Command": "\"C:\\Program Files\\Internet Explorer\\iexplore.exe\"",
+      "Name": "&IE\u6253\u5F00",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{text}",
+      "Tips": ""
+    },
+    "82969CFC-786D-4362-BE57-D6B63826D29B": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u3010\u793A\u4F8B7\u3011\u5B50\u83DC\u5355",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": 1,
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "840D6368-473B-49CC-968E-EF5AD25540BF": {
+      "Code": "",
+      "Command": "%firefox%",
+      "Name": "&FireFox\u6253\u5F00",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{text}",
+      "Tips": ""
+    },
+    "9A114C18-B742-49E4-A426-EEA446041B0D": {
+      "Code": "Send {Home}\nvimd.changemode(\"\u666E\u901A\u6A21\u5F0F\")",
+      "Command": "",
+      "Name": "\u56DE\u5230\u884C\u524D\u5E76\u5207\u6362\u6A21\u5F0F",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "A3BB4CC3-76A5-45C3-811B-B3D029030BD1": {
+      "Code": "Send {Right}",
+      "Command": "",
+      "Name": "\u5411\u53F3\u79FB\u52A8",
+      "Options": {
+        "category": "",
+        "CodeMode": 1,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "A41BEDAA-B54D-44EA-911A-BAD1AEDA28FC": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u3010\u793A\u4F8B9\u3011\u4EC5\u9009\u62E9\u6587\u672C\u6709\u6548",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "B1984A2D-8973-4BCB-B102-95BF9EA04BC2": {
+      "Code": "",
+      "Command": "notepad.exe",
+      "Name": "\u5206\u98792",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "C5B1B473-E6D6-4336-B5A7-1A253321FD98": {
+      "Code": "",
+      "Command": "%A_ScriptDir%\\Readme.ahk",
+      "Name": "\u3010\u793A\u4F8B2\u3011\u6253\u5F00\u6587\u4EF6",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "C75F25A6-CE31-40A1-830A-E7FDCE2FFB4F": {
+      "Code": "",
+      "Command": "notepad.exe",
+      "Name": "Notepad-\u8FD0\u884C\u8BB0\u4E8B\u672C",
+      "Options": {
+        "category": "\u8BB0\u4E8B\u672C",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "CEF53CC6-48A8-491C-86C0-7DA431B53FDB": {
+      "Code": "",
+      "Command": "http:\/\/quickz.mydoc.io",
+      "Name": "QuickZ\u5728\u7EBF\u6587\u6863",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "D25CBFD6-6689-4DFB-9B77-BF9FD9A3CF19": {
+      "Code": "",
+      "Command": "https:\/\/www.baidu.com\/s?wd=",
+      "Name": "\u3010\u793A\u4F8B5\u3011\u767E\u5EA6\u641C\u7D22\u6587\u672C",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{select}",
+      "Tips": ""
+    },
+    "DAF4C250-4C18-45A5-9F2D-D96A8952BB68": {
+      "Code": "",
+      "Command": "https:\/\/www.baidu.com\/s?wd=",
+      "Name": "\u767E\u5EA6\u641C\u7D22",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "{text}",
+      "Tips": ""
+    },
+    "DF321687-59ED-4EFC-9D08-918E472B1085": {
+      "Code": "",
+      "Command": "notepad.exe",
+      "Name": "\u3010\u793A\u4F8B8\u3011\u4EC5\u9009\u4E2D\u6587\u4EF6\u6709\u6548",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    },
+    "EA452CC6-8282-4A4F-A049-FE92504EEFAA": {
+      "Code": "",
+      "Command": "%systemroot%\\notepad.exe",
+      "Name": "\u3010\u793A\u4F8B3\u3011\u7528\u8BB0\u4E8B\u672C\u6253\u5F00\u6587\u4EF6",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "\"{file:path}\"",
+      "Tips": ""
+    },
+    "F4F96C53-D7AD-4CCA-91F3-F3577D7B21B0": {
+      "Code": "",
+      "Command": "%systemroot%\\notepad.exe",
+      "Name": "\u3010\u793A\u4F8B3\u3011\u7528\u8BB0\u4E8B\u672C\u6253\u5F00\u6587\u4EF6",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "\"{file:path}\"",
+      "Tips": ""
+    },
+    "FAB1B3C4-D828-4836-A4DF-9FEF849E7592": {
+      "Code": "",
+      "Command": "",
+      "Name": "\u5206\u98791",
+      "Options": {
+        "category": "",
+        "CodeMode": 0,
+        "IsGroup": "",
+        "RunState": "",
+        "WorkingDir": ""
+      },
+      "Param": "",
+      "Tips": ""
+    }
+  },
+  "menuz": [
+    {
+      "Filter": [
+        "87A3B3FE-C3D6-46BC-9A2E-9FD5319D5BBA"
+      ],
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "",
+        "IconNumber": "",
+        "Type": 2
+      },
+      "SubItem": [
+        {
+          "Filter": {},
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%Icons%\\baidu.ico",
+            "IconNumber": "1",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "DAF4C250-4C18-45A5-9F2D-D96A8952BB68"
+        },
+        {
+          "Filter": {},
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%Icons%\\Bing.ico",
+            "IconNumber": "1",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "2A6A4D22-27EF-4CA0-AAEF-ED163E4D3934"
+        },
+        {
+          "Filter": {},
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%Icons%\\favicon.ico",
+            "IconNumber": "1",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "784A1505-BE2A-4F40-AAB5-202A979438F9"
+        },
+        {
+          "Filter": {},
+          "Options": {
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0
+          }
+        }
+      ],
+      "uuid": "67AA5912-BB28-4B3F-9F43-D964FED8BBBF"
+    },
+    {
+      "Filter": [
+        "79C3F1F8-7E5F-46CA-A57A-B209EC1B389B"
+      ],
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "",
+        "IconNumber": "",
+        "Type": 2
+      },
+      "SubItem": [
+        {
+          "Filter": {},
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%chrome%",
+            "IconNumber": "1",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "6AB7A159-89D5-4D19-A0F4-99E4847E92CF"
+        },
+        {
+          "Filter": {},
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "\u8DEF\u5F84",
+            "IconNumber": 0,
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "840D6368-473B-49CC-968E-EF5AD25540BF"
+        },
+        {
+          "Filter": {},
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+            "IconNumber": "1",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "7BDF6DF1-3AD7-402D-B65F-D701257B4FE1"
+        },
+        {
+          "Filter": {},
+          "Options": {
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0
+          }
+        }
+      ],
+      "uuid": "0EA56950-DF8E-4666-A0AF-C18D3E826AF6"
+    },
+    {
+      "Filter": {},
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": "0",
+        "Hide": 0,
+        "IconFile": "%Icons%\\default.icl",
+        "IconNumber": "4",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "00F5341A-7C82-45D8-8927-8DDB97E061AC"
+    },
+    {
+      "Filter": {},
+      "Options": {
+        "Disable": 0,
+        "FilterLogic": 0,
+        "Hide": 0
+      }
+    },
+    {
+      "Filter": {},
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": 0,
+        "Hide": 0,
+        "IconFile": "",
+        "IconNumber": "",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "1881F50D-AC57-4F12-8D73-D010AF3D4D97"
+    },
+    {
+      "Filter": {},
+      "Options": {
+        "Disable": 0,
+        "FilterLogic": 0,
+        "Hide": 0
+      }
+    },
+    {
+      "Filter": {},
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": 0,
+        "Hide": 0,
+        "IconFile": "",
+        "IconNumber": "",
+        "Type": 1
+      },
+      "SubItem": [
+        {
+          "Filter": {},
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "",
+            "IconNumber": "",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "0A6C320D-D5A0-4B4F-8253-7C8FF54C615B"
+        },
+        {
+          "Filter": {},
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "",
+            "IconNumber": "",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "C5B1B473-E6D6-4336-B5A7-1A253321FD98"
+        },
+        {
+          "Filter": [
+            "1FC23E18-39A9-4439-8DD3-0B045AADAD6E"
+          ],
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": "0",
+            "Hide": 0,
+            "IconFile": "%systemroot%\\notepad.exe",
+            "IconNumber": "1",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "EA452CC6-8282-4A4F-A049-FE92504EEFAA"
+        },
+        {
+          "Filter": {},
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "",
+            "IconNumber": "",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "34FD166F-6EBC-4AFE-945A-D950EAFE8EF6"
+        },
+        {
+          "Filter": {},
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "%Icons%\\baidu.ico",
+            "IconNumber": "1",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "6F0EB8E6-4E76-4128-AE6F-02D7D274DC10"
+        },
+        {
+          "Filter": {},
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": "0",
+            "Hide": 0,
+            "IconFile": "",
+            "IconNumber": "",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "75D196AF-EB04-44A4-B513-06A7534E9AE7"
+        },
+        {
+          "Filter": {},
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": "0",
+            "Hide": 0,
+            "IconFile": "",
+            "IconNumber": "",
+            "Type": 1
+          },
+          "SubItem": [
+            {
+              "Filter": {},
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "",
+                "IconNumber": "",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "27A784C8-3C6F-4FF2-BB52-BD982800CEA9"
+            },
+            {
+              "Filter": {},
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "",
+                "IconNumber": "",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "67DBC958-C6B2-413B-83F8-F42A1B432966"
+            }
+          ],
+          "uuid": "45978890-886F-4330-9465-8A46A93094D6"
+        },
+        {
+          "Filter": [
+            "2A7FC9CB-CA44-4E15-8AC2-0B503A7090EA"
+          ],
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": "0",
+            "Hide": 0,
+            "IconFile": "",
+            "IconNumber": "",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "DF321687-59ED-4EFC-9D08-918E472B1085"
+        },
+        {
+          "Filter": [
+            "87A3B3FE-C3D6-46BC-9A2E-9FD5319D5BBA"
+          ],
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": "0",
+            "Hide": 0,
+            "IconFile": "",
+            "IconNumber": "",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "A41BEDAA-B54D-44EA-911A-BAD1AEDA28FC"
+        },
+        {
+          "Filter": [
+            "564CCC7F-12E7-4075-A50F-67CA17FE5A3E"
+          ],
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": "0",
+            "Hide": 0,
+            "IconFile": "",
+            "IconNumber": "",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "2030A2B4-9116-475A-8A89-DB67E443CFD6"
+        },
+        {
+          "Filter": [
+            "D4B6D539-6D52-4A7D-B1E0-00067A55F9D1"
+          ],
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": "0",
+            "Hide": 0,
+            "IconFile": "",
+            "IconNumber": "",
+            "Type": 0
+          },
+          "SubItem": {},
+          "uuid": "0FE3196A-1915-4A2A-9214-00A74468C74E"
+        },
+        {
+          "Filter": {},
+          "Options": {
+            "Bold": 0,
+            "ColorBack": "",
+            "ColorFore": "",
+            "Disable": 0,
+            "FilterLogic": 0,
+            "Hide": 0,
+            "IconFile": "",
+            "IconNumber": "",
+            "Type": 1
+          },
+          "SubItem": [
+            {
+              "Filter": {},
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "",
+                "IconNumber": "",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "FAB1B3C4-D828-4836-A4DF-9FEF849E7592"
+            },
+            {
+              "Filter": {},
+              "Options": {
+                "Bold": 0,
+                "ColorBack": "",
+                "ColorFore": "",
+                "Disable": 0,
+                "FilterLogic": 0,
+                "Hide": 0,
+                "IconFile": "",
+                "IconNumber": "",
+                "Type": 0
+              },
+              "SubItem": {},
+              "uuid": "B1984A2D-8973-4BCB-B102-95BF9EA04BC2"
+            }
+          ],
+          "uuid": "09DA54C7-28B5-4F52-882C-7C472A512176"
+        }
+      ],
+      "uuid": "792838AB-C840-4626-B63A-DD8FA4706463"
+    },
+    {
+      "Filter": {},
+      "Options": {
+        "Bold": 0,
+        "ColorBack": "",
+        "ColorFore": "",
+        "Disable": 0,
+        "FilterLogic": 0,
+        "Hide": 0,
+        "IconFile": "%Icons%\\default.icl",
+        "IconNumber": "28",
+        "Type": 0
+      },
+      "SubItem": {},
+      "uuid": "CEF53CC6-48A8-491C-86C0-7DA431B53FDB"
+    }
+  ],
+  "setting": {
+    "gesture": {},
+    "global": {
+      "CategoryList": "\u8BB0\u4E8B\u672C"
+    },
+    "menuz": {
+      "Keyword": {}
+    },
+    "userenv": [
+      {
+        "Name": "wps",
+        "Value": "E:\\Program Files (x86)\\WPS Office\\10.1.0.5345\\office6\\wps.exe"
+      },
+      {
+        "Name": "chrome",
+        "Value": "C:\\Users\\StarRed\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+      },
+      {
+        "Name": "firefox",
+        "Value": ""
+      }
+    ],
+    "vimd": {}
+  },
+  "vimd": [
+    {
+      "Code": "\/*\n    \u529F\u80FD\uFF1AQuickZ\u5728\u52A0\u8F7D\u7684\u65F6\u5019\u6267\u884C\u6B64\u51FD\u6570\n*\/\nnotepad_Init()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u6BCF\u6B21\u5207\u6362\u6A21\u5F0F\u7684\u65F6\u5019\u6267\u884C\u6B64\u51FD\u6570\n*\/\nnotepad_ChangeMode()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u6309\u4E0B\u70ED\u952E\u540E\uFF0C\u70ED\u952E\u5BF9\u5E94\u7684\u529F\u80FD\u6267\u884C\u524D\uFF0C\u4F1A\u8FD0\u884C\u6B64\u51FD\u6570\n    * \u9ED8\u8BA4\u8FD4\u56DEFalse\uFF0C\u529F\u80FD\u6B63\u5E38\u6267\u884C\u3002\n    * \u5982\u679C\u8FD4\u56DETrue\uFF0C\u529F\u80FD\u4E0D\u4F1A\u6267\u884C\u3002\n    \u53EF\u4EE5\u5229\u7528\u8FD9\u4E2A\u51FD\u6570\u8BBE\u7F6E\u81EA\u52A8\u5224\u65AD\u6A21\u5F0F\n*\/\nnotepad_ActionBefore()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u70ED\u952E\u5BF9\u5E94\u7684\u529F\u80FD\u6267\u884C\u540E\uFF0C\u4F1A\u8FD0\u884C\u6B64\u51FD\u6570\u3002\n    \u51FD\u6570\u4E0D\u9700\u8981\u8FD4\u56DE\u503C\n    \u53EF\u4EE5\u5229\u7528\u8FD9\u4E2A\u51FD\u6570\u6765\u505A\u72B6\u6001\u63D0\u9192\n*\/\nnotepad_ActionAfter()\n{\n    Global VimD\n}\n\n\/*\n    \u529F\u80FD\uFF1A\u70ED\u952E\u63D0\u9192\uFF0C\u7528\u4E8E\u63D0\u793A\u5F53\u524D\u6709\u6548\u70ED\u952E\n    QuickZ\u4F1A\u4F20\u9012\u5F53\u524D\u6709\u6548\u70ED\u952E\u5217\u8868\u5230\u6B64\u51FD\u6570\u4E2D\u3002\u6240\u4EE5\u9700\u8981\u9884\u7559\u4E24\u4E2A\u53C2\u6570\n    aTemp - \u5F53\u524D\u70ED\u952E\u7F13\u5B58\n    aMore - \u7B26\u5408\u5F53\u524D\u70ED\u952E\u7F13\u5B58\u7684\u66F4\u591A\u70ED\u952E\n*\/\nnotepad_Show(aTemp, aMore)\n{\n    Global VimD\n}\n",
+      "Modes": [
+        {
+          "Maps": [
+            {
+              "Disable": "0",
+              "Key": "<esc>",
+              "Tips": "\u6309\u4E0BEsc\u952E\u53EF\u4EE5\u5207\u6362\u4E3AVIM\u6A21\u5F0F",
+              "UUID": "6E1B4536-C2C0-40F7-A775-95212189C487"
+            },
+            {
+              "Disable": "0",
+              "Key": "<super><w-n>",
+              "Tips": "",
+              "UUID": "C75F25A6-CE31-40A1-830A-E7FDCE2FFB4F"
+            }
+          ],
+          "Name": "\u666E\u901A\u6A21\u5F0F",
+          "Options": {
+            "Disable": 0,
+            "IconFile": "",
+            "IconNumber": 0
+          }
+        },
+        {
+          "Maps": [
+            {
+              "Disable": "0",
+              "Key": "0",
+              "Tips": "",
+              "UUID": "<0>"
+            },
+            {
+              "Disable": "0",
+              "Key": "1",
+              "Tips": "",
+              "UUID": "<1>"
+            },
+            {
+              "Disable": "0",
+              "Key": "2",
+              "Tips": "",
+              "UUID": "<2>"
+            },
+            {
+              "Disable": "0",
+              "Key": "3",
+              "Tips": "",
+              "UUID": "<3>"
+            },
+            {
+              "Disable": "0",
+              "Key": "4",
+              "Tips": "",
+              "UUID": "<4>"
+            },
+            {
+              "Disable": "0",
+              "Key": "5",
+              "Tips": "",
+              "UUID": "<5>"
+            },
+            {
+              "Disable": "0",
+              "Key": "6",
+              "Tips": "",
+              "UUID": "<6>"
+            },
+            {
+              "Disable": "0",
+              "Key": "7",
+              "Tips": "",
+              "UUID": "<7>"
+            },
+            {
+              "Disable": "0",
+              "Key": "8",
+              "Tips": "",
+              "UUID": "<8>"
+            },
+            {
+              "Disable": "0",
+              "Key": "9",
+              "Tips": "",
+              "UUID": "<9>"
+            },
+            {
+              "Disable": "0",
+              "Key": "j",
+              "Tips": "",
+              "UUID": "30A93E7E-2A8C-458D-AA51-AB63CFB94E0D"
+            },
+            {
+              "Disable": "0",
+              "Key": "k",
+              "Tips": "",
+              "UUID": "5FBD2A36-9BD7-4413-B1FC-6DE2E3010706"
+            },
+            {
+              "Disable": "0",
+              "Key": "h",
+              "Tips": "",
+              "UUID": "4B94C395-7BD8-4253-A832-F0032A2A70C1"
+            },
+            {
+              "Disable": "0",
+              "Key": "l",
+              "Tips": "",
+              "UUID": "A3BB4CC3-76A5-45C3-811B-B3D029030BD1"
+            },
+            {
+              "Disable": "0",
+              "Key": "i",
+              "Tips": "",
+              "UUID": "52783379-56CB-471B-85CC-2ABCE5F9747B"
+            },
+            {
+              "Disable": "0",
+              "Key": "x",
+              "Tips": "",
+              "UUID": "32666DED-EC93-4C55-B598-296A848C8A59"
+            },
+            {
+              "Disable": "0",
+              "Key": "<s-i>",
+              "Tips": "",
+              "UUID": "9A114C18-B742-49E4-A426-EEA446041B0D"
+            }
+          ],
+          "Name": "VIM\u6A21\u5F0F",
+          "Options": {
+            "Disable": "0",
+            "IconFile": "",
+            "IconNumber": ""
+          }
+        }
+      ],
+      "Name": "\u3010VIMD\u793A\u4F8B\u3011\u8BB0\u4E8B\u672C",
+      "Options": {
+        "DefaultMode": "\u666E\u901A\u6A21\u5F0F",
+        "Disable": "0",
+        "MaxCount": "99",
+        "OnActionAfter": "notepad_ActionAfter",
+        "OnActionBefore": "notepad_ActionBefore",
+        "OnChangeMode": "notepad_ChangeMode",
+        "OnInit": "notepad_Init",
+        "OnShow": "",
+        "TimeOut": "800"
+      },
+      "WinClass": "Notepad",
+      "WinExe": "notepad.exe"
+    }
+  ]
+}
